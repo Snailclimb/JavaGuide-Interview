@@ -1,0 +1,2 @@
+cat *.md >> all.md
+
