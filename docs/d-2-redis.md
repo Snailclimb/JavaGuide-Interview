@@ -1,16 +1,16 @@
+ 
 
-
-### 4.2 Redis
+## 4.2 Redis
 
 > 作者：Guide哥。
 >
 > **介绍:** Github 70k Star 项目  **[JavaGuide](https://github.com/Snailclimb/JavaGuide)**（公众号同名） 作者。每周都会在公众号更新一些自己原创干货。公众号后台回复“1”领取Java工程师必备学习资料+面试突击pdf。
 
-#### 4.2.1 redis 简介
+### 4.2.1 redis 简介
 
 简单来说 redis 就是一个数据库，不过与传统数据库不同的是 redis 的数据是存在内存中的，所以读写速度非常快，因此 redis 被广泛应用于缓存方向。另外，redis 也经常用来做分布式锁。redis 提供了多种数据类型来支持不同的业务场景。除此之外，redis 支持事务 、持久化、LUA脚本、LRU驱动事件、多种集群方案。 
 
-##### 为什么要用 redis/为什么要用缓存
+#### 为什么要用 redis/为什么要用缓存
 
 主要从“高性能”和“高并发”这两点来看待这个问题。
 
@@ -28,7 +28,7 @@
 
 ![](http://my-blog-to-use.oss-cn-beijing.aliyuncs.com/18-9-24/85146760.jpg)
 
-##### 为什么要用 redis 而不用 map/guava 做缓存?
+#### 为什么要用 redis 而不用 map/guava 做缓存?
 
 
 >下面的内容来自 segmentfault 一位网友的提问，地址：https://segmentfault.com/q/1010000009106416
@@ -37,7 +37,7 @@
 
 使用 redis 或 memcached 之类的称为分布式缓存，在多实例的情况下，各实例共用一份缓存数据，缓存具有一致性。缺点是需要保持 redis 或  memcached服务的高可用，整个程序架构上较为复杂。
 
-#### 4.2.2 redis 的线程模型
+### 4.2.2 redis 的线程模型
 
 > 参考地址:https://www.javazhiyin.com/22943.html
 
@@ -53,7 +53,7 @@ redis 内部使用文件事件处理器 `file event handler`，这个文件事�
 多个 socket 可能会并发产生不同的操作，每个操作对应不同的文件事件，但是 IO 多路复用程序会监听多个 socket，会将 socket 产生的事件放入队列中排队，事件分派器每次从队列中取出一个事件，把该事件交给对应的事件处理器进行处理。
 
 
-####  4.2.3 redis 和 memcached 的区别
+###  4.2.3 redis 和 memcached 的区别
 
 对于 redis 和 memcached 我总结了下面四点。现在公司一般都是用 redis 来实现缓存，而且 redis 自身也越来越强大了！
 
@@ -68,9 +68,9 @@ redis 内部使用文件事件处理器 `file event handler`，这个文件事�
 ![redis 和 memcached 的区别](http://my-blog-to-use.oss-cn-beijing.aliyuncs.com/18-9-24/61603179.jpg)
 
 
-#### 4.2.4 redis 常见数据结构以及使用场景分析
+### 4.2.4 redis 常见数据结构以及使用场景分析
 
-##### String
+#### String
 
 > **常用命令:**  set,get,decr,incr,mget 等。
 
@@ -79,7 +79,7 @@ String数据结构是简单的key-value类型，value其实不仅可以是String
 常规key-value缓存应用； 
 常规计数：微博数，粉丝数等。
 
-##### Hash
+#### Hash
 
 > **常用命令：** hget,hset,hgetall 等。
 
@@ -97,7 +97,8 @@ value={
 ```
 
 
-##### List
+#### List
+
 > **常用命令:** lpush,rpush,lpop,rpop,lrange等
 
 list 就是链表，Redis list 的应用场景非常多，也是Redis最重要的数据结构之一，比如微博的关注列表，粉丝列表，消息列表等功能都可以用Redis的 list 结构来实现。
@@ -106,7 +107,7 @@ Redis list 的实现为一个双向链表，即可以支持反向查找和遍历
 
 另外可以通过 lrange 命令，就是从某个元素开始读取多少个元素，可以基于 list 实现分页查询，这个很棒的一个功能，基于 redis 实现简单的高性能分页，可以做类似微博那种下拉不断分页的东西（一页一页的往下走），性能高。
 
-##### Set
+#### Set
 
 > **常用命令：**
 > sadd,spop,smembers,sunion 等
@@ -121,7 +122,8 @@ set 对外提供的功能与list类似是一个列表的功能，特殊之处在
 sinterstore key1 key2 key3     将交集存在key1内
 ```
 
-##### Sorted Set
+#### Sorted Set
+
 > **常用命令：** zadd,zrange,zrem,zcard等
 
 
@@ -130,7 +132,7 @@ sinterstore key1 key2 key3     将交集存在key1内
 **举例：** 在直播系统中，实时排行信息包含直播间在线用户列表，各种礼物排行榜，弹幕消息（可以理解为按消息维度的消息排行榜）等信息，适合使用 Redis 中的 Sorted Set 结构进行存储。
 
 
-#### 4.2.5 redis 设置过期时间
+### 4.2.5 redis 设置过期时间
 
 Redis中有个设置时间过期的功能，即对存储在 redis 数据库中的值可以设置一个过期时间。作为一个缓存数据库，这是非常实用的。如我们一般项目中的 token 或者一些登录信息，尤其是短信验证码都是有时间限制的，按照传统的数据库处理方式，一般都是自己判断过期，这样无疑会严重影响项目性能。
 
@@ -148,7 +150,7 @@ Redis中有个设置时间过期的功能，即对存储在 redis 数据库中�
 
 但是仅仅通过设置过期时间还是有问题的。我们想一下：如果定期删除漏掉了很多过期 key，然后你也没及时去查，也就没走惰性删除，此时会怎么样？如果大量过期key堆积在内存里，导致redis内存块耗尽了。怎么解决这个问题呢？ **redis 内存淘汰机制。**
 
-#### 4.2.6 redis 内存淘汰机制(MySQL里有2000w数据，Redis中只存20w的数据，如何保证Redis中的数据都是热点数据?)
+### 4.2.6 redis 内存淘汰机制(MySQL里有2000w数据，Redis中只存20w的数据，如何保证Redis中的数据都是热点数据?)
 
 redis 配置文件 redis.conf 中有相关注释，我这里就不贴了，大家可以自行查阅或者通过这个网址查看： [http://download.redis.io/redis-stable/redis.conf](http://download.redis.io/redis-stable/redis.conf)
 
@@ -169,7 +171,7 @@ redis 配置文件 redis.conf 中有相关注释，我这里就不贴了，大�
 **备注： 关于 redis 设置过期时间以及内存淘汰机制，我这里只是简单的总结一下，后面会专门写一篇文章来总结！**
 
 
-#### 4.2.7 redis 持久化机制(怎么保证 redis 挂掉之后再重启数据可以进行恢复)
+### 4.2.7 redis 持久化机制(怎么保证 redis 挂掉之后再重启数据可以进行恢复)
 
 很多时候我们需要持久化数据也就是将内存中的数据写入到硬盘里面，大部分原因是为了之后重用数据（比如重启机器、机器故障之后恢复数据），或者是为了防止系统故障而将数据备份到一个远程位置。
 
@@ -229,7 +231,7 @@ AOF重写是一个有歧义的名字，该功能是通过读取数据库中的�
 - [Redis持久化](Redis持久化.md)
 
 
-#### 4.2.8 redis 事务
+### 4.2.8 redis 事务
 
 Redis 通过 MULTI、EXEC、WATCH 等命令来实现事务(transaction)功能。事务提供了一种将多个命令请求打包，然后一次性、按顺序地执行多个命令的机制，并且在事务执行期间，服务器不会中断事务而改去执行其他客户端的命令请求，它会将事务中的所有命令都执行完毕，然后才去处理其他客户端的命令请求。
 
@@ -239,9 +241,9 @@ Redis 通过 MULTI、EXEC、WATCH 等命令来实现事务(transaction)功能。
 
 > 1. redis同一个事务中如果有一条命令执行失败，其后的命令仍然会被执行，没有回滚。（来自[issue:关于Redis事务不是原子性问题](https://github.com/Snailclimb/JavaGuide/issues/452) ）
 
-#### 4.2.9 缓存雪崩和缓存穿透问题解决方案
+### 4.2.9 缓存雪崩和缓存穿透问题解决方案
 
-##### **缓存雪崩** 
+#### **缓存雪崩** 
 
 **什么是缓存雪崩？**
 
@@ -257,7 +259,7 @@ Redis 通过 MULTI、EXEC、WATCH 等命令来实现事务(transaction)功能。
 
 ![](http://my-blog-to-use.oss-cn-beijing.aliyuncs.com/18-9-25/6078367.jpg)
 
-##### **缓存穿透** 
+#### **缓存穿透** 
 
 **什么是缓存穿透？**
 
@@ -310,7 +312,7 @@ public Object getObjectInclNullById(Integer id) {
 
 更多关于布隆过滤器的内容可以看我的这篇原创：[《不了解布隆过滤器？一文给你整的明明白白！》](https://github.com/Snailclimb/JavaGuide/blob/master/docs/dataStructures-algorithms/data-structure/bloom-filter.md) ，强烈推荐，个人感觉网上应该找不到总结的这么明明白白的文章了。
 
-#### 4.2.10 如何解决 Redis 的并发竞争 Key 问题
+### 4.2.10 如何解决 Redis 的并发竞争 Key 问题
 
 所谓 Redis 的并发竞争 Key 的问题也就是多个系统同时对一个 key 进行操作，但是最后执行的顺序和我们期望的顺序不同，这样也就导致了结果的不同！
 
@@ -324,7 +326,7 @@ public Object getObjectInclNullById(Integer id) {
 
 - https://www.jianshu.com/p/8bddd381de06
 
-#### 4.2.11 如何保证缓存与数据库双写时的数据一致性?
+### 4.2.11 如何保证缓存与数据库双写时的数据一致性?
 
 > 一般情况下我们都是这样使用缓存的：先读缓存，缓存没有的话，就读数据库，然后取出数据后放入缓存，同时返回响应。这种方式很明显会存在缓存和数据库的数据不一致的情况。
 
@@ -338,7 +340,7 @@ public Object getObjectInclNullById(Integer id) {
 
 **参考：** Java工程师面试突击第1季（可能是史上最好的Java面试突击课程）-中华石杉老师！公众号后台回复关键字“1”即可获取该视频内容。
 
-#### 参考
+### 参考
 
 - 《Redis开发与运维》
 - Redis 命令总结：http://redisdoc.com/string/set.html

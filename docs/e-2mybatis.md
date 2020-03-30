@@ -1,6 +1,6 @@
 ------
 
-### 5.2 MyBatis面试题总结
+## 5.2 MyBatis面试题总结
 
 
 > 本篇文章是JavaGuide收集自网络，原出处不明。
@@ -13,7 +13,7 @@ Mybatis 技术内幕系列博客，从原理和源码角度，介绍了其内部
 
 有胆就来，我出几道 Mybatis 面试题，看你能回答上来几道（都是我出的，可不是网上找的）。
 
-#### 5.2.1 #{}和\${}的区别是什么？
+### 5.2.1 #{}和\${}的区别是什么？
 
 注：这道题是面试官面试我同事的。
 
@@ -22,13 +22,13 @@ Mybatis 技术内幕系列博客，从原理和源码角度，介绍了其内部
 - `${}`是 Properties 文件中的变量占位符，它可以用于标签属性值和 sql 内部，属于静态文本替换，比如\${driver}会被静态替换为`com.mysql.jdbc.Driver`。
 - `#{}`是 sql 的参数占位符，Mybatis 会将 sql 中的`#{}`替换为?号，在 sql 执行前会使用 PreparedStatement 的参数设置方法，按序给 sql 的?号占位符设置参数值，比如 ps.setInt(0, parameterValue)，`#{item.name}` 的取值方式为使用反射从参数对象中获取 item 对象的 name 属性值，相当于 `param.getItem().getName()`。
 
-#### 5.2.2 Xml 映射文件中，除了常见的 select|insert|updae|delete 标签之外，还有哪些标签？
+### 5.2.2 Xml 映射文件中，除了常见的 select|insert|updae|delete 标签之外，还有哪些标签？
 
 注：这道题是京东面试官面试我时问的。
 
 答：还有很多其他的标签，`<resultMap>`、`<parameterMap>`、`<sql>`、`<include>`、`<selectKey>`，加上动态 sql 的 9 个标签，`trim|where|set|foreach|if|choose|when|otherwise|bind`等，其中<sql>为 sql 片段标签，通过`<include>`标签引入 sql 片段，`<selectKey>`为不支持自增的主键生成策略标签。
 
-#### 5.2.3 最佳实践中，通常一个 Xml 映射文件，都会写一个 Dao 接口与之对应，请问，这个 Dao 接口的工作原理是什么？Dao 接口里的方法，参数不同时，方法能重载吗？
+### 5.2.3 最佳实践中，通常一个 Xml 映射文件，都会写一个 Dao 接口与之对应，请问，这个 Dao 接口的工作原理是什么？Dao 接口里的方法，参数不同时，方法能重载吗？
 
 注：这道题也是京东面试官面试我时问的。
 
@@ -38,7 +38,7 @@ Dao 接口里的方法，是不能重载的，因为是全限名+方法名的保
 
 Dao 接口的工作原理是 JDK 动态代理，Mybatis 运行时会使用 JDK 动态代理为 Dao 接口生成代理 proxy 对象，代理对象 proxy 会拦截接口方法，转而执行`MappedStatement`所代表的 sql，然后将 sql 执行结果返回。
 
-#### 5.2.4 Mybatis 是如何进行分页的？分页插件的原理是什么？
+### 5.2.4 Mybatis 是如何进行分页的？分页插件的原理是什么？
 
 注：我出的。
 
@@ -56,13 +56,13 @@ Dao 接口的工作原理是 JDK 动态代理，Mybatis 运行时会使用 JDK �
 
 实现 Mybatis 的 Interceptor 接口并复写` intercept()`方法，然后在给插件编写注解，指定要拦截哪一个接口的哪些方法即可，记住，别忘了在配置文件中配置你编写的插件。
 
-#### 5.2.6 Mybatis 执行批量插入，能返回数据库主键列表吗？
+### 5.2.6 Mybatis 执行批量插入，能返回数据库主键列表吗？
 
 注：我出的。
 
 答：能，JDBC 都能，Mybatis 当然也能。
 
-#### 5.2.7Mybatis 动态 sql 是做什么的？都有哪些动态 sql？能简述一下动态 sql 的执行原理不？
+### 5.2.7Mybatis 动态 sql 是做什么的？都有哪些动态 sql？能简述一下动态 sql 的执行原理不？
 
 注：我出的。
 
@@ -70,7 +70,7 @@ Dao 接口的工作原理是 JDK 动态代理，Mybatis 运行时会使用 JDK �
 
 其执行原理为，使用 OGNL 从 sql 参数对象中计算表达式的值，根据表达式的值动态拼接 sql，以此来完成动态 sql 的功能。
 
-#### 5.2.8 Mybatis 是如何将 sql 执行结果封装为目标对象并返回的？都有哪些映射形式？
+### 5.2.8 Mybatis 是如何将 sql 执行结果封装为目标对象并返回的？都有哪些映射形式？
 
 注：我出的。
 
@@ -78,7 +78,7 @@ Dao 接口的工作原理是 JDK 动态代理，Mybatis 运行时会使用 JDK �
 
 有了列名与属性名的映射关系后，Mybatis 通过反射创建对象，同时使用反射给对象的属性逐一赋值并返回，那些找不到映射关系的属性，是无法完成赋值的。
 
-#### 5.2.9 Mybatis 能执行一对一、一对多的关联查询吗？都有哪些实现方式，以及它们之间的区别。
+### 5.2.9 Mybatis 能执行一对一、一对多的关联查询吗？都有哪些实现方式，以及它们之间的区别。
 
 注：我出的。
 
@@ -101,7 +101,7 @@ Dao 接口的工作原理是 JDK 动态代理，Mybatis 运行时会使用 JDK �
 | 1 | teacher | 42 |
 | 1 | teacher | 43 |
 
-#### 5.2.10 Mybatis 是否支持延迟加载？如果支持，它的实现原理是什么？
+### 5.2.10 Mybatis 是否支持延迟加载？如果支持，它的实现原理是什么？
 
 注：我出的。
 
@@ -111,7 +111,7 @@ Dao 接口的工作原理是 JDK 动态代理，Mybatis 运行时会使用 JDK �
 
 当然了，不光是 Mybatis，几乎所有的包括 Hibernate，支持延迟加载的原理都是一样的。
 
-#### 5.2.11 Mybatis 的 Xml 映射文件中，不同的 Xml 映射文件，id 是否可以重复？
+### 5.2.11 Mybatis 的 Xml 映射文件中，不同的 Xml 映射文件，id 是否可以重复？
 
 注：我出的。
 
@@ -119,13 +119,13 @@ Dao 接口的工作原理是 JDK 动态代理，Mybatis 运行时会使用 JDK �
 
 原因就是 namespace+id 是作为 `Map<String, MappedStatement>`的 key 使用的，如果没有 namespace，就剩下 id，那么，id 重复会导致数据互相覆盖。有了 namespace，自然 id 就可以重复，namespace 不同，namespace+id 自然也就不同。
 
-#### 5.2.12 Mybatis 中如何执行批处理？
+### 5.2.12 Mybatis 中如何执行批处理？
 
 注：我出的。
 
 答：使用 BatchExecutor 完成批处理。
 
-#### 5.2.13 Mybatis 都有哪些 Executor 执行器？它们之间的区别是什么？
+### 5.2.13 Mybatis 都有哪些 Executor 执行器？它们之间的区别是什么？
 
 注：我出的
 
@@ -139,19 +139,19 @@ Dao 接口的工作原理是 JDK 动态代理，Mybatis 运行时会使用 JDK �
 
 作用范围：Executor 的这些特点，都严格限制在 SqlSession 生命周期范围内。
 
-#### 5.2.14 Mybatis 中如何指定使用哪一种 Executor 执行器？
+### 5.2.14 Mybatis 中如何指定使用哪一种 Executor 执行器？
 
 注：我出的
 
 答：在 Mybatis 配置文件中，可以指定默认的 ExecutorType 执行器类型，也可以手动给 `DefaultSqlSessionFactory` 的创建 SqlSession 的方法传递 ExecutorType 类型参数。
 
-#### 5.2.15 Mybatis 是否可以映射 Enum 枚举类？
+### 5.2.15 Mybatis 是否可以映射 Enum 枚举类？
 
 注：我出的
 
 答：Mybatis 可以映射枚举类，不单可以映射枚举类，Mybatis 可以映射任何对象到表的一列上。映射方式为自定义一个 `TypeHandler`，实现 `TypeHandler` 的 `setParameter()`和 `getResult()`接口方法。`TypeHandler` 有两个作用，一是完成从 javaType 至 jdbcType 的转换，二是完成 jdbcType 至 javaType 的转换，体现为 `setParameter()`和 `getResult()`两个方法，分别代表设置 sql 问号占位符参数和获取列查询结果。
 
-#### 5.2.16 Mybatis 映射文件中，如果 A 标签通过 include 引用了 B 标签的内容，请问，B 标签能否定义在 A 标签的后面，还是说必须定义在 A 标签的前面？
+### 5.2.16 Mybatis 映射文件中，如果 A 标签通过 include 引用了 B 标签的内容，请问，B 标签能否定义在 A 标签的后面，还是说必须定义在 A 标签的前面？
 
 注：我出的
 
@@ -159,13 +159,13 @@ Dao 接口的工作原理是 JDK 动态代理，Mybatis 运行时会使用 JDK �
 
 原理是，Mybatis 解析 A 标签，发现 A 标签引用了 B 标签，但是 B 标签尚未解析到，尚不存在，此时，Mybatis 会将 A 标签标记为未解析状态，然后继续解析余下的标签，包含 B 标签，待所有标签解析完毕，Mybatis 会重新解析那些被标记为未解析的标签，此时再解析 A 标签时，B 标签已经存在，A 标签也就可以正常解析完成了。
 
-#### 5.2.17 简述 Mybatis 的 Xml 映射文件和 Mybatis 内部数据结构之间的映射关系？
+### 5.2.17 简述 Mybatis 的 Xml 映射文件和 Mybatis 内部数据结构之间的映射关系？
 
 注：我出的
 
 答：Mybatis 将所有 Xml 配置信息都封装到 All-In-One 重量级对象 Configuration 内部。在 Xml 映射文件中，`<parameterMap>`标签会被解析为 `ParameterMap` 对象，其每个子元素会被解析为 ParameterMapping 对象。`<resultMap>`标签会被解析为 `ResultMap` 对象，其每个子元素会被解析为 `ResultMapping` 对象。每一个`<select>、<insert>、<update>、<delete>`标签均会被解析为 `MappedStatement` 对象，标签内的 sql 会被解析为 BoundSql 对象。
 
-#### 5.2.18 为什么说 Mybatis 是半自动 ORM 映射工具？它与全自动的区别在哪里？
+### 5.2.18 为什么说 Mybatis 是半自动 ORM 映射工具？它与全自动的区别在哪里？
 
 注：我出的
 
