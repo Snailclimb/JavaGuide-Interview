@@ -1,2 +1,2 @@
-cat *.md >> all.md
+cat ./docs/*.md >> all.md
 
