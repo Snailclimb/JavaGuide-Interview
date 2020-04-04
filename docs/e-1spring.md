@@ -119,11 +119,13 @@ AOP(Aspect-Oriented Programming:面向切面编程)能够将那些与业务无�
 
 #### Spring 中的 bean 的作用域有哪些?
 
-- singleton : 唯一 bean 实例，Spring 中的 bean 默认都是单例的。
-- prototype : 每次请求都会创建一个新的 bean 实例。
+- singleton : 在spring IoC容器仅存在一个Bean实例，Bean以单例方式存在，默认值。
+- prototype : 每次从容器中调用Bean时，都返回一个新的实例，即每次调用getBean()时，相当于执行newXxxBean()。
 - request : 每一次HTTP请求都会产生一个新的bean，该bean仅在当前HTTP request内有效。
-- session : 每一次HTTP请求都会产生一个新的 bean，该bean仅在当前 HTTP session 内有效。
+- session : 同一个HTTP Session共享一个Bean，不同Session使用不同的Bean。
 - global-session： 全局session作用域，仅仅在基于portlet的web应用中才有意义，Spring5已经没有了。Portlet是能够生成语义代码(例如：HTML)片段的小型Java Web插件。它们基于portlet容器，可以像servlet一样处理HTTP请求。但是，与 servlet 不同，每个 portlet 都有不同的会话
+
+参考自[W3Cschool-bean作用域](https://www.w3cschool.cn/wkspring/nukv1ice.html)
 
 #### Spring 中的单例 bean 的线程安全问题了解吗？
 
