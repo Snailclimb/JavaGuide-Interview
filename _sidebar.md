@@ -23,6 +23,7 @@
   * [Spring](./docs/e-1spring.md)
   * [MyBatis](./docs/e-2mybatis.md)
   * [Kafka](./docs/e-3kafka.md)
+  * [Netty](./docs/e-4netty.md)
   
 * [认证授权](./docs/f-1认证授权.md)
 
@@ -38,7 +39,10 @@
 * [微服务](./docs/h-微服务.md)
 
 * 真实大厂面试现场经历分析
+  * [我和阿里面试官的一次邂逅(上)](./docs/i-1真实大厂面试现场.md)
+  * [我和阿里面试官的一次邂逅(下)](./docs/i-2真实大厂面试现场.md)
   
-  - [我和阿里面试官的一次邂逅(上)](./docs/i-1真实大厂面试现场.md)
-  - [我和阿里面试官的一次邂逅(下)](./docs/i-2真实大厂面试现场.md)
+* 开源推荐
+  * [Java教程类开源项目推荐](./docs/j-1java.md)
+  * [Leetcode题解](./docs/j-2algorithm.md)
 
