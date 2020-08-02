@@ -71,8 +71,6 @@ _网络编程我愿意称中 Netty 为王 。_
 
 > `EventLoop` 定义了 Netty 的核心抽象，用于处理连接的生命周期中所发生的事件。
 
-![](https://imgkr.cn-bj.ufileos.com/10f14c78-5d3d-4c1c-b8b9-5d507152ef69.png)
-
 是不是很难理解？说实话，我学习 Netty 的时候看到这句话是没太能理解的。
 
 说白了，**`EventLoop` 的主要作用实际就是负责监听网络事件并调用事件处理器进行相关 I/O 操作的处理。**
@@ -130,7 +128,7 @@ public interface ChannelFuture extends Future<Void> {
 
 🙋 **我** ：
 
-![](https://imgkr.cn-bj.ufileos.com/2a5a4a71-cfb7-4735-bf5c-6a57007c82ec.png)
+![](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/2020-8/2a5a4a71-cfb7-4735-bf5c-6a57007c82ec.png)
 
 `EventLoopGroup` 包含多个 `EventLoop`（每一个 `EventLoop` 通常内部包含一个线程），上面我们已经说了 `EventLoop` 的主要作用实际就是负责监听网络事件并调用事件处理器进行相关 I/O 操作的处理。
 
@@ -311,7 +309,7 @@ try {
     //......
 ```
 
-![](https://imgkr.cn-bj.ufileos.com/7e7357ef-e724-4122-847c-fbccd9eb6ae3.png)
+![](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/2020-8/7e7357ef-e724-4122-847c-fbccd9eb6ae3.png)
 
 **3.主从多线程模型**
 
@@ -329,7 +327,7 @@ try {
     //......
 ```
 
-![](https://imgkr.cn-bj.ufileos.com/04d0a911-a5c1-4c18-947e-d14b80634510.png)
+![](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/2020-8/04d0a911-a5c1-4c18-947e-d14b80634510.png)
 
 ### 5.4.9 Netty 服务端和客户端的启动过程了解么？
 
@@ -479,7 +477,7 @@ ChannelFuture f = b.connect(host, port).addListener(future -> {
 
 🙋 **我** ：TCP 粘包/拆包 就是你基于 TCP 发送数据的时候，出现了多个字符串“粘”在了一起或者一个字符串被“拆”开的问题。比如你多次发送：“你好,你真帅啊！哥哥！”，但是客户端接收到的可能是下面这样的：
 
-![](https://imgkr.cn-bj.ufileos.com/07bd8979-2b34-4000-a829-03a74d0701b2.png)
+![](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/2020-8/07bd8979-2b34-4000-a829-03a74d0701b2-20200802233754778.png)
 
 👨‍💻**面试官** ：那有什么解决办法呢?
 

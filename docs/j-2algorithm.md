@@ -18,7 +18,7 @@
 
 我和这个开源项目的原作者有过交流，是一名很优秀的 coder。
 
-![CS-Notes算法部分](https://imgkr.cn-bj.ufileos.com/98b3f879-1ac0-41f6-9084-74e167a22afd.png)
+![CS-Notes算法部分](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/2020-8/98b3f879-1ac0-41f6-9084-74e167a22afd.png)
 
 这个开源项目的算法部分包括4部分：
 
@@ -33,13 +33,13 @@
 
 仓库的更新的大部分算法题都是通过 Java 语言解答的，少部分是使用 C/C++解答。
 
-![LeetCodeAnimation部分题解](https://imgkr.cn-bj.ufileos.com/fa310b43-c0d9-491d-b9aa-f6215c8fe2f6.png)
+![LeetCodeAnimation部分题解](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/2020-8/fa310b43-c0d9-491d-b9aa-f6215c8fe2f6-20200802233201672.png)
 
 ### 3.[leetcode](https://github.com/doocs/leetcode)
 
 多种编程语言实现 LeetCode、《剑指 Offer（第 2 版）》、《程序员面试金典（第 6 版）》题解。
 
-![leetcode在线阅读版本](https://imgkr.cn-bj.ufileos.com/a9558c4b-347c-43c5-8643-ed05507f8f60.png)
+![leetcode在线阅读版本](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/2020-8/a9558c4b-347c-43c5-8643-ed05507f8f60.png)
 
 ### 4.[LeetCode-Solution-in-Good-Style](https://github.com/liweiwei1419/LeetCode-Solution-in-Good-Style)
 
@@ -47,4 +47,4 @@
 
 作者在刷题的时候，非常考虑代码质量，他的很多问题的回答都被 Leetcode 官方精选，值得推荐!
 
-![LeetCode-Solution-in-Good-Style部分题解](https://imgkr.cn-bj.ufileos.com/c4777e4f-0d2c-4d51-b470-000a18aa4d0d.png)
+![LeetCode-Solution-in-Good-Style部分题解](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/2020-8/c4777e4f-0d2c-4d51-b470-000a18aa4d0d.png)
