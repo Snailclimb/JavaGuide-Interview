@@ -1,6 +1,7 @@
 ------
 
 
+
 # 2. 二 Java 基础+集合+多线程+JVM
 
 > 作者：Guide 哥。
@@ -151,6 +152,36 @@ Constructor 不能被 override（重写）,但是可以 overload（重载）,所
 - “两同”即方法名相同、形参列表相同；
 - “两小”指的是子类方法返回值类型应比父类方法返回值类型更小或相等，子类方法声明抛出的异常类应比父类方法声明抛出的异常类更小或相等；
 - “一大”指的是子类方法的访问权限应比父类方法的访问权限更大或相等。
+
+⭐️ 关于 **重写的返回值类**型 这里需要额外多说明一下，上面的表述不太清晰准确：如果方法的返回类型是void和基本数据类型，则返回值重写时不可修改。但是如果方法的返回值是引用类型，重写时是可以返回该引用类型的子类的。
+
+```java
+public class Hero {
+    public String name() {
+        return "超级英雄";
+    }
+}
+public class SuperMan extends Hero{
+    @Override
+    public String name() {
+        return "超人";
+    }
+    public Hero hero() {
+        return new Hero();
+    }
+}
+
+public class SuperSuperMan extends SuperMan {
+    public String name() {
+        return "超级超级英雄";
+    }
+
+    @Override
+    public SuperMan hero() {
+        return new SuperMan();
+    }
+}
+```
 
 ### 2.1.9. Java 面向对象编程三大特性: 封装 继承 多态
 
@@ -588,12 +619,11 @@ Java 代码在编译过程中 ，我们即使不处理不受检查异常也可�
 - **`catch`块：** 用于处理 try 捕获到的异常。
 - **`finally` 块：** 无论是否捕获或处理异常，`finally` 块里的语句都会被执行。当在 `try` 块或 `catch` 块中遇到 `return` 语句时，`finally` 语句块将在方法返回之前被执行。
 
-**在以下 4 种特殊情况下，finally 块不会被执行：**
+**在以下 3 种特殊情况下，`finally` 块不会被执行：**
 
-1. 在 `finally` 语句块第一行发生了异常。 因为在其他行，`finally` 块还是会得到执行
-2. 在前面的代码中用了 `System.exit(int)`已退出程序。 exit 是带参函数 ；若该语句在异常语句之后，finally 会执行
-3. 程序所在的线程死亡。
-4. 关闭 CPU。
+1. 在 `try` 或 `finally `块中用了 `System.exit(int)`退出程序。但是，如果 `System.exit(int)` 在异常语句之后，`finally` 还是会被执行
+2. 程序所在的线程死亡。
+3. 关闭 CPU。
 
 下面这部分内容来自 issue:<https://github.com/Snailclimb/JavaGuide/issues/190>。
 
