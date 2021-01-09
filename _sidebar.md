@@ -43,6 +43,6 @@
   * [我和阿里面试官的一次邂逅(下)](./docs/i-2真实大厂面试现场.md)
   
 * 开源推荐
-  * [Java教程类开源项目推荐](./docs/j-1java.md)
-  * [Leetcode题解](./docs/j-2algorithm.md)
+  * [Java教程类开源项目推荐](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=Mzg2OTA0Njk0OA==&action=getalbum&album_id=1345382825083895808#wechat_redirect)
+  * [Github优质开源项目精选](https://www.yuque.com/docs/share/61b99973-ecb3-4317-ba19-fc1a15dd842c)
 
