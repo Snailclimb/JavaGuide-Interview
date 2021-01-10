@@ -4,10 +4,6 @@
 
 # 八 微服务/分布式
 
-> 作者：Guide哥。
->
-> **介绍:** Github 70k Star 项目  **[JavaGuide](https://github.com/Snailclimb/JavaGuide)**（公众号同名） 作者。每周都会在公众号更新一些自己原创干货。公众号后台回复“1”领取Java工程师必备学习资料+面试突击pdf。
-
 概览（看看自己能回答几题）：
 
 1. 为什么要网关？
@@ -22,9 +18,5 @@
 10. Dubbo 提供了哪些负载均衡策略？
 11. 谈谈你对微服务领域的了解和认识！
 
-答案地址：[https://t.zsxq.com/F6yrJiI](https://t.zsxq.com/F6yrJiI ) 
-
-这部分内容的答案更新在知识星球，欢迎加入我的知识星球。星球没有免费的原因是了设立门槛，提高进入读者的质量。我会在星球回答大家的问题，更新更多的大厂面试干货！后续会适当进行涨价。
-
-
+答案地址：[https://t.zsxq.com/F6yrJiI](https://t.zsxq.com/F6yrJiI ) 。这部分内容的答案更新在[知识星球](http://mp.weixin.qq.com/s?__biz=Mzg2OTA0Njk0OA==&mid=100013795&idx=1&sn=aa2db4799c432bb944b6786ae0ec4c56&chksm=4ea1b92879d6303e9077546e2bc42a78f0cd3e18d9adb06e9f15e49e3d8337ec4bd384a25367#rd)。
 
