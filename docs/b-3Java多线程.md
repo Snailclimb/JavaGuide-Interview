@@ -992,10 +992,7 @@ List<CompletableFuture<String>> fileFutures = filePaths.stream()
 CompletableFuture<Void> allFutures = CompletableFuture.allOf(
         fileFutures.toArray(new CompletableFuture[fileFutures.size()])
 );
-
 ```
-
-## 2.4.
 
 ### 2.4.1. Reference
 
