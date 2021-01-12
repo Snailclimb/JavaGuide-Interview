@@ -12,11 +12,11 @@ Java 虚拟机在执行 Java 程序的过程中会把它管理的内存划分成
 
 **JDK 1.8 之前：**
 
-![](../../JavaGuide/docs/java/jvm/pictures/java内存区域/JVM运行时数据区域.png)
+![](https://cdn.jsdelivr.net/gh/javaguide-tech/image-host-github-stars-01@main/TeachYourselfCS/JVM%E8%BF%90%E8%A1%8C%E6%97%B6%E6%95%B0%E6%8D%AE%E5%8C%BA%E5%9F%9F.png)
 
 **JDK 1.8 ：**
 
-![](../../JavaGuide/docs/java/jvm/pictures/java内存区域/2019-3Java运行时数据区域JDK1.8.png)
+![](https://cdn.jsdelivr.net/gh/javaguide-tech/image-host-github-stars-01@main/TeachYourselfCS/2019-3Java%E8%BF%90%E8%A1%8C%E6%97%B6%E6%95%B0%E6%8D%AE%E5%8C%BA%E5%9F%9FJDK1.8.png)
 
 
 **线程私有的：**
@@ -92,11 +92,11 @@ Java 堆是垃圾收集器管理的主要区域，因此也被称作**GC 堆（G
 2. 老生代(Old Generation)
 3. 永生代(Permanent Generation)
 
-![JVM堆内存结构-JDK7](../../JavaGuide/docs/java/jvm/pictures/java内存区域/JVM堆内存结构-JDK7.png)
+![JVM堆内存结构-JDK7](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/322cf087600d49c89c3ae51ddab7e1a0~tplv-k3u1fbpfcp-watermark.image)
 
 JDK 8 版本之后方法区（HotSpot 的永久代）被彻底移除了（JDK1.7 就已经开始了），取而代之是元空间，元空间使用的是直接内存。
 
-![JVM堆内存结构-JDK8](../../JavaGuide/docs/java/jvm/pictures/java内存区域/JVM堆内存结构-jdk8.png)
+![JVM堆内存结构-JDK8](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/160e156571a142b1865a2ebd4ad7fa67~tplv-k3u1fbpfcp-watermark.image)
 
 **上图所示的 Eden 区、两个 Survivor 区都属于新生代（为了区分，这两个 Survivor 区域按照顺序被命名为 from 和 to），中间一层属于老年代。**
 
