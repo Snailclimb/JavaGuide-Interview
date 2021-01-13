@@ -234,7 +234,7 @@ static int hash(int h) {
 
 **JDK1.8 的 ConcurrentHashMap：**
 
-![Java8 ConcurrentHashMap 存储结构（图片来自 javadoop）](../../JavaGuide/docs/java/collection/images/java8_concurrenthashmap.png)
+![Java8 ConcurrentHashMap 存储结构（图片来自 javadoop）](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/source-code/dubbo/java8_concurrenthashmap.png)
 
 JDK1.8 的 `ConcurrentHashMap` 不在是 **Segment 数组 + HashEntry 数组 + 链表**，而是 **Node 数组 + 链表 / 红黑树**。不过，Node 只能用于链表的情况，红黑树的情况需要使用 **`TreeNode`**。当冲突链表达到一定长度时，链表会转换成红黑树。
 
