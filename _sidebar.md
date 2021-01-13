@@ -19,7 +19,7 @@
   * [Redis](./docs/d-2-redis.md)
 * 常用框架
   * [Spring](./docs/e-1spring.md)
-  * [SptingBoot](./docs/e-5springboot.md)
+  * [SpringBoot](./docs/e-5springboot.md)
   * [MyBatis](./docs/e-2mybatis.md)
   * [Kafka](./docs/e-3kafka.md)
   * [Netty](./docs/e-4netty.md)
