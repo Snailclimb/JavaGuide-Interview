@@ -131,10 +131,45 @@ public interface RandomAccess {
 **`hashCode()`与 `equals()` 的相关规定：**
 
 1. 如果两个对象相等，则 `hashcode` 一定也是相同的
-2. 两个对象相等,对两个 `equals()` 方法返回 true
+2. 两个对象相等，对两个 `equals()` 方法返回 true
 3. 两个对象有相同的 `hashcode` 值，它们也不一定是相等的
-4. 综上，`equals()` 方法被覆盖过，则 `hashCode()` 方法也必须被覆盖
-5. `hashCode() `的默认行为是对堆上的对象产生独特值。如果没有重写 `hashCode()`，则该 class 的两个对象无论如何都不会相等（即使这两个对象指向相同的数据）。
+
+综上，如果一个类的 `equals()` 方法被覆盖过，则 `hashCode()` 方法也必须被覆盖。
+
+` hashCode()` 的默认⾏为是对堆上的对象产⽣独特值。如果没有重写 `hashCode() `，即使通过 `equals()` 判断为相同的两个对象，在加入 `HashSet` 时，也不会被 `HashSet` 认为是重复对象。
+
+```java
+import java.util.HashSet;
+
+public class People {
+    String idCard;
+
+    public People(String idCard) {
+        this.idCard = idCard;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        People people = (People) o;
+        return idCard.equals(people.idCard);
+    }
+
+    public static void main(String[] args) {
+        People a = new People("a");
+        People a1 = new People("a");
+        // output: true
+        System.out.println(a.equals(a1));
+
+        HashSet<People> set = new HashSet<>();
+        set.add(a);
+        set.add(a1);
+        // output: 2
+        System.out.println(set.size());
+    }
+}
+```
 
 **==与 equals 的区别**
 
