@@ -1,6 +1,7 @@
 # 1. Spring 面试题总结
 
 ## 1.1. 什么是 Spring 框架?
+
 Spring 是一种轻量级开发框架，旨在提高开发人员的开发效率以及系统的可维护性。
 
 一般说 Spring 框架指的都是 Spring Framework，它是很多模块的集合，使用这些模块可以很方便地协助进行开发。这些模块是：核心容器、数据访问/集成,、Web、AOP（面向切面编程）、工具、消息和测试模块。比如：Core Container 中的 Core 组件是 Spring 所有组件的核心，Beans 组件和 Context 组件是实现 IOC 和依赖注入的基础，AOP 组件用来实现面向切面编程。
@@ -135,7 +136,6 @@ public class AppConfig {
 
 ## 1.11. Spring 中的 bean 生命周期?
 
-
 - Bean 容器找到配置文件中 Spring Bean 的定义。
 - Bean 容器利用 Java Reflection API 创建一个 Bean 的实例。
 - 如果涉及到一些属性值 利用 set()方法设置一些属性值。
@@ -157,7 +157,7 @@ public class AppConfig {
 
 ![Spring Bean 生命周期](http://my-blog-to-use.oss-cn-beijing.aliyuncs.com/18-9-17/07.jpg)
 
-## 1.13. 说说自己对于 Spring MVC 了解?
+## 1.12. 说说自己对于 Spring MVC 了解?
 
 MVC 是一种设计模式,Spring MVC 可以帮助进行更简洁的 Web 层的开发，并且它天生与 Spring 框架集成。Spring MVC 下一般把后端项目分为 Service 层（处理业务）、Dao 层（数据库操作）、Entity 层（实体类）、Controller 层(控制层，返回数据给前台页面)。
 
@@ -165,10 +165,9 @@ Spring MVC 的简单原理图如下：
 
 ![](http://my-blog-to-use.oss-cn-beijing.aliyuncs.com/18-10-11/60679444.jpg)
 
-## 1.14. SpringMVC 工作原理了解吗?
-![](../../../asserts/2021-11-07-07-43-05.png)
+## 1.13. SpringMVC 工作原理了解吗?
 
-流程说明（重要）：
+![](../../asserts/2021-11-07-07-52-12.png)
 
 1. 客户端（浏览器）发送请求，直接请求到 DispatcherServlet。
 2. DispatcherServlet 根据请求信息调用 HandlerMapping，解析请求对应的 Handler。
@@ -179,9 +178,7 @@ Spring MVC 的简单原理图如下：
 7. DispaterServlet 把返回的 Model 传给 View（视图渲染）。
 8. 把 View 返回给请求者（浏览器）
 
-## 1.15. Spring 框架中用到了哪些设计模式？
-
-关于下面一些设计模式的详细介绍，可以看笔主前段时间的原创文章[《面试官:“谈谈 Spring 中都用到了那些设计模式?”。》](https://mp.weixin.qq.com/s?__biz=Mzg2OTA0Njk0OA==&mid=2247485303&idx=1&sn=9e4626a1e3f001f9b0d84a6fa0cff04a&chksm=cea248bcf9d5c1aaf48b67cc52bac74eb29d6037848d6cf213b0e5466f2d1fda970db700ba41&token=2878&lang=zh_CN#rd) 。
+## 1.14. Spring 框架中用到了哪些设计模式？
 
 - 工厂设计模式 : Spring 使用工厂模式通过 BeanFactory、ApplicationContext 创建 bean 对象。
 - 代理设计模式 : Spring AOP 功能的实现。
@@ -189,21 +186,18 @@ Spring MVC 的简单原理图如下：
 - 包装器设计模式 : 的项目需要连接多个数据库，而且不同的客户在每次访问中根据需要会去访问不同的数据库。这种模式让可以根据客户的需求能够动态切换不同的数据源。
 - 观察者模式: Spring 事件驱动模型就是观察者模式很经典的一个应用。
 - 适配器模式 :Spring AOP 的增强或通知(Advice)使用到了适配器模式、spring MVC 中也是用到了适配器模式适配 Controller。
-- ......
 
-## 1.16. Spring 事务
-
-## 1.17. Spring 管理事务的方式有几种？
+## 1.15. Spring 管理事务的方式有几种？
 
 1. 编程式事务，在代码中硬编码。(不推荐使用)
 2. 声明式事务，在配置文件中配置（推荐使用）
 
-声明式事务又分为两种：
+### 1.15.1. 声明式事务又分为两种：
 
 1. 基于 XML 的声明式事务
 2. 基于注解的声明式事务
 
-## 1.18. Spring 事务中的隔离级别有哪几种?
+## 1.16. Spring 事务中的隔离级别有哪几种?
 
 TransactionDefinition 接口中定义了五个表示隔离级别的常量：
 
@@ -213,7 +207,7 @@ TransactionDefinition 接口中定义了五个表示隔离级别的常量：
 - TransactionDefinition.ISOLATION_REPEATABLE_READ: 对同一字段的多次读取结果都是一致的，除非数据是被本身事务自己所修改，可以阻止脏读和不可重复读，但幻读仍有可能发生。
 - TransactionDefinition.ISOLATION_SERIALIZABLE: 最高的隔离级别，完全服从 ACID 的隔离级别。所有的事务依次逐个执行，这样事务之间就完全不可能产生干扰，也就是说，该级别可以防止脏读、不可重复读以及幻读。但是这将严重影响程序的性能。通常情况下也不会用到该级别。
 
-## 1.19. Spring 事务中哪几种事务传播行为?
+## 1.17. Spring 事务中哪几种事务传播行为?
 
 支持当前事务的情况：
 
@@ -231,7 +225,7 @@ TransactionDefinition 接口中定义了五个表示隔离级别的常量：
 
 - TransactionDefinition.PROPAGATION_NESTED： 如果当前存在事务，则创建一个事务作为当前事务的嵌套事务来运行；如果当前没有事务，则该取值等价于 TransactionDefinition.PROPAGATION_REQUIRED。
 
-## 1.20. @Transactional(rollbackFor = Exception.class)注解了解吗？
+## 1.18. @Transactional(rollbackFor = Exception.class)注解了解吗？
 
 知道：Exception 分为运行时异常 RuntimeException 和非运行时异常。事务管理对于企业应用来说是至关重要的，即使出现异常情况，它也可以保证数据的一致性。
 
@@ -239,17 +233,9 @@ TransactionDefinition 接口中定义了五个表示隔离级别的常量：
 
 在@Transactional 注解中如果不配置 rollbackFor 属性,那么事物只会在遇到 RuntimeException 的时候才会回滚,加上 rollbackFor=Exception.class,可以让事物在遇到非运行时异常时也回滚。
 
-关于 @Transactional 注解推荐阅读的文章：
+## 1.20. 如何使用 JPA 在数据库中非持久化一个字段？
 
-- [透彻的掌握 Spring 中@transactional 的使用](https://www.ibm.com/developerworks/cn/java/j-master-spring-transactional-use/index.html)
-
-## 1.21. JPA
-
-## 1.22. 如何使用 JPA 在数据库中非持久化一个字段？
-
-假如有有下面一个类：
-
-java
+```java
 Entity(name="USER")
 public class User {
 
@@ -267,35 +253,19 @@ public class User {
     private String secrect;
 
 }
+```
 
 如果想让 secrect 这个字段不被持久化，也就是不被数据库存储怎么办？可以采用下面几种方法：
 
-java
+```java
 static String transient1; // not persistent because of static
+
 final String transient2 = “Satish”; // not persistent because of final
+
 transient String transient3; // not persistent because of transient
+
 @Transient
 String transient4; // not persistent because of @Transient
+```
 
 一般使用后面两种方式比较多，我个人使用注解的方式比较多。
-
-## 1.23. 参考
-
-- 《Spring 技术内幕》
-- <http://www.cnblogs.com/wmyskxz/p/8820371.html>
-- <https://www.journaldev.com/2696/spring-interview-questions-and-answers>
-- <https://www.edureka.co/blog/interview-questions/spring-interview-questions/>
-- https://www.cnblogs.com/clwydjgs/p/9317849.html
-- <https://howtodoinjava.com/interview-questions/top-spring-interview-questions-with-answers/>
-- <http://www.tomaszezula.com/2014/02/09/spring-series-part-5-component-vs-bean/>
-- <https://stackoverflow.com/questions/34172888/difference-between-bean-and-autowired>
-
-## 1.24. 公众号
-
-如果大家想要实时关注我更新的文章以及分享的干货的话，可以关注我的公众号。
-
-《Java 面试突击》: 由本文档衍生的专为面试而生的《Java 面试突击》V2.0 PDF 版本[公众号](#公众号)后台回复 "Java 面试突击" 即可免费领取！
-
-Java 工程师必备学习资源: 一些 Java 工程师常用学习资源公众号后台回复关键字 “1” 即可免费无套路获取。
-
-![公众号](https://my-blog-to-use.oss-cn-beijing.aliyuncs.com/2019-7/javaguide1.jpg)
