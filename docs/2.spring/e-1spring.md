@@ -200,7 +200,12 @@ Spring MVC 的简单原理图如下：
 
 ## 1.16. Spring 事务中的隔离级别有哪几种?
 
-TransactionDefinition 接口中定义了五个表示隔离级别的常量：
+
+TransactionDefinition 111接口中定义了五个表示隔离级别的常量：
+
+
+
+
 
 - TransactionDefinition.ISOLATION_DEFAULT: 使用后端数据库默认的隔离级别，Mysql 默认采用的 REPEATABLE_READ 隔离级别 Oracle 默认采用的 READ_COMMITTED 隔离级别.
 - TransactionDefinition.ISOLATION_READ_UNCOMMITTED: 最低的隔离级别，允许读取尚未提交的数据变更，可能会导致脏读、幻读或不可重复读
