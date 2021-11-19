@@ -178,6 +178,7 @@ Spring MVC 的简单原理图如下：
 7. DispaterServlet 把返回的 Model 传给 View（视图渲染）。
 8. 把 View 返回给请求者（浏览器）
 
+
 ## 1.14. Spring 框架中用到了哪些设计模式？
 
 - 工厂设计模式 : Spring 使用工厂模式通过 BeanFactory、ApplicationContext 创建 bean 对象。
