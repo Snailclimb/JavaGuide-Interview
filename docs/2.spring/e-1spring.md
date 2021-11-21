@@ -1,4 +1,4 @@
-# 1. Spring 面试题总结
+# 1. spring
 
 ## 1.1. 什么是 Spring 框架?
 
@@ -17,10 +17,6 @@ Spring 的 6 个特征:
 
 ## 1.2. 列举一些重要的 Spring 模块？
 
-下图对应的是 Spring4.x 版本。目前最新的 5.x 版本中 Web 模块的 Portlet 组件已经被废弃掉，同时增加了用于异步响应式处理的 WebFlux 组件。
-
-![Spring主要模块](https://my-blog-to-use.oss-cn-beijing.aliyuncs.com/2019-6/Spring主要模块.png)
-
 - Spring Core： 基础,可以说 Spring 其他所有的功能都需要依赖于该类库。主要提供 IoC 依赖注入功能。
 - Spring Aspects ： 该模块为与 AspectJ 的集成提供支持。
 - Spring AOP ：提供了面向切面的编程实现。
@@ -36,8 +32,6 @@ Spring 的 6 个特征:
 
 单独使用 @Controller 不加 @ResponseBody 的话一般使用在要返回一个视图的情况，这种情况属于比较传统的 Spring MVC 的应用，对应于前后端不分离的情况。
 
-![SpringMVC 传统工作流程](https://my-blog-to-use.oss-cn-beijing.aliyuncs.com/2019-7/SpringMVC传统工作流程.png)
-
 ### 1.3.2. @RestController 返回 JSON 或 XML 形式数据
 
 @RestController 只返回对象，对象数据直接以 JSON 或 XML 形式写入 HTTP 响应(Response)中，这种情况属于 RESTful Web 服务，这也是目前日常开发所接触的最常用的情况（前后端分离）。
@@ -46,33 +40,18 @@ Spring 的 6 个特征:
 
 ### 1.3.3. @Controller +@ResponseBody 返回 JSON 或 XML 形式数据
 
-如果你需要在 Spring4 之前开发 RESTful Web 服务的话，你需要使用@Controller 并结合@ResponseBody 注解，也就是说@Controller +@ResponseBody= @RestController（Spring 4 之后新加的注解）。
+如果你需要在 Spring4 之前开发 RESTful Web 服务的话，你需要使用@Controller 并结合@ResponseBody 注解，也就是说@Controller +@ResponseBody= @RestController
 
-> @ResponseBody 注解的作用是将 Controller 的方法返回的对象通过适当的转换器转换为指定的格式之后，写入到 HTTP 响应(Response)对象的 body 中，通常用来返回 JSON 或者 XML 数据，返回 JSON 数据的情况比较多。
+## 1.4. IoC (Inverse of Control:控制反转)
 
-![Spring3.xMVC RESTfulWeb服务工作流程](https://my-blog-to-use.oss-cn-beijing.aliyuncs.com/2019-7/Spring3.xMVCRESTfulWeb服务工作流程.png)
+IoC 是一种设计思想，就是 将原本在程序中手动创建对象的控制权，交由 Spring 框架来管理
+IoC 容器是 Spring 用来实现 IoC 的载体， IoC 容器实际上就是个 Map（key，value）,Map 中存放的是各种对象。
 
-## 1.4. IoC
+将对象之间的相互依赖关系交给 IoC 容器来管理，并由 IoC 容器完成对象的注入。这样可以很大程度上简化应用的开发，把应用从复杂的依赖关系中解放出来, 这大大增加了项目的可维护性且降低了开发难度。
 
-IoC（Inverse of Control:控制反转）是一种设计思想，就是 将原本在程序中手动创建对象的控制权，交由 Spring 框架来管理。 IoC 在其他语言中也有应用，并非 Spring 特有。 IoC 容器是 Spring 用来实现 IoC 的载体， IoC 容器实际上就是个 Map（key，value）,Map 中存放的是各种对象。
+## 1.5. AOP (Aspect-Oriented Programming:面向切面编程)
 
-将对象之间的相互依赖关系交给 IoC 容器来管理，并由 IoC 容器完成对象的注入。这样可以很大程度上简化应用的开发，把应用从复杂的依赖关系中解放出来。 IoC 容器就像是一个工厂一样，当需要创建一个对象的时候，只需要配置好配置文件/注解即可，完全不用考虑对象是如何被创建出来的。 在实际项目中一个 Service 类可能有几百甚至上千个类作为它的底层，假如需要实例化这个 Service，你可能要每次都要搞清这个 Service 所有底层类的构造函数，这可能会把人逼疯。如果利用 IoC 的话，你只需要配置好，然后在需要的地方引用就行了，这大大增加了项目的可维护性且降低了开发难度。
-
-Spring 时代一般通过 XML 文件来配置 Bean，后来开发人员觉得 XML 文件来配置不太好，于是 SpringBoot 注解配置就慢慢开始流行起来。
-
-推荐阅读：https://www.zhihu.com/question/23277575/answer/169698662
-
-Spring IoC 的初始化过程：
-
-![Spring IoC的初始化过程](https://my-blog-to-use.oss-cn-beijing.aliyuncs.com/2019-7/SpringIOC初始化过程.png)
-
-IoC 源码阅读
-
-- https://javadoop.com/post/spring-ioc
-
-## 1.5. AOP
-
-AOP(Aspect-Oriented Programming:面向切面编程)能够将那些与业务无关，却为业务模块所共同调用的逻辑或责任（例如事务处理、日志管理、权限控制等）封装起来，便于减少系统的重复代码，降低模块间的耦合度，并有利于未来的可拓展性和可维护性。
+AOP能够将那些与业务无关，却为业务模块所共同调用的逻辑或责任（事务处理、日志管理、权限控制等）封装起来，便于减少系统的重复代码，降低模块间的耦合度，并有利于未来的可拓展性和可维护性。
 
 Spring AOP 就是基于动态代理的，如果要代理的对象，实现了某个接口，那么 Spring AOP 会使用 JDK Proxy，去创建代理对象，而对于没有实现接口的对象，就无法使用 JDK Proxy 去进行代理了，这时候 Spring AOP 会使用 Cglib ，这时候 Spring AOP 会使用 Cglib 生成一个被代理对象的子类来作为代理，如下图所示：
 
@@ -97,15 +76,24 @@ Spring AOP 已经集成了 AspectJ ，AspectJ 应该算的上是 Java 生态系�
 - request : 每一次 HTTP 请求都会产生一个新的 bean，该 bean 仅在当前 HTTP request 内有效。
 - session : 每一次 HTTP 请求都会产生一个新的 bean，该 bean 仅在当前 HTTP session 内有效。
 
+```java
+@Scope(ConfigurableBeanFactory.SCOPE_PROTOTYPE)
+public class Student {
+    
+}
+
+```
+
+
 ## 1.8. Spring 中的单例 bean 的线程安全问题了解吗？
 
 单例 bean 存在线程问题，主要是因为当多个线程操作同一个对象的时候，对这个对象的非静态成员变量的写操作会存在线程安全问题。
 
 ### 1.8.1. 常见的有两种解决办法：
 
-1. 在 Bean 对象中尽量避免定义可变的成员变量（不太现实）。
+1. 在 Bean 对象中尽量避免定义可变的成员变量（不现实）。
 
-2. 在类中定义一个 ThreadLocal 成员变量，将需要的可变成员变量保存在 ThreadLocal 中（推荐的一种方式）。
+2. 在类中定义一个 ThreadLocal 成员变量，将需要的可变成员变量保存在 ThreadLocal 中（推荐）。
 
 ## 1.9. @Component 和 @Bean 的区别是什么？
 
@@ -178,7 +166,6 @@ Spring MVC 的简单原理图如下：
 7. DispaterServlet 把返回的 Model 传给 View（视图渲染）。
 8. 把 View 返回给请求者（浏览器）
 
-
 ## 1.14. Spring 框架中用到了哪些设计模式？
 
 - 工厂设计模式 : Spring 使用工厂模式通过 BeanFactory、ApplicationContext 创建 bean 对象。
@@ -200,18 +187,14 @@ Spring MVC 的简单原理图如下：
 
 ## 1.16. Spring 事务中的隔离级别有哪几种?
 
-
-TransactionDefinition 111接口中定义了五个表示隔离级别的常量：
-
-
-
-
+TransactionDefinition 111 接口中定义了五个表示隔离级别的常量：
 
 - TransactionDefinition.ISOLATION_DEFAULT: 使用后端数据库默认的隔离级别，Mysql 默认采用的 REPEATABLE_READ 隔离级别 Oracle 默认采用的 READ_COMMITTED 隔离级别.
 - TransactionDefinition.ISOLATION_READ_UNCOMMITTED: 最低的隔离级别，允许读取尚未提交的数据变更，可能会导致脏读、幻读或不可重复读
 - TransactionDefinition.ISOLATION_READ_COMMITTED: 允许读取并发事务已经提交的数据，可以阻止脏读，但是幻读或不可重复读仍有可能发生
 - TransactionDefinition.ISOLATION_REPEATABLE_READ: 对同一字段的多次读取结果都是一致的，除非数据是被本身事务自己所修改，可以阻止脏读和不可重复读，但幻读仍有可能发生。
 - TransactionDefinition.ISOLATION_SERIALIZABLE: 最高的隔离级别，完全服从 ACID 的隔离级别。所有的事务依次逐个执行，这样事务之间就完全不可能产生干扰，也就是说，该级别可以防止脏读、不可重复读以及幻读。但是这将严重影响程序的性能。通常情况下也不会用到该级别。
+
 ## 1.17. Spring 事务中哪几种事务传播行为?
 
 支持当前事务的情况：
@@ -238,7 +221,7 @@ TransactionDefinition 111接口中定义了五个表示隔离级别的常量：
 
 在@Transactional 注解中如果不配置 rollbackFor 属性,那么事物只会在遇到 RuntimeException 的时候才会回滚,加上 rollbackFor=Exception.class,可以让事物在遇到非运行时异常时也回滚。
 
-## 1.20. 如何使用 JPA 在数据库中非持久化一个字段？
+## 1.19. 如何使用 JPA 在数据库中非持久化一个字段？
 
 ```java
 Entity(name="USER")

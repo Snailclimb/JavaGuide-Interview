@@ -15,7 +15,7 @@
 
 1. 5 年或以上 java 开发经验；
 1. 熟悉 Linux 常用命令，熟练使用 Shell 脚本
-1. 熟悉 JavalO、Socket, Servlet 和多线程等技术，对网络编程相关内容有较深刻的理解熟悉 Netty 网络框架.
+1. 熟悉 JavalO、Socket, Servlet 和多线程等技术，对网络编程相关内容有较深刻的理解, 熟悉 Netty 网络框架.
 1. 熟练 SQL 使用，熟悉 Mysql 索弓|、表引擎等主要特性，熟练使用 Memcached,Redis 等 NoSQL 数据库；
 1. 熟悉使用 Activemq 消息中间件；
 1. 熟悉 Spring, Jsp、Javascript 等，熟练使用 Jquery 或 者其他 js 框架进行界面组件开发，熟练应用 html、 css 进行 ui 设计；
