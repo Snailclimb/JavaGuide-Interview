@@ -64,7 +64,7 @@ public interface RandomAccess {
 
 ### 2.2.4. 说一说 ArrayList 的扩容机制吧
 
-详见笔主的这篇文章:[通过源码一步一步分析 ArrayList 扩容机制](https://snailclimb.gitee.io/javaguide/#/docs/java/collection/ArrayList%E6%BA%90%E7%A0%81+%E6%89%A9%E5%AE%B9%E6%9C%BA%E5%88%B6%E5%88%86%E6%9E%90)
+[ArrayList 扩容机制分析](https://javaguide.cn/java/collection/arraylist-source-code/#_3-arraylist-%E6%89%A9%E5%AE%B9%E6%9C%BA%E5%88%B6%E5%88%86%E6%9E%90)
 
 ### 2.2.5. HashMap 和 Hashtable 的区别
 
