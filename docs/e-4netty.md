@@ -163,7 +163,7 @@ public interface ChannelFuture extends Future<Void> {
         }
 ```
 
-`ServerBootstrap` 客户端的启动引导类/辅助类，具体使用方法如下：
+`ServerBootstrap` 服务端的启动引导类/辅助类，具体使用方法如下：
 
 ```java
         // 1.bossGroup 用于接收连接，workerGroup 用于具体的处理
