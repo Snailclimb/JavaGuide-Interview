@@ -8,10 +8,10 @@
   - [优质面经汇总（付费）](./docs/a-5优质面经汇总（付费）.md)
   - [项目经验指南](./docs/a-6项目经验指南.md)
 * Java
-  * [Java基础](./docs/b-1面试题总结-Java基础.md)
+  * [Java基础](./docs/b-1Java基础.md)
   * [Java集合](./docs/b-2Java集合.md)
   * [Java多线程](./docs/b-3Java多线程.md)
-  * [JVM](./docs/b-4jvm.md)
+  * [JVM](./docs/b-4JVM.md)
 * 计算机基础
   * [计算机网络](./docs/c-1计算机网络.md)
   * [数据结构](./docs/c-2数据结构.md)
