@@ -4,6 +4,15 @@
 
 ## 2.2. Java集合
 
+> [JavaGuide](https://javaguide.cn/) ：「Java学习+面试指南」一份涵盖大部分 Java 程序员所需要掌握的核心知识。准备 Java 面试，首选 JavaGuide！
+
+![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/7965efc059b841aeb377e3b3e1e1005c~tplv-k3u1fbpfcp-zoom-1.image)
+
+> 这部分内容摘自 [JavaGuide](https://javaguide.cn/) 下面几篇文章：
+>
+> - [Java集合常见面试题总结(上)](https://javaguide.cn/java/collection/java-collection-questions-01.html)
+> - [Java集合常见面试题总结(下)](https://javaguide.cn/java/collection/java-collection-questions-02.html)
+
 Java 集合， 也叫作容器，主要是由两大接口派生而来：一个是 `Collection`接口，主要用于存放单一元素；另一个是 `Map` 接口，主要用于存放键值对。对于`Collection` 接口，下面又有三个主要的子接口：`List`、`Set` 和 `Queue`。
 
 Java 集合框架如下图所示：
