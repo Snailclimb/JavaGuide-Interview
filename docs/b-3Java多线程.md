@@ -4,6 +4,16 @@
 
 ## 2.3. 多线程
 
+> [JavaGuide](https://javaguide.cn/) ：「Java学习+面试指南」一份涵盖大部分 Java 程序员所需要掌握的核心知识。准备 Java 面试，首选 JavaGuide！
+
+![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/7965efc059b841aeb377e3b3e1e1005c~tplv-k3u1fbpfcp-zoom-1.image)
+
+> 这部分内容摘自 [JavaGuide](https://javaguide.cn/) 下面几篇文章：
+>
+> - [Java 并发常见面试题总结（上）](https://javaguide.cn/java/concurrent/java-concurrent-questions-01.html)
+> - [Java 并发常见面试题总结（中）](https://javaguide.cn/java/concurrent/java-concurrent-questions-02.html)
+> - [Java 并发常见面试题总结（下）](https://javaguide.cn/java/concurrent/java-concurrent-questions-03.html)
+
 ### 什么是线程和进程?
 
 #### 何为进程?
@@ -468,6 +478,10 @@ public void increase() {
 }
 ```
 
+<div align="center">   
+    <img src="https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/github/javaguide/gongzhonghaoxuanchuan.png" style="margin: 0 auto;" />  
+</div>
+
 ### synchronized 关键字
 
 #### 说一说自己对于 synchronized 关键字的了解
@@ -816,3 +830,7 @@ static class Entry extends WeakReference<ThreadLocal<?>> {
 ### AQS
 
 AQS 相关的知识点和面试题总结请看这篇文章：[AQS 详解](https://javaguide.cn/java/concurrent/aqs.html) （由于内容比较多就不放在 PDF 里面了）。
+
+<div align="center">   
+    <img src="https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/github/javaguide/gongzhonghaoxuanchuan.png" style="margin: 0 auto;" />  
+</div>

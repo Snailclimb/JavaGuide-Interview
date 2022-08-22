@@ -14,9 +14,9 @@
   * [JVM](./docs/b-4JVM.md)
 * 计算机基础
   * [计算机网络](./docs/c-1计算机网络.md)
-  * [操作系统](./docs/c-2操作系统.md)
-  * [数据结构](./docs/c-3数据结构.md)
-  * [算法](./docs/c-4算法.md)
+  * [数据结构](./docs/c-2数据结构.md)
+  * [算法](./docs/c-3算法.md)
+  * [操作系统](./docs/c-4操作系统.md)
 * 数据库
   * [MySQL](./docs/d-1-mysql.md)
   * [Redis](./docs/d-2-redis.md)

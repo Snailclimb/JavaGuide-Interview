@@ -42,7 +42,7 @@ JRE 是 Java 运行时环境。它是运行已编译 Java 程序所需的所有�
 
 **Java 程序从源代码到运行的过程如下图所示：**
 
-![Java程序转变为机器代码的过程](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/github/javaguide/java/basis/java-code-to-machine-code.jpg)
+![Java程序转变为机器代码的过程](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/github/javaguide/java/basis/java-code-to-machine-code.png)
 
 我们需要格外注意的是 `.class->机器码` 这一步。在这一步 JVM 类加载器首先加载字节码文件，然后通过解释器逐行解释执行，这种方式的执行速度会相对比较慢。而且，有些方法和代码块是经常需要被调用的(也就是所谓的热点代码)，所以后面引进了 JIT（just-in-time compilation） 编译器，而 JIT 属于运行时编译。当 JIT 编译器完成第一次编译后，其会将字节码对应的机器码保存下来，下次可以直接使用。而我们知道，机器码的运行效率肯定是高于 Java 解释器的。这也解释了我们为什么经常会说 **Java 是编译与解释共存的语言** 。
 
@@ -63,7 +63,7 @@ AOT 可以提前编译节省启动时间，那为什么不全部使用这种编�
 - **编译型** ：[编译型语言](https://zh.wikipedia.org/wiki/%E7%B7%A8%E8%AD%AF%E8%AA%9E%E8%A8%80) 会通过[编译器](https://zh.wikipedia.org/wiki/%E7%B7%A8%E8%AD%AF%E5%99%A8)将源代码一次性翻译成可被该平台执行的机器码。一般情况下，编译语言的执行速度比较快，开发效率比较低。常见的编译性语言有 C、C++、Go、Rust 等等。
 - **解释型** ：[解释型语言](https://zh.wikipedia.org/wiki/%E7%9B%B4%E8%AD%AF%E8%AA%9E%E8%A8%80)会通过[解释器](https://zh.wikipedia.org/wiki/直譯器)一句一句的将代码解释（interpret）为机器代码后再执行。解释型语言开发效率比较快，执行速度比较慢。常见的解释性语言有 Python、JavaScript、PHP 等等。
 
-![编译型语言和解释型语言](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/github/javaguide/java/basis/compiled-and-interpreted-languages.jpg)
+![编译型语言和解释型语言](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/github/javaguide/java/basis/compiled-and-interpreted-languages.png)
 
 根据维基百科介绍：
 
@@ -71,7 +71,9 @@ AOT 可以提前编译节省启动时间，那为什么不全部使用这种编�
 >
 > 相关阅读：[基本功 | Java 即时编译器原理解析及实践](https://tech.meituan.com/2020/10/22/java-jit-practice-in-meituan.html)
 
-**为什么说 Java 语言“编译与解释并存”？**
+<div align="center">   
+    <img src="https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/github/javaguide/gongzhonghaoxuanchuan.png" style="margin: 0 auto;" />  
+</div>
 
 这是因为 Java 语言既具有编译型语言的特征，也具有解释型语言的特征。因为 Java 程序要经过先编译，后解释两个步骤，由 Java 编写的程序需要先经过编译步骤，生成字节码（`.class` 文件），这种字节码必须由 Java 解释器来解释执行。
 
@@ -807,7 +809,7 @@ System.out.println(person1.getAddress() == person1Copy.getAddress());
 
 我专门画了一张图来描述浅拷贝、深拷贝、引用拷贝：
 
-![浅拷贝、深拷贝、引用拷贝示意图](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/github/javaguide/java/basis/shallow&deep-copy.jpg)
+![浅拷贝、深拷贝、引用拷贝示意图](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/github/javaguide/java/basis/shallow&deep-copy.png)
 
 ### Object
 
@@ -1287,6 +1289,10 @@ public static String getStr() {
 
 ### Checked Exception 和 Unchecked Exception 有什么区别？
 
+**Java 异常类层次结构图概览** ：
+
+![Java 异常类层次结构图](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/github/javaguide/java/basis/types-of-exceptions-in-java.png)
+
 **Checked Exception** 即 受检查异常 ，Java 代码在编译过程中，如果受检查异常没有被 `catch`或者`throws` 关键字处理的话，就没办法通过编译。
 
 比如下面这段 IO 操作的代码：
@@ -1601,7 +1607,7 @@ Java IO 流的 40 多个类都是从如下 4 个抽象类基类中派生出来�
 - `InputStream`/`Reader`: 所有的输入流的基类，前者是字节输入流，后者是字符输入流。
 - `OutputStream`/`Writer`: 所有输出流的基类，前者是字节输出流，后者是字符输出流。
 
-相关阅读：[Java IO 基础知识总结](../io/io-basis.md)。
+相关阅读：[Java IO 基础知识总结](https://javaguide.cn/java/io/io-basis.html#io-%E6%B5%81%E7%AE%80%E4%BB%8B)。
 
 ### I/O 流为什么要分为字节流和字符流呢?
 
@@ -1620,3 +1626,6 @@ Java IO 流的 40 多个类都是从如下 4 个抽象类基类中派生出来�
 
 [Java IO 模型详解](https://javaguide.cn/java/io/io-model.html)。
 
+<div align="center">   
+    <img src="https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/github/javaguide/gongzhonghaoxuanchuan.png" style="margin: 0 auto;" />  
+</div>
