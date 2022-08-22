@@ -1,5 +1,5 @@
 
-*  [必看](./docs/a-0必看.md)
+*  [项目介绍](./docs/a-0说明.md)
 * 面试准备
   - [程序员面试求职指南](./docs/a-1程序员面试求职指南.md)
   - [程序员简历制作指南](./docs/a-2程序员简历制作指南.md)
@@ -30,10 +30,4 @@
   * [认证授权](./docs/f-1认证授权.md)
   * [系统设计面试指北](./docs/f-2系统设计面试指北.md)
 * [微服务](./docs/h-微服务.md)
-* 真实大厂面试现场经历分析
-  * [我和阿里面试官的一次邂逅(上)](./docs/i-1真实大厂面试现场.md)
-  * [我和阿里面试官的一次邂逅(下)](./docs/i-2真实大厂面试现场.md)
-* 开源推荐
-  * [Java教程类开源项目推荐](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=Mzg2OTA0Njk0OA==&action=getalbum&album_id=1345382825083895808#wechat_redirect)
-  * [Github优质开源项目精选](https://www.yuque.com/docs/share/61b99973-ecb3-4317-ba19-fc1a15dd842c)
 
