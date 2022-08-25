@@ -18,6 +18,7 @@
   * [数据结构](./docs/c-3数据结构.md)
   * [算法](./docs/c-4算法.md)
 * 数据库
+  * [数据库基础](./docs/d-0数据库基础.md)
   * [MySQL](./docs/d-1-mysql.md)
   * [Redis](./docs/d-2-redis.md)
 * 常用框架
