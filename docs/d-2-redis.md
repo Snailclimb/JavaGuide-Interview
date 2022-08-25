@@ -2,6 +2,8 @@
 
 ## 4.3 Redis
 
+> [JavaGuide](https://javaguide.cn/) ：「Java学习+面试指南」一份涵盖大部分 Java 程序员所需要掌握的核心知识。准备 Java 面试，首选 JavaGuide！
+
 ### Redis 基础
 
 #### 简单介绍一下 Redis!
