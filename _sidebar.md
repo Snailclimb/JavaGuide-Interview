@@ -23,11 +23,22 @@
   * [Redis](./docs/d-2-redis.md)
 * 常用框架
   * [Spring](./docs/e-1spring.md)
-  * [SpringBoot](./docs/e-2springboot(付费).md)
+  * [SpringBoot（付费）](./docs/e-2springboot(付费).md)
   * [MyBatis](./docs/e-3mybatis.md)
-  * [Netty](./docs/e-4netty(付费).md)
+  * [Netty（付费）](./docs/e-4netty(付费).md)
 * 系统设计
+  * [设计模式](./docs/f-0设计模式.md)
   * [认证授权](./docs/f-1认证授权.md)
-  * [系统设计面试指北](./docs/f-2系统设计面试指北.md)
-* [微服务](./docs/h-微服务.md)
+  * [定时任务](./docs/f-2定时任务.md)
+*  分布式
+   *  理论&算法&协议
+   *  网关
+   *  分布式 ID
+   *  RPC
+   *  分布式事务
+   *  分布式协调(ZooKeeper)
+
+*  高性能
+
+*  高可用
 
