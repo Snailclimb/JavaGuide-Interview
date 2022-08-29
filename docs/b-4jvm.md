@@ -12,10 +12,6 @@
 4. [类加载过程详解](https://javaguide.cn/java/jvm/class-loading-process.html)
 5. [类加载器详解](https://javaguide.cn/java/jvm/classloader.html)
 
-由于篇幅问题，这里就不放 JVM 部分的常见面试题了。
-
-![](https://img-blog.csdnimg.cn/afb9d3be87c64179b8134bc298d33b45.png)
-
 <div align="center">   
     <img src="https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/github/javaguide/gongzhonghaoxuanchuan.png" style="margin: 0 auto;" />  
 </div>

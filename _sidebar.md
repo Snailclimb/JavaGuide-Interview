@@ -34,11 +34,16 @@
    *  [理论&算法&协议](./docs/g-0分布式理论.md)
    *  [网关](./docs/g-1网关.md)
    *  [分布式 ID](./docs/g-2分布式id.md)
-   *  RPC
-   *  分布式事务
-   *  分布式协调(ZooKeeper)
-
+   *  [分布式锁](./docs/g-3分布式锁.md)
+   *  [RPC](./docs/g-4rpc.md)
+   *  [分布式事务(付费)](./docs/g-5分布式事务(付费).md)
+   *  [分布式协调(ZooKeeper)](./docs/g-6分布式协调(ZooKeeper).md)
+   
 *  高性能
+
+   *  分库分表
+
+   *  负载均衡
 
 *  高可用
 
