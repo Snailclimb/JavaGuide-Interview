@@ -50,7 +50,7 @@
 * [Java基础](./docs/b-1Java基础.md)
 * [Java集合](./docs/b-2Java集合.md)
 * [Java多线程](./docs/b-3Java多线程.md)
-* [JVM](./docs/b-4JVM.md)
+* [JVM](./docs/b-4jvm.md)
 
 ### 计算机基础
 
@@ -96,7 +96,10 @@
 
 ### 高可用
 
-
+*  [高可用系统设计指南](./docs/i-0高可用系统设计指南.md)
+*  [冗余](./docs/i-1冗余.md)
+*  [限流](./docs/i-2限流.md)
+*  [超时和重试](./docs/i-3超时和重试.md)
 
 
 
