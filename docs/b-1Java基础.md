@@ -6,7 +6,17 @@
 
 > [JavaGuide](https://javaguide.cn/) ：「Java学习+面试指南」一份涵盖大部分 Java 程序员所需要掌握的核心知识。准备 Java 面试，首选 JavaGuide！
 
-![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/7965efc059b841aeb377e3b3e1e1005c~tplv-k3u1fbpfcp-zoom-1.image)
+<div align="center">
+    <p>
+        <a href="https://www.yuque.com/docs/share/8a30ffb5-83f3-40f9-baf9-38de68b906dc">
+            <img src="https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/xingqiu/xingqiu.png" style="margin: 0 auto; width: 850px;" />
+        </a>
+    </p>
+    <p>
+        <a href="https://github.com/Snailclimb/JavaGuide-Interview">Github</a> |
+        <a href="https://gitee.com/SnailClimb/JavaGuide-Interview">Gitee</a>
+    </p>  
+</div>
 
 ## 2.1. Java 基础
 
