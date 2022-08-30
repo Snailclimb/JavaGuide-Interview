@@ -1,4 +1,7 @@
-在线阅读地址：https://snailclimb.gitee.io/javaguide-interview/
+在线阅读版地址：
+
+- [interview.javaguide.cn](https://interview.javaguide.cn/)
+- [snailclimb.gitee.io/javaguide-interview](https://snailclimb.gitee.io/javaguide-interview/)(备用链接)
 
 
 <div align="center">
