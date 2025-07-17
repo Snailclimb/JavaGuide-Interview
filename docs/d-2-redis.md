@@ -16,7 +16,7 @@ Redis 提供了多种数据类型来支持不同的业务场景。Redis 还支�
 
 你可以自己本机安装 Redis 或者通过 Redis 官网提供的[在线 Redis 环境](https://try.redis.io/)来实际体验 Redis。
 
-![try-redis](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/github/javaguide/database/redis/try.redis.io.png)
+![try-redis](https://oss.javaguide.cn/github/javaguide/database/redis/try.redis.io.png)
 
 #### 分布式缓存常见的技术选型方案有哪些？
 
@@ -53,7 +53,7 @@ Memcached 是分布式缓存最开始兴起的那会，比较常用的。后来�
 
 作为暖男一号，我给大家画了一个草图。
 
-![正常缓存处理流程](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/github/javaguide/database/redis/normal-cache-process.png)
+![正常缓存处理流程](https://oss.javaguide.cn/github/javaguide/database/redis/normal-cache-process.png)
 
 简单来说就是:
 
@@ -68,7 +68,7 @@ _简单，来说使用缓存主要是为了提升用户体验以及应对更多�
 
 下面我们主要从“高性能”和“高并发”这两点来看待这个问题。
 
-![使用缓存之后](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/github/javaguide/database/redis/after-using-the-cache.png)
+![使用缓存之后](https://oss.javaguide.cn/github/javaguide/database/redis/after-using-the-cache.png)
 
 **高性能** ：
 
@@ -154,7 +154,7 @@ Redis 中有一个叫做 `sorted set` 的数据结构经常被用在各种排行
 
 [《Java 面试指北》](https://www.yuque.com/docs/share/f37fc804-bfe6-4b0d-b373-9c462188fec7) 的「技术面试题篇」就有一篇文章详细介绍如何使用 Sorted Set 来设计制作一个排行榜。
 
-![](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/github/javaguide/database/redis/image-20220719071115140.png)
+![](https://oss.javaguide.cn/github/javaguide/database/redis/image-20220719071115140.png)
 
 #### 使用 Set 实现抽奖系统需要用到什么命令？
 
@@ -244,7 +244,7 @@ Redis 通过 **IO 多路复用程序** 来监听来自客户端的大量连接�
 - 文件事件分派器（将 socket 关联到相应的事件处理器）
 - 事件处理器（连接应答处理器、命令请求处理器、命令回复处理器）
 
-![文件事件处理器](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/github/javaguide/database/redis/redis-event-handler.png)
+![文件事件处理器](https://oss.javaguide.cn/github/javaguide/database/redis/redis-event-handler.png)
 
 相关阅读：[Redis 事件机制详解](http://remcarpediem.net/article/1aa2da89/) 。
 
@@ -256,7 +256,7 @@ Redis 通过 **IO 多路复用程序** 来监听来自客户端的大量连接�
 
 为此，Redis 4.0 之后新增了`UNLINK`（可以看作是 `DEL` 的异步版本）、`FLUSHALL ASYNC`（清空数据库）、`FLUSHDB ASYNC`（清空数据库）等异步命令。
 
-![redis4.0 more thread](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/github/javaguide/database/redis/redis4.0-more-thread.png)
+![redis4.0 more thread](https://oss.javaguide.cn/github/javaguide/database/redis/redis4.0-more-thread.png)
 
 大体上来说，Redis 6.0 之前主要还是单线程处理。
 
@@ -321,7 +321,7 @@ OK
 
 Redis 通过一个叫做过期字典（可以看作是 hash 表）来保存数据过期的时间。过期字典的键指向 Redis 数据库中的某个 key(键)，过期字典的值是一个 long long 类型的整数，这个整数保存了 key 所指向的数据库键的过期时间（毫秒精度的 UNIX 时间戳）。
 
-![redis过期字典](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/github/javaguide/database/redis/redis-expired-dictionary.png)
+![redis过期字典](https://oss.javaguide.cn/github/javaguide/database/redis/redis-expired-dictionary.png)
 
 过期字典是存储在 redisDb 这个结构里的：
 
@@ -458,7 +458,7 @@ Redis 4.0 开始支持 RDB 和 AOF 的混合持久化（默认关闭，可以通
 
 官方文档地址：https://redis.io/topics/persistence
 
-![](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/github/javaguide/database/redis/redis4.0-persitence.png)
+![](https://oss.javaguide.cn/github/javaguide/database/redis/redis4.0-persitence.png)
 
 ### Redis 事务
 
@@ -515,7 +515,7 @@ ERR EXEC without MULTI
 
 Redis 官网相关介绍 [https://redis.io/topics/transactions](https://redis.io/topics/transactions) 如下：
 
-![Redis 事务](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/github/javaguide/database/redis/redis-transactions.png)
+![Redis 事务](https://oss.javaguide.cn/github/javaguide/database/redis/redis-transactions.png)
 
 #### Redis 支持原子性吗？
 
@@ -530,7 +530,7 @@ Redis 事务在运行错误的情况下，除了执行过程中出现错误的�
 
 Redis 官网也解释了自己为啥不支持回滚。简单来说就是 Redis 开发者们觉得没必要支持回滚，这样更简单便捷并且性能更好。Redis 开发者觉得即使命令执行错误也应该在开发过程中就被发现而不是生产过程中。
 
-![Redis 为什么不支持回滚](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/github/javaguide/database/redis/redis-rollback.png)
+![Redis 为什么不支持回滚](https://oss.javaguide.cn/github/javaguide/database/redis/redis-rollback.png)
 
 你可以将 Redis 中的事务就理解为 ：**Redis 事务提供了一种将多个命令请求打包的功能。然后，再按顺序执行打包的所有命令，并且不会被中途打断。**
 
@@ -633,7 +633,7 @@ Biggest string found '"ballcat:oauth:refresh_auth:f6cdb384-9a9d-4f2f-af01-dc3f28
 
 如下图所示，用户的请求最终都要跑到数据库中查询一遍。
 
-![缓存穿透情况](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/github/javaguide/database/redis/redis-cache-penetration.png)
+![缓存穿透情况](https://oss.javaguide.cn/github/javaguide/database/redis/redis-cache-penetration.png)
 
 ###### 有哪些解决办法？
 
@@ -676,7 +676,7 @@ public Object getObjectInclNullById(Integer id) {
 
 加入布隆过滤器之后的缓存处理流程图如下。
 
-![加入布隆过滤器之后的缓存处理流程图](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/github/javaguide/database/redis/redis-cache-penetration-bloom-filter.png)
+![加入布隆过滤器之后的缓存处理流程图](https://oss.javaguide.cn/github/javaguide/database/redis/redis-cache-penetration-bloom-filter.png)
 
 但是，需要注意的是布隆过滤器可能会存在误判的情况。总结来说就是： **布隆过滤器说某个元素存在，小概率会误判。布隆过滤器说某个元素不在，那么这个元素一定不在。**
 

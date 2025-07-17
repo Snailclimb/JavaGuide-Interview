@@ -10,7 +10,7 @@ RPC 这部分目前已经总结了 RPC 基础常见面试题和 Dubbo 常见面�
 - [Dubbo 常见面试题总结](https://javaguide.cn/distributed-system/rpc/dubbo.html)
 
 <div align="center">   
-    <img src="https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/github/javaguide/gongzhonghaoxuanchuan.png" style="margin: 0 auto;" />  
+    <img src="https://oss.javaguide.cn/github/javaguide/gongzhonghaoxuanchuan.png" style="margin: 0 auto;" />  
 </div>
 
 ------

@@ -11,5 +11,5 @@
 - [ZooKeeper 实战](https://javaguide.cn/distributed-system/distributed-process-coordination/zookeeper/zookeeper-in-action.html)
 
 <div align="center">   
-    <img src="https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/github/javaguide/gongzhonghaoxuanchuan.png" style="margin: 0 auto;" />  
+    <img src="https://oss.javaguide.cn/github/javaguide/gongzhonghaoxuanchuan.png" style="margin: 0 auto;" />  
 </div>

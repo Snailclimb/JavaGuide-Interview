@@ -12,7 +12,7 @@ JavaGuide 已经有了在线阅读版本（地址：https://javaguide.cn/），�
 你可以通过我的公众号获取到 **《JavaGuide 面试突击版》** 的最新版本。
 
 <div align="center">   
-    <img src="https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/github/javaguide/gongzhonghaoxuanchuan.png" style="margin: 0 auto;" />  
+    <img src="https://oss.javaguide.cn/github/javaguide/gongzhonghaoxuanchuan.png" style="margin: 0 auto;" />  
 </div>
 ## 如何学习本项目？
 
@@ -56,23 +56,23 @@ JavaGuide 已经有了在线阅读版本（地址：https://javaguide.cn/），�
 
 ## 内容概览
 
-![](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/xingqiu/image-20220304102536445.png)
+![](https://oss.javaguide.cn/xingqiu/image-20220304102536445.png)
 
 ### 面试准备篇
 
 在 **「面试准备篇」** ，我写了 10+ 篇文章手把手教你如何准备面试，涵盖项目经验、简历编写、源码学习、算法准备、面试资源等内容。
 
-![](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/xingqiu/image-20220316193744532.png)
+![](https://oss.javaguide.cn/xingqiu/image-20220316193744532.png)
 
 另外，考虑到很多小伙伴缺少项目经历，我还推荐了很多小众但优质的实战项目，有视频也有开源项目，有业务系统，也有各种含金量比较高的轮子类项目。
 
-![](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/xingqiu/image-20220316194712897.png)
+![](https://oss.javaguide.cn/xingqiu/image-20220316194712897.png)
 
 ### 技术面试题篇
 
 **「技术面试题篇」** 的内容和 JavaGuide 开源版本互补，不仅仅包括最基本的 Java、常见框架等八股文，还包括系统设计、分布式、高并发等进阶内容。
 
-![](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/xingqiu/image-20220304102904740.png)
+![](https://oss.javaguide.cn/xingqiu/image-20220304102904740.png)
 
 ### 面经篇
 
@@ -82,27 +82,27 @@ JavaGuide 已经有了在线阅读版本（地址：https://javaguide.cn/），�
 
 如果你是非科班的同学，也能在这些文章中找到对应的非科班的同学写的面经。
 
-![](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/githubjuejinjihua/thinkimage-20220612185810480.png)
+![](https://oss.javaguide.cn/githubjuejinjihua/thinkimage-20220612185810480.png)
 
 并且，[知识星球](https://www.yuque.com/docs/share/8a30ffb5-83f3-40f9-baf9-38de68b906dc)还有专门分享面经和面试题的专题，里面会分享很多优质的面经和面试题。
 
-![](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/xingqiu/image-20220304120018731.png)
+![](https://oss.javaguide.cn/xingqiu/image-20220304120018731.png)
 
-![](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/xingqiu/image-20220628101743381.png)
+![](https://oss.javaguide.cn/xingqiu/image-20220628101743381.png)
 
-![](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/xingqiu/image-20220628101805897.png)
+![](https://oss.javaguide.cn/xingqiu/image-20220628101805897.png)
 
 ### 技术面试题自测篇
 
 为了让小伙伴们自测以检查自己的掌握情况，我还推出了 **「技术面试题自测」** 系列。不过，目前只更新了 Java 和数据库的自测，正在持续更新中。
 
-![](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/xingqiu/image-20220621095641897.png)
+![](https://oss.javaguide.cn/xingqiu/image-20220621095641897.png)
 
 ### 练级攻略篇
 
 **「练级攻略篇」** 这个系列主要内容一些有助于个人成长的经验分享。
 
-![](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/xingqiu/image-20220316195830678.png)
+![](https://oss.javaguide.cn/xingqiu/image-20220316195830678.png)
 
 每一篇内容都非常干货，不少球友看了之后表示收获漫漫。不过，最重要的还是知行合一。
 
@@ -110,9 +110,9 @@ JavaGuide 已经有了在线阅读版本（地址：https://javaguide.cn/），�
 
 除了 **《Java 面试指北》** 之外，星球还有 **《Java 必读源码系列》**（目前已经整理了 Dubbo 2.6.x 、Netty 4.x、SpringBoot2.1 的源码）、 **《从零开始写一个 RPC 框架》**（已更新完） 、**《Kafka 常见面试题/知识点总结》** 等多个专属小册。
 
-![](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/xingqiu/image-20220316200015412.png)
+![](https://oss.javaguide.cn/xingqiu/image-20220316200015412.png)
 另外，星球还会有读书活动、学习打卡、简历修改、免费提问、海量 Java 优质面试资源以及各种不定时的福利。
-![](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/xingqiu/image-20220304124333119.png)
+![](https://oss.javaguide.cn/xingqiu/image-20220304124333119.png)
 
 ## 星球限时优惠
 
@@ -120,17 +120,17 @@ JavaGuide 已经有了在线阅读版本（地址：https://javaguide.cn/），�
 
 感兴趣的小伙伴可以看看我在 2020-01-03 发的头条：[做了一个很久没敢做的事情](https://mp.weixin.qq.com/s?__biz=Mzg2OTA0Njk0OA==&mid=2247486049&idx=1&sn=e0161b409e8f164251bdaa0c83a476bc&chksm=cea245aaf9d5ccbcafdb95a546d959508814085620aabdbb4385c4b8cea6e50bf157c3697041&token=1614894361&lang=zh_CN#rd)，去考古一下。
 
-![](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/xingqiu/image-20220311203414600.png)
+![](https://oss.javaguide.cn/xingqiu/image-20220311203414600.png)
 
 随着时间推移，星球积累的干货资源越来越多，我花在星球上的时间也越来越多。于是，我将星球的定价慢慢调整为了 **159/年**！后续会将星球的价格调整为 **199/年**，想要加入的小伙伴一定要尽早。
 
 你可以添加我的微信（没有手机号再申请微信，故使用企业微信。不过，请放心，这个号的消息也是我本人处理，平时最常看这个微信）领取星球专属优惠券(推荐👍)，限时 **130/年** 加入(续费半价)！
 
-![](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/github/javaguide/IMG_3007.jpg)
+![](https://oss.javaguide.cn/github/javaguide/IMG_3007.jpg)
 
 或者你也可以直接使用下面这张 **20** 元的优惠券，**139/年** 加入。
 
-![](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/xingqiu/xingqiuyouhuijuan-20-2023-08-01.png)
+![](https://oss.javaguide.cn/xingqiu/xingqiuyouhuijuan-20-2023-08-01.png)
 
 进入星球之后，你可以为自己制定一个目标，比如自己想要进入某某还不错的公司或者达成什么成就（一定要是还算有点挑战的目标）。待你完成目标在星球分享之后，我会将星球的门票费退还给你。
 
@@ -222,7 +222,7 @@ JavaGuide 已经有了在线阅读版本（地址：https://javaguide.cn/），�
 <div align="center">
     <p>
         <a href="https://www.yuque.com/docs/share/8a30ffb5-83f3-40f9-baf9-38de68b906dc">
-            <img src="https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/xingqiu/xingqiu.png" style="margin: 0 auto; width: 850px;" />
+            <img src="https://oss.javaguide.cn/xingqiu/xingqiu.png" style="margin: 0 auto; width: 850px;" />
         </a>
     </p>
     <p>
@@ -423,7 +423,7 @@ Guide 当时也参加了几场宣讲会。不过，我是在荆州上学，那�
 我觉得一个好的自我介绍应该包含这几点要素：
 
 1. <div align="center">   
-       <img src="https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/github/javaguide/gongzhonghaoxuanchuan.png" style="margin: 0 auto;" />  
+       <img src="https://oss.javaguide.cn/github/javaguide/gongzhonghaoxuanchuan.png" style="margin: 0 auto;" />  
    </div>
 2. 把重点放在自己在行的地方以及自己的优势之处；
 3. 重点突出自己的能力比如自己的定位的 bug 的能力特别厉害；
@@ -463,10 +463,10 @@ Guide 当时也参加了几场宣讲会。不过，我是在荆州上学，那�
 
 本文节选自 **[《Java 面试指北》](https://www.yuque.com/docs/share/f37fc804-bfe6-4b0d-b373-9c462188fec7)** 的「面试准备篇」。
 
-![](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/xingqiu/image-20220304102536445.png)
+![](https://oss.javaguide.cn/xingqiu/image-20220304102536445.png)
 
 <div align="center">   
-    <img src="https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/github/javaguide/gongzhonghaoxuanchuan.png" style="margin: 0 auto;" />  
+    <img src="https://oss.javaguide.cn/github/javaguide/gongzhonghaoxuanchuan.png" style="margin: 0 auto;" />  
 </div>
 
 ------
@@ -597,7 +597,7 @@ Guide 当时也参加了几场宣讲会。不过，我是在荆州上学，那�
 
 项目经历介绍模板：
 
-![](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/zhishixingqiu/image-20220418205605958.png)
+![](https://oss.javaguide.cn/zhishixingqiu/image-20220418205605958.png)
 
 个人工作内容描述最好可以体现自己的综合素质，比如你是如何协调项目组成员协同开发的或者在遇到某一个棘手的问题的时候你是如何解决的又或者说你在这个项目优化了某个模块的性能。示例：项目的 MySQL 数据库中的某张表的数据量达到千万级别，查询速度非常缓慢，数据库压力非常大，我使用 `Sharding-JDBC` 进行了分库分表，单表的数据量都在 300w 以下。
 
@@ -660,10 +660,10 @@ FAB 法则由下面 3 个单词组成（FAB 法则的名字就是由它们的首
 
 本文节选自 **[《Java 面试指北》](https://www.yuque.com/docs/share/f37fc804-bfe6-4b0d-b373-9c462188fec7)** 的「面试准备篇」。
 
-![](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/xingqiu/image-20220304102536445.png)
+![](https://oss.javaguide.cn/xingqiu/image-20220304102536445.png)
 
 <div align="center">   
-    <img src="https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/github/javaguide/gongzhonghaoxuanchuan.png" style="margin: 0 auto;" />  
+    <img src="https://oss.javaguide.cn/github/javaguide/gongzhonghaoxuanchuan.png" style="margin: 0 auto;" />  
 </div>
 
 ------
@@ -676,23 +676,23 @@ FAB 法则由下面 3 个单词组成（FAB 法则的名字就是由它们的首
 
 在 **[《Java 面试指北》](https://www.yuque.com/docs/share/f37fc804-bfe6-4b0d-b373-9c462188fec7)** 的 **「技术面试题自测篇」** ，我总结了 Java 面试中最重要的知识点的最常见的面试题并按照面试提问的方式展现出来。
 
-![](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/xingqiu/image-20220628102643202.png)
+![](https://oss.javaguide.cn/xingqiu/image-20220628102643202.png)
 
 每一道用于自测的面试题我都会给出重要程度，方便大家在时间比较紧张的时候根据自身情况来选择性自测。并且，我还会给出提示，方便你回忆起对应的知识点。
 
 在面试中如果你实在没有头绪的话，一个好的面试官也是会给你提示的。
 
-![](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/xingqiu/image-20220628102848236.png)
+![](https://oss.javaguide.cn/xingqiu/image-20220628102848236.png)
 
 欢迎准备 Java 面试以及学习 Java 的同学加入我的 **[知识星球](https://www.yuque.com/docs/share/8a30ffb5-83f3-40f9-baf9-38de68b906dc)** ，干货非常多，学习氛围非常好！收费虽然是白菜价，但星球里的内容或许比你参加上万的培训班质量还要高。
 
-![](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/xingqiu/image-20220311203414600.png)
+![](https://oss.javaguide.cn/xingqiu/image-20220311203414600.png)
 
 我有自己的原则，不割韭菜，用心做内容，真心希望帮助到你！
 
 如果你感兴趣的话，不妨花 3 分钟左右看看星球的详细介绍： **[JavaGuide 知识星球详细介绍](https://www.yuque.com/docs/share/8a30ffb5-83f3-40f9-baf9-38de68b906dc)**（文末有优惠券）。
 
-![](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/xingqiu/xingqiuyouhuijuan-20-2023-08-01.png)
+![](https://oss.javaguide.cn/xingqiu/xingqiuyouhuijuan-20-2023-08-01.png)
 
 
 
@@ -720,7 +720,7 @@ FAB 法则由下面 3 个单词组成（FAB 法则的名字就是由它们的首
 暑期实习通常是在春招的时候开始大规模招聘，面试难度大于日常的实习招聘，性价比也比日常实习要高。
 
 <div align="center">   
-    <img src="https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/github/javaguide/gongzhonghaoxuanchuan.png" style="margin: 0 auto;" />  
+    <img src="https://oss.javaguide.cn/github/javaguide/gongzhonghaoxuanchuan.png" style="margin: 0 auto;" />  
 </div>
 
 一般来说，暑期实习会在 6-7 月也就是暑期那会入职。
@@ -785,10 +785,10 @@ HR 面指的就是人力资源对你进行面试。HR 通常第一个问题就�
 
 本文节选自 **[《Java 面试指北》](https://www.yuque.com/docs/share/f37fc804-bfe6-4b0d-b373-9c462188fec7)** 的「面试准备篇」。
 
-![](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/xingqiu/image-20220304102536445.png)
+![](https://oss.javaguide.cn/xingqiu/image-20220304102536445.png)
 
 <div align="center">   
-    <img src="https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/github/javaguide/gongzhonghaoxuanchuan.png" style="margin: 0 auto;" />  
+    <img src="https://oss.javaguide.cn/github/javaguide/gongzhonghaoxuanchuan.png" style="margin: 0 auto;" />  
 </div>------
 
 
@@ -801,25 +801,25 @@ HR 面指的就是人力资源对你进行面试。HR 通常第一个问题就�
 
 如果你是非科班的同学，也能在这些文章中找到对应的非科班的同学写的面经。
 
-![](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/githubjuejinjihua/thinkimage-20220612185810480.png)
+![](https://oss.javaguide.cn/githubjuejinjihua/thinkimage-20220612185810480.png)
 
 并且，**[知识星球](https://www.yuque.com/docs/share/8a30ffb5-83f3-40f9-baf9-38de68b906dc)** 还有专门分享面经和面试题的专题，里面会分享很多优质的面经和面试题。
 
-![](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/xingqiu/image-20220304120018731.png)
+![](https://oss.javaguide.cn/xingqiu/image-20220304120018731.png)
 
-![](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/xingqiu/image-20220628101743381.png)
+![](https://oss.javaguide.cn/xingqiu/image-20220628101743381.png)
 
-![](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/xingqiu/image-20220628101805897.png)
+![](https://oss.javaguide.cn/xingqiu/image-20220628101805897.png)
 
 欢迎准备 Java 面试以及学习 Java 的同学加入我的 **[知识星球](https://www.yuque.com/docs/share/8a30ffb5-83f3-40f9-baf9-38de68b906dc)** ，干货非常多，学习氛围非常好！收费虽然是白菜价，但星球里的内容或许比你参加上万的培训班质量还要高。
 
-![](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/xingqiu/image-20220311203414600.png)
+![](https://oss.javaguide.cn/xingqiu/image-20220311203414600.png)
 
 我有自己的原则，不割韭菜，用心做内容，真心希望帮助到你！
 
 如果你感兴趣的话，不妨花 3 分钟左右看看星球的详细介绍： **[JavaGuide 知识星球详细介绍](https://www.yuque.com/docs/share/8a30ffb5-83f3-40f9-baf9-38de68b906dc)**（文末有优惠券）。
 
-![](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/xingqiu/xingqiuyouhuijuan-20-2023-08-01.png)------
+![](https://oss.javaguide.cn/xingqiu/xingqiuyouhuijuan-20-2023-08-01.png)------
 
 
 
@@ -839,7 +839,7 @@ HR 面指的就是人力资源对你进行面试。HR 通常第一个问题就�
 
 你可以通过慕课网、哔哩哔哩、拉勾、极客时间、培训机构（比如黑马、尚硅谷）等渠道获取到适合自己的实战项目视频/专栏。
 
-![慕课网实战课](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/javamianshizhibei/mukewangzhiazhanke.png)
+![慕课网实战课](https://oss.javaguide.cn/javamianshizhibei/mukewangzhiazhanke.png)
 
 尽量选择一个适合自己的项目，没必要必须做分布式/微服务项目，对于绝大部分同学来说，能把一个单机项目做好就已经很不错了。
 
@@ -859,7 +859,7 @@ Github 或者码云上面有很多实战类别项目，你可以选择一个来�
 
 你可以参考 [Java 优质开源实战项目](https://javaguide.cn/open-source-project/practical-project.html) 上面推荐的实战类开源项目，质量都很高，项目类型也比较全面，涵盖博客/论坛系统、考试/刷题系统、商城系统、权限管理系统、快速开发脚手架以及各种轮子。
 
-![Java 优质开源实战项目](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/javamianshizhibei/javaguide-practical-project.png)
+![Java 优质开源实战项目](https://oss.javaguide.cn/javamianshizhibei/javaguide-practical-project.png)
 
 
 
@@ -938,10 +938,10 @@ Github 或者码云上面有很多实战类别项目，你可以选择一个来�
 
 本文节选自 **[《Java 面试指北》](https://www.yuque.com/docs/share/f37fc804-bfe6-4b0d-b373-9c462188fec7)** 的「面试准备篇」。
 
-![](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/xingqiu/image-20220304102536445.png)
+![](https://oss.javaguide.cn/xingqiu/image-20220304102536445.png)
 
 <div align="center">   
-    <img src="https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/github/javaguide/gongzhonghaoxuanchuan.png" style="margin: 0 auto;" />  
+    <img src="https://oss.javaguide.cn/github/javaguide/gongzhonghaoxuanchuan.png" style="margin: 0 auto;" />  
 </div>
 ------
 
@@ -953,7 +953,7 @@ Github 或者码云上面有很多实战类别项目，你可以选择一个来�
 <div align="center">
     <p>
         <a href="https://www.yuque.com/docs/share/8a30ffb5-83f3-40f9-baf9-38de68b906dc">
-            <img src="https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/xingqiu/xingqiu.png" style="margin: 0 auto; width: 850px;" />
+            <img src="https://oss.javaguide.cn/xingqiu/xingqiu.png" style="margin: 0 auto; width: 850px;" />
         </a>
     </p>
     <p>
@@ -980,7 +980,7 @@ Java 虚拟机（JVM）是运行 Java 字节码的虚拟机。JVM 有针对不�
 
 除了我们平时最常用的 HotSpot VM 外，还有 J9 VM、Zing VM、JRockit VM 等 JVM 。维基百科上就有常见 JVM 的对比：[Comparison of Java virtual machines](https://en.wikipedia.org/wiki/Comparison_of_Java_virtual_machines) ，感兴趣的可以去看看。并且，你可以在 [Java SE Specifications](https://docs.oracle.com/javase/specs/index.html) 上找到各个版本的 JDK 对应的 JVM 规范。
 
-![](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/github/javaguide/java/basis/JavaSeSpecifications.jpg)
+![](https://oss.javaguide.cn/github/javaguide/java/basis/JavaSeSpecifications.jpg)
 
 #### JDK 和 JRE
 
@@ -996,7 +996,7 @@ JRE 是 Java 运行时环境。它是运行已编译 Java 程序所需的所有�
 
 **Java 程序从源代码到运行的过程如下图所示：**
 
-![Java程序转变为机器代码的过程](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/github/javaguide/java/basis/java-code-to-machine-code.png)
+![Java程序转变为机器代码的过程](https://oss.javaguide.cn/github/javaguide/java/basis/java-code-to-machine-code.png)
 
 我们需要格外注意的是 `.class->机器码` 这一步。在这一步 JVM 类加载器首先加载字节码文件，然后通过解释器逐行解释执行，这种方式的执行速度会相对比较慢。而且，有些方法和代码块是经常需要被调用的(也就是所谓的热点代码)，所以后面引进了 JIT（just-in-time compilation） 编译器，而 JIT 属于运行时编译。当 JIT 编译器完成第一次编译后，其会将字节码对应的机器码保存下来，下次可以直接使用。而我们知道，机器码的运行效率肯定是高于 Java 解释器的。这也解释了我们为什么经常会说 **Java 是编译与解释共存的语言** 。
 
@@ -1017,7 +1017,7 @@ AOT 可以提前编译节省启动时间，那为什么不全部使用这种编�
 - **编译型** ：[编译型语言](https://zh.wikipedia.org/wiki/%E7%B7%A8%E8%AD%AF%E8%AA%9E%E8%A8%80) 会通过[编译器](https://zh.wikipedia.org/wiki/%E7%B7%A8%E8%AD%AF%E5%99%A8)将源代码一次性翻译成可被该平台执行的机器码。一般情况下，编译语言的执行速度比较快，开发效率比较低。常见的编译性语言有 C、C++、Go、Rust 等等。
 - **解释型** ：[解释型语言](https://zh.wikipedia.org/wiki/%E7%9B%B4%E8%AD%AF%E8%AA%9E%E8%A8%80)会通过[解释器](https://zh.wikipedia.org/wiki/直譯器)一句一句的将代码解释（interpret）为机器代码后再执行。解释型语言开发效率比较快，执行速度比较慢。常见的解释性语言有 Python、JavaScript、PHP 等等。
 
-![编译型语言和解释型语言](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/github/javaguide/java/basis/compiled-and-interpreted-languages.png)
+![编译型语言和解释型语言](https://oss.javaguide.cn/github/javaguide/java/basis/compiled-and-interpreted-languages.png)
 
 根据维基百科介绍：
 
@@ -1026,7 +1026,7 @@ AOT 可以提前编译节省启动时间，那为什么不全部使用这种编�
 > 相关阅读：[基本功 | Java 即时编译器原理解析及实践](https://tech.meituan.com/2020/10/22/java-jit-practice-in-meituan.html)
 
 <div align="center">   
-    <img src="https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/github/javaguide/gongzhonghaoxuanchuan.png" style="margin: 0 auto;" />  
+    <img src="https://oss.javaguide.cn/github/javaguide/gongzhonghaoxuanchuan.png" style="margin: 0 auto;" />  
 </div>
 
 这是因为 Java 语言既具有编译型语言的特征，也具有解释型语言的特征。因为 Java 程序要经过先编译，后解释两个步骤，由 Java 编写的程序需要先经过编译步骤，生成字节码（`.class` 文件），这种字节码必须由 Java 解释器来解释执行。
@@ -1067,14 +1067,14 @@ AOT 可以提前编译节省启动时间，那为什么不全部使用这种编�
 >
 > 基于以上这些原因，OpenJDK 还是有存在的必要的！
 
-![oracle jdk release cadence](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/github/javaguide/java/basis/oracle-jdk-release-cadence.jpg)
+![oracle jdk release cadence](https://oss.javaguide.cn/github/javaguide/java/basis/oracle-jdk-release-cadence.jpg)
 
 🌈 拓展一下：
 
 - BCL 协议（Oracle Binary Code License Agreement）： 可以使用 JDK（支持商用），但是不能进行修改。
 - OTN 协议（Oracle Technology Network License Agreement）： 11 及之后新发布的 JDK 用的都是这个协议，可以自己私下用，但是商用需要付费。
 
-![](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/java-guide-blog/20210425151835918.png)
+![](https://oss.javaguide.cn/java-guide-blog/20210425151835918.png)
 
 相关阅读 👍：[《Differences Between Oracle JDK and OpenJDK》](https://www.baeldung.com/oracle-jdk-vs-openjdk)
 
@@ -1763,7 +1763,7 @@ System.out.println(person1.getAddress() == person1Copy.getAddress());
 
 我专门画了一张图来描述浅拷贝、深拷贝、引用拷贝：
 
-![浅拷贝、深拷贝、引用拷贝示意图](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/github/javaguide/java/basis/shallow&deep-copy.png)
+![浅拷贝、深拷贝、引用拷贝示意图](https://oss.javaguide.cn/github/javaguide/java/basis/shallow&deep-copy.png)
 
 ### Object
 
@@ -2025,7 +2025,7 @@ public final class String implements java.io.Serializable, Comparable<String>, C
 >
 > JDK 官方就说了绝大部分字符串对象只包含 Latin-1 可表示的字符。
 >
-> ![](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/github/javaguide/jdk9-string-latin1.png)
+> ![](https://oss.javaguide.cn/github/javaguide/jdk9-string-latin1.png)
 >
 > 如果字符串中包含的汉字超过 Latin-1 可表示范围内的字符，`byte` 和 `char` 所占用的空间是一样的。
 >
@@ -2044,7 +2044,7 @@ String str4 = str1 + str2 + str3;
 
 上面的代码对应的字节码如下：
 
-![](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/github/javaguide/java/image-20220422161637929.png)
+![](https://oss.javaguide.cn/github/javaguide/java/image-20220422161637929.png)
 
 可以看出，字符串对象通过“+”的字符串拼接方式，实际上是通过 `StringBuilder` 调用 `append()` 方法实现的，拼接完成之后调用 `toString()` 得到一个 `String` 对象 。
 
@@ -2061,7 +2061,7 @@ System.out.println(s);
 
 `StringBuilder` 对象是在循环内部被创建的，这意味着每循环一次就会创建一个 `StringBuilder` 对象。
 
-![](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/github/javaguide/java/image-20220422161320823.png)
+![](https://oss.javaguide.cn/github/javaguide/java/image-20220422161320823.png)
 
 如果直接使用 `StringBuilder` 对象进行字符串拼接的话，就不会存在这个问题了。
 
@@ -2074,7 +2074,7 @@ for (String value : arr) {
 System.out.println(s);
 ```
 
-![](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/github/javaguide/java/image-20220422162327415.png)
+![](https://oss.javaguide.cn/github/javaguide/java/image-20220422162327415.png)
 
 如果你使用 IDEA 的话，IDEA 自带的代码检查机制也会提示你修改代码。
 
@@ -2111,7 +2111,7 @@ String s1 = new String("abc");
 
 对应的字节码：
 
-![](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/github/javaguide/open-source-project/image-20220413175809959.png)
+![](https://oss.javaguide.cn/github/javaguide/open-source-project/image-20220413175809959.png)
 
 `ldc` 命令用于判断字符串常量池中是否保存了对应的字符串对象的引用，如果保存了的话直接返回，如果没有保存的话，会在堆中创建对应的字符串对象并将该字符串对象的引用保存到字符串常量池中。
 
@@ -2128,7 +2128,7 @@ String s2 = new String("abc");
 
 对应的字节码：
 
-![](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/github/javaguide/open-source-project/image-20220413180021072.png)
+![](https://oss.javaguide.cn/github/javaguide/open-source-project/image-20220413180021072.png)
 
 这里就不对上面的字节码进行详细注释了，7 这个位置的 `ldc` 命令不会在堆中创建新的字符串对象“abc”，这是因为 0 这个位置已经执行了一次 `ldc` 命令，已经在堆中创建过一次字符串对象“abc”了。7 这个位置执行 `ldc` 命令会直接返回字符串常量池中字符串对象“abc”对应的引用。
 
@@ -2176,13 +2176,13 @@ System.out.println(str4 == str5);//false
 
 > **注意** ：比较 String 字符串的值是否相等，可以使用 `equals()` 方法。 `String` 中的 `equals` 方法是被重写过的。 `Object` 的 `equals` 方法是比较的对象的内存地址，而 `String` 的 `equals` 方法比较的是字符串的值是否相等。如果你使用 `==` 比较两个字符串是否相等的话，IDEA 还是提示你使用 `equals()` 方法替换。
 
-![](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/java-guide-blog/image-20210817123252441.png)
+![](https://oss.javaguide.cn/java-guide-blog/image-20210817123252441.png)
 
 **对于编译期可以确定值的字符串，也就是常量字符串 ，jvm 会将其存入字符串常量池。并且，字符串常量拼接得到的字符串常量在编译阶段就已经被存放字符串常量池，这个得益于编译器的优化。**
 
 在编译过程中，Javac 编译器（下文中统称为编译器）会进行一个叫做 **常量折叠(Constant Folding)** 的代码优化。《深入理解 Java 虚拟机》中是也有介绍到：
 
-![](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/javaguide/image-20210817142715396.png)
+![](https://oss.javaguide.cn/javaguide/image-20210817142715396.png)
 
 常量折叠会把常量表达式的值求出来作为常量嵌在最终生成的代码中，这是 Javac 编译器会对源代码做的极少量优化措施之一(代码优化几乎都在即时编译器中进行)。
 
@@ -2245,13 +2245,13 @@ public static String getStr() {
 
 **Java 异常类层次结构图概览** ：
 
-![Java 异常类层次结构图](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/github/javaguide/java/basis/types-of-exceptions-in-java.png)
+![Java 异常类层次结构图](https://oss.javaguide.cn/github/javaguide/java/basis/types-of-exceptions-in-java.png)
 
 **Checked Exception** 即 受检查异常 ，Java 代码在编译过程中，如果受检查异常没有被 `catch`或者`throws` 关键字处理的话，就没办法通过编译。
 
 比如下面这段 IO 操作的代码：
 
-![](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/github/javaguide/java/basis/checked-exception.png)
+![](https://oss.javaguide.cn/github/javaguide/java/basis/checked-exception.png)
 
 除了`RuntimeException`及其子类以外，其他的`Exception`类及其子类都属于受检查异常 。常见的受检查异常有： IO 相关的异常、`ClassNotFoundException` 、`SQLException`...。
 
@@ -2269,7 +2269,7 @@ public static String getStr() {
 - `UnsupportedOperationException`(不支持的操作错误比如重复创建同一用户)
 - ......
 
-![](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/github/javaguide/java/basis/unchecked-exception.png)
+![](https://oss.javaguide.cn/github/javaguide/java/basis/unchecked-exception.png)
 
 ### Throwable 类常用方法有哪些？
 
@@ -2494,7 +2494,7 @@ SPI 将服务接口和具体的服务实现分离开来，将服务调用方和�
 
 很多框架都使用了 Java 的 SPI 机制，比如：Spring 框架、数据库加载驱动、日志接口、以及 Dubbo 的扩展实现等等。
 
-![](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/github/javaguide/java/basis/spi/22e1830e0b0e4115a882751f6c417857tplv-k3u1fbpfcp-zoom-1.jpeg)
+![](https://oss.javaguide.cn/github/javaguide/java/basis/spi/22e1830e0b0e4115a882751f6c417857tplv-k3u1fbpfcp-zoom-1.jpeg)
 
 ### SPI 和 API 有什么区别？
 
@@ -2502,7 +2502,7 @@ SPI 将服务接口和具体的服务实现分离开来，将服务调用方和�
 
 说到 SPI 就不得不说一下 API 了，从广义上来说它们都属于接口，而且很容易混淆。下面先用一张图说明一下：
 
-![](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/github/javaguide/java/basis/spi/1ebd1df862c34880bc26b9d494535b3dtplv-k3u1fbpfcp-watermark.png)
+![](https://oss.javaguide.cn/github/javaguide/java/basis/spi/1ebd1df862c34880bc26b9d494535b3dtplv-k3u1fbpfcp-watermark.png)
 
 一般模块之间都是通过通过接口进行通讯，那我们在服务调用方和服务实现方（也称服务提供者）之间引入一个“接口”。
 
@@ -2581,7 +2581,7 @@ Java IO 流的 40 多个类都是从如下 4 个抽象类基类中派生出来�
 [Java IO 模型详解](https://javaguide.cn/java/io/io-model.html)。
 
 <div align="center">   
-    <img src="https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/github/javaguide/gongzhonghaoxuanchuan.png" style="margin: 0 auto;" />  
+    <img src="https://oss.javaguide.cn/github/javaguide/gongzhonghaoxuanchuan.png" style="margin: 0 auto;" />  
 </div>
 ------
 
@@ -2600,7 +2600,7 @@ Java 集合， 也叫作容器，主要是由两大接口派生而来：一个�
 
 Java 集合框架如下图所示：
 
-![](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/github/javaguide/java/collection/java-collection-hierarchy.png)
+![](https://oss.javaguide.cn/github/javaguide/java/collection/java-collection-hierarchy.png)
 
 
 注：图中只列举了主要的继承派生关系，并没有列举所有关系。比方省略了`AbstractList`, `NavigableSet`等抽象类以及其他的一些辅助类，如想深入了解，可自行查看源码。
@@ -2673,7 +2673,7 @@ Java 集合框架如下图所示：
 
 我们在项目中一般是不会使用到 `LinkedList` 的，需要用到 `LinkedList` 的场景几乎都可以使用  `ArrayList`  来代替，并且，性能通常会更好！就连 `LinkedList` 的作者约书亚 · 布洛克（Josh Bloch）自己都说从来不会使用 `LinkedList` 。
 
-![](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/github/javaguide/redisimage-20220412110853807.png)
+![](https://oss.javaguide.cn/github/javaguide/redisimage-20220412110853807.png)
 
 另外，不要下意识地认为 `LinkedList`  作为链表就最适合元素增删的场景。我在上面也说了，`LinkedList`  仅仅在头尾插入或者删除元素的时候时间复杂度近似 O(1)，其他情况增删元素的时间复杂度都是 O(n) 。
 
@@ -2969,7 +2969,7 @@ Output：
 
 `TreeMap` 和`HashMap` 都继承自`AbstractMap` ，但是需要注意的是`TreeMap`它还实现了`NavigableMap`接口和`SortedMap` 接口。
 
-![TreeMap 继承关系图](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/github/javaguide/java/collection/treemap_hierarchy.png)
+![TreeMap 继承关系图](https://oss.javaguide.cn/github/javaguide/java/collection/treemap_hierarchy.png)
 
 实现 `NavigableMap` 接口让 `TreeMap` 有了对集合内元素的搜索的能力。
 
@@ -3101,13 +3101,13 @@ static int hash(int h) {
 
 所谓 **“拉链法”** 就是：将链表和数组相结合。也就是说创建一个链表数组，数组中每一格就是一个链表。若遇到哈希冲突，则将冲突的值加到链表中即可。
 
-![jdk1.8 之前的内部结构-HashMap](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/github/javaguide/java/collection/jdk1.7_hashmap.png)
+![jdk1.8 之前的内部结构-HashMap](https://oss.javaguide.cn/github/javaguide/java/collection/jdk1.7_hashmap.png)
 
 #### JDK1.8 之后
 
 相比于之前的版本， JDK1.8 之后在解决哈希冲突时有了较大的变化，当链表长度大于阈值（默认为 8）（将链表转换成红黑树前会判断，如果当前数组的长度小于 64，那么会选择先进行数组扩容，而不是转换为红黑树）时，将链表转化为红黑树，以减少搜索时间。
 
-![jdk1.8之后的内部结构-HashMap](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/github/javaguide/java/collection/jdk1.8_hashmap.png)
+![jdk1.8之后的内部结构-HashMap](https://oss.javaguide.cn/github/javaguide/java/collection/jdk1.8_hashmap.png)
 
 > TreeMap、TreeSet 以及 JDK1.8 之后的 HashMap 底层都用到了红黑树。红黑树就是为了解决二叉查找树的缺陷，因为二叉查找树在某些情况下会退化成一个线性结构。
 
@@ -3199,13 +3199,13 @@ final void treeifyBin(Node<K,V>[] tab, int hash) {
 
 **Hashtable** :
 
-![Hashtable 的内部结构](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/github/javaguide/java/collection/jdk1.7_hashmap.png)
+![Hashtable 的内部结构](https://oss.javaguide.cn/github/javaguide/java/collection/jdk1.7_hashmap.png)
 
 <p style="text-align:right;font-size:13px;color:gray">https://www.cnblogs.com/chengxiao/p/6842045.html></p>
 
 **JDK1.7 的 ConcurrentHashMap** ：
 
-![Java7 ConcurrentHashMap 存储结构](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/github/javaguide/java/collection/java7_concurrenthashmap.png)
+![Java7 ConcurrentHashMap 存储结构](https://oss.javaguide.cn/github/javaguide/java/collection/java7_concurrenthashmap.png)
 
 `ConcurrentHashMap` 是由 `Segment` 数组结构和 `HashEntry` 数组结构组成。
 
@@ -3213,7 +3213,7 @@ final void treeifyBin(Node<K,V>[] tab, int hash) {
 
 **JDK1.8 的 ConcurrentHashMap** ：
 
-![Java8 ConcurrentHashMap 存储结构](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/github/javaguide/java/collection/java8_concurrenthashmap.png)
+![Java8 ConcurrentHashMap 存储结构](https://oss.javaguide.cn/github/javaguide/java/collection/java8_concurrenthashmap.png)
 
 JDK1.8 的 `ConcurrentHashMap` 不再是 **Segment 数组 + HashEntry 数组 + 链表**，而是 **Node 数组 + 链表 / 红黑树**。不过，Node 只能用于链表的情况，红黑树的情况需要使用 **`TreeNode`**。当冲突链表达到一定长度时，链表会转换成红黑树。
 
@@ -3237,7 +3237,7 @@ static final class TreeBin<K,V> extends Node<K,V> {
 
 #### JDK1.8 之前
 
-![Java7 ConcurrentHashMap 存储结构](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/github/javaguide/java/collection/java7_concurrenthashmap.png)
+![Java7 ConcurrentHashMap 存储结构](https://oss.javaguide.cn/github/javaguide/java/collection/java7_concurrenthashmap.png)
 
 首先将数据分为一段一段（这个“段”就是 `Segment`）的存储，然后给每一段数据配一把锁，当一个线程占用锁访问其中一个段数据时，其他段的数据也能被其他线程访问。
 
@@ -3256,7 +3256,7 @@ static class Segment<K,V> extends ReentrantLock implements Serializable {
 
 #### JDK1.8 之后
 
-![Java8 ConcurrentHashMap 存储结构](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/github/javaguide/java/collection/java8_concurrenthashmap.png)
+![Java8 ConcurrentHashMap 存储结构](https://oss.javaguide.cn/github/javaguide/java/collection/java8_concurrenthashmap.png)
 
 Java 8 几乎完全重写了 `ConcurrentHashMap`，代码量从原来 Java 7 中的 1000 多行，变成了现在的 6000 多行。
 
@@ -3271,7 +3271,7 @@ Java 8 中，锁粒度更细，`synchronized` 只锁定当前链表或红黑二�
 - **并发度** ：JDK 1.7 最大并发度是 Segment 的个数，默认是 16。JDK 1.8 最大并发度是 Node 数组的大小，并发度更大。
 
 <div align="center">   
-    <img src="https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/github/javaguide/gongzhonghaoxuanchuan.png" style="margin: 0 auto;" />  
+    <img src="https://oss.javaguide.cn/github/javaguide/gongzhonghaoxuanchuan.png" style="margin: 0 auto;" />  
 </div>
 ------
 
@@ -3340,7 +3340,7 @@ public class MultiThread {
 
 下图是 Java 内存区域，通过下图我们从 JVM 的角度来说一下线程和进程之间的关系。
 
-![Java 运行时数据区域（JDK1.8 之后）](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/github/javaguide/java/jvm/java-runtime-data-areas-jdk1.8.png)
+![Java 运行时数据区域（JDK1.8 之后）](https://oss.javaguide.cn/github/javaguide/java/jvm/java-runtime-data-areas-jdk1.8.png)
 
 从上图可以看出：一个进程中可以有多个线程，多个线程共享进程的**堆**和**方法区 (JDK1.8 之后的元空间)**资源，但是每个线程有自己的**程序计数器**、**虚拟机栈** 和 **本地方法栈**。
 
@@ -3415,7 +3415,7 @@ Java 线程在运行的生命周期中的指定时刻只可能处于下面 6 种
 
 Java 线程状态变迁图(图源：[挑错 |《Java 并发编程的艺术》中关于线程状态的三处错误](https://mp.weixin.qq.com/s/UOrXql_LhOD8dhTq_EPI0w))：
 
-![Java 线程状态变迁图](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/github/javaguide/java/concurrent/640.png)
+![Java 线程状态变迁图](https://oss.javaguide.cn/github/javaguide/java/concurrent/640.png)
 
 由上图可以看出：线程创建之后它将处于 **NEW（新建）** 状态，调用 `start()` 方法后开始运行，线程这时候处于 **READY（可运行）** 状态。可运行状态的线程获得了 CPU 时间片（timeslice）后就处于 **RUNNING（运行）** 状态。
 
@@ -3601,9 +3601,9 @@ JMM（Java 内存模型）相关的问题比较多，也比较重要，于是我
 
 在 Java 中，`volatile` 关键字可以保证变量的可见性，如果我们将变量声明为 **`volatile`** ，这就指示 JVM，这个变量是共享且不稳定的，每次使用它都到主存中进行读取。
 
-![JMM(Java 内存模型)](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/github/javaguide/java/concurrent/jmm.png)
+![JMM(Java 内存模型)](https://oss.javaguide.cn/github/javaguide/java/concurrent/jmm.png)
 
-![JMM(Java 内存模型)强制在主存中进行读取](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/github/javaguide/java/concurrent/jmm2.png)
+![JMM(Java 内存模型)强制在主存中进行读取](https://oss.javaguide.cn/github/javaguide/java/concurrent/jmm2.png)
 
 `volatile` 关键字其实并非是 Java 语言特有的，在 C 语言里也有，它最原始的意义就是禁用 CPU 缓存。如果我们将一个变量使用 `volatile` 修饰，这就指示 编译器，这个变量是共享且不稳定的，每次使用它都到主存中进行读取。
 
@@ -3752,7 +3752,7 @@ public void increase() {
 ```
 
 <div align="center">   
-    <img src="https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/github/javaguide/gongzhonghaoxuanchuan.png" style="margin: 0 auto;" />  
+    <img src="https://oss.javaguide.cn/github/javaguide/gongzhonghaoxuanchuan.png" style="margin: 0 auto;" />  
 </div>
 
 ### synchronized 关键字
@@ -3853,11 +3853,11 @@ public class SynchronizedDemo {
 
 在执行`monitorenter`时，会尝试获取对象的锁，如果锁的计数器为 0 则表示锁可以被获取，获取后将锁计数器设为 1 也就是加 1。
 
-![执行 monitorenter 获取锁](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/github/javaguide/java/concurrent/synchronized-get-lock-code-block.png)
+![执行 monitorenter 获取锁](https://oss.javaguide.cn/github/javaguide/java/concurrent/synchronized-get-lock-code-block.png)
 
 对象锁的的拥有者线程才可以执行 `monitorexit` 指令来释放锁。在执行 `monitorexit` 指令后，将锁计数器设为 0，表明锁被释放，其他线程可以尝试获取锁。
 
-![执行 monitorexit 释放锁](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/github/javaguide/java/concurrent/synchronized-release-lock-block.png)
+![执行 monitorexit 释放锁](https://oss.javaguide.cn/github/javaguide/java/concurrent/synchronized-release-lock-block.png)
 
 如果获取对象锁失败，那当前线程就要阻塞等待，直到锁被另外一个线程释放为止。
 
@@ -4066,11 +4066,11 @@ ThreadLocalMap(ThreadLocal<?> firstKey, Object firstValue) {
 
 `ThreadLocal` 数据结构如下图所示：
 
-![ThreadLocal 数据结构](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/github/javaguide/java/concurrent/threadlocal-data-structure.png)
+![ThreadLocal 数据结构](https://oss.javaguide.cn/github/javaguide/java/concurrent/threadlocal-data-structure.png)
 
 `ThreadLocalMap`是`ThreadLocal`的静态内部类。
 
-![ThreadLocal内部类](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/github/javaguide/java/concurrent/thread-local-inner-class.png)
+![ThreadLocal内部类](https://oss.javaguide.cn/github/javaguide/java/concurrent/thread-local-inner-class.png)
 
 #### ThreadLocal 内存泄露问题是怎么导致的？
 
@@ -4105,7 +4105,7 @@ static class Entry extends WeakReference<ThreadLocal<?>> {
 AQS 相关的知识点和面试题总结请看这篇文章：[AQS 详解](https://javaguide.cn/java/concurrent/aqs.html) （由于内容比较多就不放在 PDF 里面了）。
 
 <div align="center">   
-    <img src="https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/github/javaguide/gongzhonghaoxuanchuan.png" style="margin: 0 auto;" />  
+    <img src="https://oss.javaguide.cn/github/javaguide/gongzhonghaoxuanchuan.png" style="margin: 0 auto;" />  
 </div>
 ------
 
@@ -4122,7 +4122,7 @@ AQS 相关的知识点和面试题总结请看这篇文章：[AQS 详解](https:
 5. [类加载器详解](https://javaguide.cn/java/jvm/classloader.html)
 
 <div align="center">   
-    <img src="https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/github/javaguide/gongzhonghaoxuanchuan.png" style="margin: 0 auto;" />  
+    <img src="https://oss.javaguide.cn/github/javaguide/gongzhonghaoxuanchuan.png" style="margin: 0 auto;" />  
 </div>------
 
 # 3. 计算机基础
@@ -4132,7 +4132,7 @@ AQS 相关的知识点和面试题总结请看这篇文章：[AQS 详解](https:
 <div align="center">
     <p>
         <a href="https://www.yuque.com/docs/share/8a30ffb5-83f3-40f9-baf9-38de68b906dc">
-            <img src="https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/xingqiu/xingqiu.png" style="margin: 0 auto; width: 850px;" />
+            <img src="https://oss.javaguide.cn/xingqiu/xingqiu.png" style="margin: 0 auto; width: 850px;" />
         </a>
     </p>
     <p>
@@ -4147,7 +4147,7 @@ AQS 相关的知识点和面试题总结请看这篇文章：[AQS 详解](https:
 
 **OSI 七层模型** 是国际标准化组织提出一个网络分层模型，其大体结构以及每一层提供的功能如下图所示：
 
-![OSI 七层模型](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/github/javaguide/cs-basics/network/osi-7-model.png)
+![OSI 七层模型](https://oss.javaguide.cn/github/javaguide/cs-basics/network/osi-7-model.png)
 
 每一层都专注做一件事情，并且每一层都需要使用下一层提供的功能比如传输层需要使用网络层提供的路由和寻址功能，这样传输层才知道把数据传输到哪里去。
 
@@ -4155,7 +4155,7 @@ AQS 相关的知识点和面试题总结请看这篇文章：[AQS 详解](https:
 
 上面这种图可能比较抽象，再来一个比较生动的图片。下面这个图片是我在国外的一个网站上看到的，非常赞！
 
-![osi七层模型2](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/github/javaguide/osi七层模型2.png)
+![osi七层模型2](https://oss.javaguide.cn/github/javaguide/osi七层模型2.png)
 
 **既然 OSI 七层模型这么厉害，为什么干不过 TCP/IP 四 层模型呢？**
 
@@ -4170,7 +4170,7 @@ OSI 七层模型虽然失败了，但是却提供了很多不错的理论基础�
 
 最后再分享一个关于 OSI 七层模型非常不错的总结图片！
 
-![](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/github/javaguide/cs-basics/network/osi-model-detail.png)
+![](https://oss.javaguide.cn/github/javaguide/cs-basics/network/osi-model-detail.png)
 
 ### TCP/IP 四层模型是什么？每一层的作用是什么？
 
@@ -4183,22 +4183,22 @@ OSI 七层模型虽然失败了，但是却提供了很多不错的理论基础�
 
 需要注意的是，我们并不能将 TCP/IP 四层模型 和 OSI 七层模型完全精确地匹配起来，不过可以简单将两者对应起来，如下图所示：
 
-![TCP/IP 四层模型](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/github/javaguide/cs-basics/network/tcp-ip-4-model.png)
+![TCP/IP 四层模型](https://oss.javaguide.cn/github/javaguide/cs-basics/network/tcp-ip-4-model.png)
 
 #### 应用层（Application layer）
 
 **应用层位于传输层之上，主要提供两个终端设备上的应用程序之间信息交换的服务，它定义了信息交换的格式，消息会交给下一层传输层来传输。** 我们把应用层交互的数据单元称为报文。
 
-![](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/github/javaguide/5971-2-7I1-20220111095024771-20220111201807861.png)
+![](https://oss.javaguide.cn/github/javaguide/5971-2-7I1-20220111095024771-20220111201807861.png)
 
 应用层协议定义了网络通信规则，对于不同的网络应用需要不同的应用层协议。在互联网中应用层协议很多，如支持 Web 应用的 HTTP 协议，支持电子邮件的 SMTP 协议等等。
 
-![应用层重要协议](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/github/javaguide/cs-basics/network/application-layer-protocol.png)
+![应用层重要协议](https://oss.javaguide.cn/github/javaguide/cs-basics/network/application-layer-protocol.png)
 
 应用层常见协议总结，请看这篇文章：[应用层常见协议总结（应用层）](https://javaguide.cn/cs-basics/network/application-layer-protocol.html)。
 
 <div align="center">   
-    <img src="https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/github/javaguide/gongzhonghaoxuanchuan.png" style="margin: 0 auto;" />  
+    <img src="https://oss.javaguide.cn/github/javaguide/gongzhonghaoxuanchuan.png" style="margin: 0 auto;" />  
 </div>
 
 #### 传输层（Transport layer）
@@ -4210,7 +4210,7 @@ OSI 七层模型虽然失败了，但是却提供了很多不错的理论基础�
 1. **传输控制协议 TCP**（Transmisson Control Protocol）--提供 **面向连接** 的，**可靠的** 数据传输服务。
 2. **用户数据协议 UDP**（User Datagram Protocol）--提供 **无连接** 的，尽最大努力的数据传输服务（不保证数据传输的可靠性）。
 
-![传输层重要协议](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/github/javaguide/cs-basics/network/transport-layer-protocol.png)
+![传输层重要协议](https://oss.javaguide.cn/github/javaguide/cs-basics/network/transport-layer-protocol.png)
 
 #### 网络层（Network layer）
 
@@ -4224,7 +4224,7 @@ OSI 七层模型虽然失败了，但是却提供了很多不错的理论基础�
 
 互联网是由大量的异构（heterogeneous）网络通过路由器（router）相互连接起来的。互联网使用的网络层协议是无连接的网际协议（Intert Prococol）和许多路由选择协议，因此互联网的网络层也叫做 **网际层** 或 **IP 层**。
 
-![网络层重要协议](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/github/javaguide/cs-basics/network/nerwork-layer-protocol.png)
+![网络层重要协议](https://oss.javaguide.cn/github/javaguide/cs-basics/network/nerwork-layer-protocol.png)
 
 **网络层常见协议** ：
 
@@ -4240,13 +4240,13 @@ OSI 七层模型虽然失败了，但是却提供了很多不错的理论基础�
 1. 数据链路层(data link layer)通常简称为链路层（ 两台主机之间的数据传输，总是在一段一段的链路上传送的）。**数据链路层的作用是将网络层交下来的 IP 数据报组装成帧，在两个相邻节点间的链路上传送帧。每一帧包括数据和必要的控制信息（如同步信息，地址信息，差错控制等）。**
 2. **物理层的作用是实现相邻计算机节点之间比特流的透明传送，尽可能屏蔽掉具体传输介质和物理设备的差异**
 
-![网络接口层重要协议](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/github/javaguide/cs-basics/network/network-interface-layer-protocol.png)
+![网络接口层重要协议](https://oss.javaguide.cn/github/javaguide/cs-basics/network/network-interface-layer-protocol.png)
 
 #### 总结
 
 简单总结一下每一层包含的协议和核心技术:
 
-![TCP/IP 各层协议概览](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/github/javaguide/cs-basics/network/network-protocol-overview.png)
+![TCP/IP 各层协议概览](https://oss.javaguide.cn/github/javaguide/cs-basics/network/network-protocol-overview.png)
 
 **应用层协议** :
 
@@ -4440,7 +4440,7 @@ HTTP 是一种不保存状态，即无状态（stateless）协议。也就是说
 URI 的作用像身份证号一样，URL 的作用更像家庭住址一样。URL 是一种具体的 URI，它不仅唯一标识资源，而且还提供了定位该资源的信息。
 
 <div align="center">   
-    <img src="https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/github/javaguide/gongzhonghaoxuanchuan.png" style="margin: 0 auto;" />  
+    <img src="https://oss.javaguide.cn/github/javaguide/gongzhonghaoxuanchuan.png" style="margin: 0 auto;" />  
 </div>
 
 ## 3.2 操作系统
@@ -4460,7 +4460,7 @@ URI 的作用像身份证号一样，URL 的作用更像家庭住址一样。URL
 3. **操作系统存在屏蔽了硬件层的复杂性。** 操作系统就像是硬件使用的负责人，统筹着各种相关事项。
 4. **操作系统的内核（Kernel）是操作系统的核心部分，它负责系统的内存管理，硬件设备的管理，文件系统的管理以及应用程序的管理**。 内核是连接应用程序和硬件的桥梁，决定着系统的性能和稳定性。
 
-![Kernel_Layout](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/2020-8/Kernel_Layout.png)
+![Kernel_Layout](https://oss.javaguide.cn/2020-8/Kernel_Layout.png)
 
 #### 系统调用
 
@@ -4495,7 +4495,7 @@ URI 的作用像身份证号一样，URL 的作用更像家庭住址一样。URL
 
 🙋 **我：** 好的！ 下图是 Java 内存区域，我们从 JVM 的角度来说一下线程和进程之间的关系吧！
 
-![Java 运行时数据区域（JDK1.8 之后）](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/github/javaguide/java/jvm/java-runtime-data-areas-jdk1.8.png)
+![Java 运行时数据区域（JDK1.8 之后）](https://oss.javaguide.cn/github/javaguide/java/jvm/java-runtime-data-areas-jdk1.8.png)
 
 从上图可以看出：一个进程中可以有多个线程，多个线程共享进程的**堆**和**方法区 (JDK1.8 之后的元空间)**资源，但是每个线程有自己的**程序计数器**、**虚拟机栈** 和 **本地方法栈**。
 
@@ -4637,7 +4637,7 @@ URI 的作用像身份证号一样，URL 的作用更像家庭住址一样。URL
 
 图中 2-21 是**进程-资源分配图**的一个例子，其中共有三个资源类，每个进程的资源占有和申请情况已清楚地表示在图中。在这个例子中，由于存在 **占有和等待资源的环路** ，导致一组进程永远处于等待资源的状态，发生了 **死锁**。
 
-![进程-资源分配图](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/github/javaguide/cs-basics/operating-system/process-resource-allocation-diagram.jpg)
+![进程-资源分配图](https://oss.javaguide.cn/github/javaguide/cs-basics/operating-system/process-resource-allocation-diagram.jpg)
 
 进程-资源分配图中存在环路并不一定是发生了死锁。因为循环等待资源仅仅是死锁发生的必要条件，而不是充分条件。图 2-22 便是一个有环路而无死锁的例子。虽然进程 P1 和进程 P3 分别占用了一个资源 R1 和一个资源 R2，并且因为等待另一个资源 R2 和另一个资源 R1 形成了环路，但进程 P2 和进程 P4 分别占有了一个资源 R1 和一个资源 R2，它们申请的资源得到了满足，在有限的时间里会归还资源，于是进程 P1 或 P3 都能获得另一个所需的资源，环路自动解除，系统也就不存在死锁状态了。
 
@@ -4870,7 +4870,7 @@ URI 的作用像身份证号一样，URL 的作用更像家庭住址一样。URL
 ![](https://img-blog.csdnimg.cn/8a6d676d7f904ec687cb1918d8b88939.png)
 
 <div align="center">   
-    <img src="https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/github/javaguide/gongzhonghaoxuanchuan.png" style="margin: 0 auto;" />  
+    <img src="https://oss.javaguide.cn/github/javaguide/gongzhonghaoxuanchuan.png" style="margin: 0 auto;" />  
 </div>
 
 
@@ -4888,7 +4888,7 @@ URI 的作用像身份证号一样，URL 的作用更像家庭住址一样。URL
 - [十大经典排序算法总结](https://javaguide.cn/cs-basics/algorithms/10-classical-sorting-algorithms.html)
 
 <div align="center">   
-    <img src="https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/github/javaguide/gongzhonghaoxuanchuan.png" style="margin: 0 auto;" />  
+    <img src="https://oss.javaguide.cn/github/javaguide/gongzhonghaoxuanchuan.png" style="margin: 0 auto;" />  
 </div>
 
 
@@ -4902,7 +4902,7 @@ URI 的作用像身份证号一样，URL 的作用更像家庭住址一样。URL
 <div align="center">
     <p>
         <a href="https://www.yuque.com/docs/share/8a30ffb5-83f3-40f9-baf9-38de68b906dc">
-            <img src="https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/xingqiu/xingqiu.png" style="margin: 0 auto; width: 850px;" />
+            <img src="https://oss.javaguide.cn/xingqiu/xingqiu.png" style="margin: 0 auto; width: 850px;" />
         </a>
     </p>
     <p>
@@ -5073,7 +5073,7 @@ truncate 和 drop 属于 DDL(数据定义语言)语句，操作立即生效，�
 
 关系型数据库中，我们的数据都被存放在了各种表中（比如用户表），表中的每一行就存放着一条数据（比如一个用户的信息）。
 
-![](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/java-guide-blog/5e3c1a71724a38245aa43b02_99bf70d46cc247be878de9d3a88f0c44.png)
+![](https://oss.javaguide.cn/java-guide-blog/5e3c1a71724a38245aa43b02_99bf70d46cc247be878de9d3a88f0c44.png)
 
 大部分关系型数据库都使用 SQL 来操作数据库中的数据。并且，大部分关系型数据库都支持事务的四大特性(ACID)。
 
@@ -5090,14 +5090,14 @@ MySQL、PostgreSQL、Oracle、SQL Server、SQLite（微信本地的聊天记录�
 由于 MySQL 是开源免费并且比较成熟的数据库，因此，MySQL 被大量使用在各种系统中。任何人都可以在 GPL(General Public License) 的许可下下载并根据个性化的需要对其进行修改。MySQL 的默认端口号是**3306**。
 
 <div align="center">   
-    <img src="https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/github/javaguide/gongzhonghaoxuanchuan.png" style="margin: 0 auto;" />  
+    <img src="https://oss.javaguide.cn/github/javaguide/gongzhonghaoxuanchuan.png" style="margin: 0 auto;" />  
 </div>
 
 ### MySQL 基础架构
 
 下图是 MySQL 的一个简要架构图，从下图你可以很清晰的看到客户端的一条 SQL 语句在 MySQL 内部是如何执行的。
 
-![](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/javaguide/13526879-3037b144ed09eb88.png)
+![](https://oss.javaguide.cn/javaguide/13526879-3037b144ed09eb88.png)
 
 从上图可以看出， MySQL 主要由下面几部分构成：
 
@@ -5116,7 +5116,7 @@ MySQL 核心在于存储引擎，想要深入学习 MySQL，必定要深入研�
 
 MySQL 支持多种存储引擎，你可以通过 `show engines` 命令来查看 MySQL 支持的所有存储引擎。
 
-![查看 MySQL 提供的所有存储引擎](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/github/javaguide/mysql/image-20220510105408703.png)
+![查看 MySQL 提供的所有存储引擎](https://oss.javaguide.cn/github/javaguide/mysql/image-20220510105408703.png)
 
 从上图我们可以查看出， MySQL 当前默认的存储引擎是 InnoDB。并且，所有的存储引擎中只有 InnoDB 是事务性存储引擎，也就是说只有 InnoDB 支持事务。
 
@@ -5138,18 +5138,18 @@ MySQL 5.5.5 之前，MyISAM 是 MySQL 的默认存储引擎。5.5.5 版本之后
 
 你也可以通过 `show variables like '%storage_engine%'` 命令直接查看 MySQL 当前默认的存储引擎。
 
-![查看 MySQL 当前默认的存储引擎](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/github/javaguide/mysql/image-20220510105837786.png)
+![查看 MySQL 当前默认的存储引擎](https://oss.javaguide.cn/github/javaguide/mysql/image-20220510105837786.png)
 
 如果你只想查看数据库中某个表使用的存储引擎的话，可以使用 `show table status from db_name where name='table_name'`命令。
 
-![查看表的存储引擎](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/github/javaguide/mysql/image-20220510110549140.png)
+![查看表的存储引擎](https://oss.javaguide.cn/github/javaguide/mysql/image-20220510110549140.png)
 
 如果你想要深入了解每个存储引擎以及它们之间的区别，推荐你去阅读以下 MySQL 官方文档对应的介绍(面试不会问这么细，了解即可)：
 
 - InnoDB 存储引擎详细介绍：https://dev.mysql.com/doc/refman/8.0/en/innodb-storage-engine.html 。
 - 其他存储引擎详细介绍：https://dev.mysql.com/doc/refman/8.0/en/storage-engines.html 。
 
-![](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/github/javaguide/mysql/image-20220510155143458.png)
+![](https://oss.javaguide.cn/github/javaguide/mysql/image-20220510155143458.png)
 
 #### MySQL 存储引擎架构了解吗？
 
@@ -5193,7 +5193,7 @@ MyISAM 不支持，而 InnoDB 支持。
 
 阿里的《Java 开发手册》也是明确规定禁止使用外键的。
 
-![](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/github/javaguide/mysql/image-20220510090309427.png)
+![](https://oss.javaguide.cn/github/javaguide/mysql/image-20220510090309427.png)
 
 不过，在代码中进行约束的话，对程序员的能力要求更高，具体是否要采用外键还是要根据你的项目实际情况而定。
 
@@ -5232,7 +5232,7 @@ InnoDB 引擎中，其数据文件本身就是索引文件。相比 MyISAM，索
 因此，对于咱们日常开发的业务系统来说，你几乎找不到什么理由再使用 MyISAM 作为自己的 MySQL 数据库的存储引擎。
 
 <div align="center">   
-    <img src="https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/github/javaguide/gongzhonghaoxuanchuan.png" style="margin: 0 auto;" />  
+    <img src="https://oss.javaguide.cn/github/javaguide/gongzhonghaoxuanchuan.png" style="margin: 0 auto;" />  
 </div>
 
 ### MySQL 查询缓存
@@ -5285,7 +5285,7 @@ select sql_no_cache count(*) from usr;
 
 事务会把这两个操作就可以看成逻辑上的一个整体，这个整体包含的操作要么都成功，要么都要失败。这样就不会出现小明余额减少而小红的余额却并没有增加的情况。
 
-![事务示意图](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/github/javaguide/mysql/%E4%BA%8B%E5%8A%A1%E7%A4%BA%E6%84%8F%E5%9B%BE.png)
+![事务示意图](https://oss.javaguide.cn/github/javaguide/mysql/%E4%BA%8B%E5%8A%A1%E7%A4%BA%E6%84%8F%E5%9B%BE.png)
 
 #### 何谓数据库事务？
 
@@ -5306,11 +5306,11 @@ SQL1,SQL2...
 COMMIT;
 ```
 
-![数据库事务示意图](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/github/javaguide/mysql/%E6%95%B0%E6%8D%AE%E5%BA%93%E4%BA%8B%E5%8A%A1%E7%A4%BA%E6%84%8F%E5%9B%BE.png)
+![数据库事务示意图](https://oss.javaguide.cn/github/javaguide/mysql/%E6%95%B0%E6%8D%AE%E5%BA%93%E4%BA%8B%E5%8A%A1%E7%A4%BA%E6%84%8F%E5%9B%BE.png)
 
 另外，关系型数据库（例如：`MySQL`、`SQL Server`、`Oracle` 等）事务都有 **ACID** 特性：
 
-![ACID](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/github/javaguide/mysql/ACID.png)
+![ACID](https://oss.javaguide.cn/github/javaguide/mysql/ACID.png)
 
 1. **原子性**（`Atomicity`） ： 事务是最小的执行单位，不允许分割。事务的原子性确保动作要么全部完成，要么完全不起作用；
 2. **一致性**（`Consistency`）： 执行事务前后，数据保持一致，例如转账业务中，无论事务是否成功，转账者和收款人的总额应该是不变的；
@@ -5319,7 +5319,7 @@ COMMIT;
 
 🌈 这里要额外补充一点：**只有保证了事务的持久性、原子性、隔离性之后，一致性才能得到保障。也就是说 A、I、D 是手段，C 是目的！** 想必大家也和我一样，被 ACID 这个概念被误导了很久! 我也是看周志明老师的公开课[《周志明的软件架构课》](https://time.geekbang.org/opencourse/intro/100064201)才搞清楚的（多看好书！！！）。
 
-![AID->C](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/github/javaguide/mysql/AID-%3EC.png)
+![AID->C](https://oss.javaguide.cn/github/javaguide/mysql/AID-%3EC.png)
 
 另外，DDIA 也就是 [《Designing Data-Intensive Application（数据密集型应用系统设计）》](https://book.douban.com/subject/30329536/) 的作者在他的这本书中如是说：
 
@@ -5394,7 +5394,7 @@ mysql> SELECT @@tx_isolation;
 关于 MySQL 事务隔离级别的详细介绍，可以看看我写的这篇文章：[MySQL 事务隔离级别详解](https://javaguide.cn/database/mysql/transaction-isolation-level.html)。
 
 <div align="center">   
-    <img src="https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/github/javaguide/gongzhonghaoxuanchuan.png" style="margin: 0 auto;" />  
+    <img src="https://oss.javaguide.cn/github/javaguide/gongzhonghaoxuanchuan.png" style="margin: 0 auto;" />  
 </div>
 
 ### MySQL 锁
@@ -5466,7 +5466,7 @@ SELECT ... FOR UPDATE;
 
 《MySQL 技术内幕 InnoDB 存储引擎》这本书对应的描述应该是笔误了。
 
-![](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/github/javaguide/mysql/image-20220511171419081.png)
+![](https://oss.javaguide.cn/github/javaguide/mysql/image-20220511171419081.png)
 
 #### InnoDB 有哪几类行锁？
 
@@ -5530,7 +5530,7 @@ DELETE...
 - 在数据库中不可重复读和幻读到底应该怎么分？：https://www.zhihu.com/question/392569386
 
 <div align="center">   
-    <img src="https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/github/javaguide/gongzhonghaoxuanchuan.png" style="margin: 0 auto;" />  
+    <img src="https://oss.javaguide.cn/github/javaguide/gongzhonghaoxuanchuan.png" style="margin: 0 auto;" />  
 </div>
  
 
@@ -5550,7 +5550,7 @@ Redis 提供了多种数据类型来支持不同的业务场景。Redis 还支�
 
 你可以自己本机安装 Redis 或者通过 Redis 官网提供的[在线 Redis 环境](https://try.redis.io/)来实际体验 Redis。
 
-![try-redis](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/github/javaguide/database/redis/try.redis.io.png)
+![try-redis](https://oss.javaguide.cn/github/javaguide/database/redis/try.redis.io.png)
 
 #### 分布式缓存常见的技术选型方案有哪些？
 
@@ -5587,7 +5587,7 @@ Memcached 是分布式缓存最开始兴起的那会，比较常用的。后来�
 
 作为暖男一号，我给大家画了一个草图。
 
-![正常缓存处理流程](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/github/javaguide/database/redis/normal-cache-process.png)
+![正常缓存处理流程](https://oss.javaguide.cn/github/javaguide/database/redis/normal-cache-process.png)
 
 简单来说就是:
 
@@ -5602,7 +5602,7 @@ _简单，来说使用缓存主要是为了提升用户体验以及应对更多�
 
 下面我们主要从“高性能”和“高并发”这两点来看待这个问题。
 
-![使用缓存之后](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/github/javaguide/database/redis/after-using-the-cache.png)
+![使用缓存之后](https://oss.javaguide.cn/github/javaguide/database/redis/after-using-the-cache.png)
 
 **高性能** ：
 
@@ -5688,7 +5688,7 @@ Redis 中有一个叫做 `sorted set` 的数据结构经常被用在各种排行
 
 [《Java 面试指北》](https://www.yuque.com/docs/share/f37fc804-bfe6-4b0d-b373-9c462188fec7) 的「技术面试题篇」就有一篇文章详细介绍如何使用 Sorted Set 来设计制作一个排行榜。
 
-![](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/github/javaguide/database/redis/image-20220719071115140.png)
+![](https://oss.javaguide.cn/github/javaguide/database/redis/image-20220719071115140.png)
 
 #### 使用 Set 实现抽奖系统需要用到什么命令？
 
@@ -5778,7 +5778,7 @@ Redis 通过 **IO 多路复用程序** 来监听来自客户端的大量连接�
 - 文件事件分派器（将 socket 关联到相应的事件处理器）
 - 事件处理器（连接应答处理器、命令请求处理器、命令回复处理器）
 
-![文件事件处理器](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/github/javaguide/database/redis/redis-event-handler.png)
+![文件事件处理器](https://oss.javaguide.cn/github/javaguide/database/redis/redis-event-handler.png)
 
 相关阅读：[Redis 事件机制详解](http://remcarpediem.net/article/1aa2da89/) 。
 
@@ -5790,7 +5790,7 @@ Redis 通过 **IO 多路复用程序** 来监听来自客户端的大量连接�
 
 为此，Redis 4.0 之后新增了`UNLINK`（可以看作是 `DEL` 的异步版本）、`FLUSHALL ASYNC`（清空数据库）、`FLUSHDB ASYNC`（清空数据库）等异步命令。
 
-![redis4.0 more thread](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/github/javaguide/database/redis/redis4.0-more-thread.png)
+![redis4.0 more thread](https://oss.javaguide.cn/github/javaguide/database/redis/redis4.0-more-thread.png)
 
 大体上来说，Redis 6.0 之前主要还是单线程处理。
 
@@ -5855,7 +5855,7 @@ OK
 
 Redis 通过一个叫做过期字典（可以看作是 hash 表）来保存数据过期的时间。过期字典的键指向 Redis 数据库中的某个 key(键)，过期字典的值是一个 long long 类型的整数，这个整数保存了 key 所指向的数据库键的过期时间（毫秒精度的 UNIX 时间戳）。
 
-![redis过期字典](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/github/javaguide/database/redis/redis-expired-dictionary.png)
+![redis过期字典](https://oss.javaguide.cn/github/javaguide/database/redis/redis-expired-dictionary.png)
 
 过期字典是存储在 redisDb 这个结构里的：
 
@@ -5992,7 +5992,7 @@ Redis 4.0 开始支持 RDB 和 AOF 的混合持久化（默认关闭，可以通
 
 官方文档地址：https://redis.io/topics/persistence
 
-![](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/github/javaguide/database/redis/redis4.0-persitence.png)
+![](https://oss.javaguide.cn/github/javaguide/database/redis/redis4.0-persitence.png)
 
 ### Redis 事务
 
@@ -6049,7 +6049,7 @@ ERR EXEC without MULTI
 
 Redis 官网相关介绍 [https://redis.io/topics/transactions](https://redis.io/topics/transactions) 如下：
 
-![Redis 事务](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/github/javaguide/database/redis/redis-transactions.png)
+![Redis 事务](https://oss.javaguide.cn/github/javaguide/database/redis/redis-transactions.png)
 
 #### Redis 支持原子性吗？
 
@@ -6064,7 +6064,7 @@ Redis 事务在运行错误的情况下，除了执行过程中出现错误的�
 
 Redis 官网也解释了自己为啥不支持回滚。简单来说就是 Redis 开发者们觉得没必要支持回滚，这样更简单便捷并且性能更好。Redis 开发者觉得即使命令执行错误也应该在开发过程中就被发现而不是生产过程中。
 
-![Redis 为什么不支持回滚](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/github/javaguide/database/redis/redis-rollback.png)
+![Redis 为什么不支持回滚](https://oss.javaguide.cn/github/javaguide/database/redis/redis-rollback.png)
 
 你可以将 Redis 中的事务就理解为 ：**Redis 事务提供了一种将多个命令请求打包的功能。然后，再按顺序执行打包的所有命令，并且不会被中途打断。**
 
@@ -6167,7 +6167,7 @@ Biggest string found '"ballcat:oauth:refresh_auth:f6cdb384-9a9d-4f2f-af01-dc3f28
 
 如下图所示，用户的请求最终都要跑到数据库中查询一遍。
 
-![缓存穿透情况](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/github/javaguide/database/redis/redis-cache-penetration.png)
+![缓存穿透情况](https://oss.javaguide.cn/github/javaguide/database/redis/redis-cache-penetration.png)
 
 ###### 有哪些解决办法？
 
@@ -6210,7 +6210,7 @@ public Object getObjectInclNullById(Integer id) {
 
 加入布隆过滤器之后的缓存处理流程图如下。
 
-![加入布隆过滤器之后的缓存处理流程图](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/github/javaguide/database/redis/redis-cache-penetration-bloom-filter.png)
+![加入布隆过滤器之后的缓存处理流程图](https://oss.javaguide.cn/github/javaguide/database/redis/redis-cache-penetration-bloom-filter.png)
 
 但是，需要注意的是布隆过滤器可能会存在误判的情况。总结来说就是： **布隆过滤器说某个元素存在，小概率会误判。布隆过滤器说某个元素不在，那么这个元素一定不在。**
 
@@ -6281,7 +6281,7 @@ Cache Aside Pattern 中遇到写请求是这样的：更新 DB，然后直接删
 <div align="center">
     <p>
         <a href="https://www.yuque.com/docs/share/8a30ffb5-83f3-40f9-baf9-38de68b906dc">
-            <img src="https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/xingqiu/xingqiu.png" style="margin: 0 auto; width: 850px;" />
+            <img src="https://oss.javaguide.cn/xingqiu/xingqiu.png" style="margin: 0 auto; width: 850px;" />
         </a>
     </p>
     <p>
@@ -6317,17 +6317,17 @@ Spring 提供的核心功能主要是 IoC 和 AOP。学习 Spring ，一定要�
 
 **Spring4.x 版本** ：
 
-![Spring4.x主要模块](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/github/javaguide/system-design/framework/spring/jvme0c60b4606711fc4a0b6faf03230247a.png)
+![Spring4.x主要模块](https://oss.javaguide.cn/github/javaguide/system-design/framework/spring/jvme0c60b4606711fc4a0b6faf03230247a.png)
 
 **Spring5.x 版本** ：
 
-![Spring5.x主要模块](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/github/javaguide/system-design/framework/spring/20200831175708.png)
+![Spring5.x主要模块](https://oss.javaguide.cn/github/javaguide/system-design/framework/spring/20200831175708.png)
 
 Spring5.x 版本中 Web 模块的 Portlet 组件已经被废弃掉，同时增加了用于异步响应式处理的 WebFlux 组件。
 
 Spring 各个模块的依赖关系如下：
 
-![Spring 各个模块的依赖关系](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/github/javaguide/system-design/framework/spring/20200902100038.png)
+![Spring 各个模块的依赖关系](https://oss.javaguide.cn/github/javaguide/system-design/framework/spring/20200902100038.png)
 
 ###### Core Container
 
@@ -6377,11 +6377,11 @@ Spring 包含了多个功能模块（上面刚刚提高过），其中最重要�
 
 下图对应的是 Spring4.x 版本。目前最新的 5.x 版本中 Web 模块的 Portlet 组件已经被废弃掉，同时增加了用于异步响应式处理的 WebFlux 组件。
 
-![Spring主要模块](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/github/javaguide/jvme0c60b4606711fc4a0b6faf03230247a.png)
+![Spring主要模块](https://oss.javaguide.cn/github/javaguide/jvme0c60b4606711fc4a0b6faf03230247a.png)
 
 Spring MVC 是 Spring 中的一个很重要的模块，主要赋予 Spring 快速构建 MVC 架构的 Web 程序的能力。MVC 是模型(Model)、视图(View)、控制器(Controller)的简写，其核心思想是通过将业务逻辑、数据、显示分离来组织代码。
 
-![](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/java-guide-blog/image-20210809181452421.png)
+![](https://oss.javaguide.cn/java-guide-blog/image-20210809181452421.png)
 
 使用 Spring 进行开发各种配置过于麻烦比如开启某些 Spring 特性时，需要用 XML 或 Java 进行显式配置。于是，Spring Boot 诞生了！
 
@@ -6400,7 +6400,7 @@ Spring Boot 只是简化了配置，如果你需要构建 MVC 架构的 Web 程�
 - **控制** ：指的是对象创建（实例化、管理）的权力
 - **反转** ：控制权交给外部环境（Spring 框架、IoC 容器）
 
-![](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/java-guide-blog/frc-365faceb5697f04f31399937c059c162.png)
+![](https://oss.javaguide.cn/java-guide-blog/frc-365faceb5697f04f31399937c059c162.png)
 
 将对象之间的相互依赖关系交给 IoC 容器来管理，并由 IoC 容器完成对象的注入。这样可以很大程度上简化应用的开发，把应用从复杂的依赖关系中解放出来。 IoC 容器就像是一个工厂一样，当我们需要创建一个对象的时候，只需要配置好配置文件/注解即可，完全不用考虑对象是如何被创建出来的。
 
@@ -6700,7 +6700,7 @@ public class LoggingAspect implements Ordered {
 
 MVC 是模型(Model)、视图(View)、控制器(Controller)的简写，其核心思想是通过将业务逻辑、数据、显示分离来组织代码。
 
-![](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/java-guide-blog/image-20210809181452421.png)
+![](https://oss.javaguide.cn/java-guide-blog/image-20210809181452421.png)
 
 网上有很多人说 MVC 不是设计模式，只是软件设计规范，我个人更倾向于 MVC 同样是众多设计模式中的一种。**[java-design-patterns](https://github.com/iluwatar/java-design-patterns)** 项目中就有关于 MVC 的相关介绍。
 
@@ -6714,7 +6714,7 @@ MVC 是模型(Model)、视图(View)、控制器(Controller)的简写，其核心
 
 这个模式下 JSP 即是控制层（Controller）又是表现层（View）。显而易见，这种模式存在很多问题。比如控制逻辑和表现逻辑混杂在一起，导致代码重用率极低；再比如前端和后端相互依赖，难以进行测试维护并且开发效率极低。
 
-![mvc-mode1](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/java-guide-blog/mvc-mode1.png)
+![mvc-mode1](https://oss.javaguide.cn/java-guide-blog/mvc-mode1.png)
 
 **Model 2 时代**
 
@@ -6724,7 +6724,7 @@ MVC 是模型(Model)、视图(View)、控制器(Controller)的简写，其核心
 - View：展示模型中的数据，只是用来展示。
 - Controller：处理用户请求都发送给 ，返回数据给 JSP 并展示给用户。
 
-![](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/java-guide-blog/mvc-model2.png)
+![](https://oss.javaguide.cn/java-guide-blog/mvc-model2.png)
 
 Model2 模式下还存在很多问题，Model2 的抽象和封装程度还远远不够，使用 Model2 进行开发时不可避免地会重复造轮子，这就大大降低了程序的可维护性和复用性。
 
@@ -7007,7 +7007,7 @@ Spring Security 重要的是实战，这里仅对小部分知识点进行总结�
 
 #### 有哪些控制请求访问权限的方法？
 
-![](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/github/javaguide/system-design/framework/spring/image-20220728201854641.png)
+![](https://oss.javaguide.cn/github/javaguide/system-design/framework/spring/image-20220728201854641.png)
 
 - `permitAll()` ：无条件允许任何形式访问，不管你登录还是没有登录。
 - `anonymous()` ：允许匿名访问，也就是没有登录才可以访问。
@@ -7045,7 +7045,7 @@ public interface PasswordEncoder {
 }
 ```
 
-![](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/github/javaguide/system-design/framework/spring/image-20220728183540954.png)
+![](https://oss.javaguide.cn/github/javaguide/system-design/framework/spring/image-20220728183540954.png)
 
 官方推荐使用基于 bcrypt 强哈希函数的加密算法实现类。
 
@@ -7067,11 +7067,11 @@ public interface PasswordEncoder {
 
 [《Java 面试指北》](https://www.yuque.com/docs/share/f37fc804-bfe6-4b0d-b373-9c462188fec7) 的部分内容展示如下，你可以将其看作是 [JavaGuide](https://javaguide.cn/) 的补充完善，两者可以配合使用。
 
-![](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/xingqiu/image-20220304102536445.png)
+![](https://oss.javaguide.cn/xingqiu/image-20220304102536445.png)
 
 [《Java 面试指北》](https://www.yuque.com/docs/share/f37fc804-bfe6-4b0d-b373-9c462188fec7)只是星球内部众多资料中的一个，星球还有很多其他优质资料比如[专属专栏](https://javaguide.cn/zhuanlan/)、Java 编程视频、PDF 资料。
 
-![](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/xingqiu/image-20220211231206733.png)
+![](https://oss.javaguide.cn/xingqiu/image-20220211231206733.png)
 
 最近几年，市面上有越来越多的“技术大佬”开始办培训班/训练营，动辄成千上万的学费，却并没有什么干货，单纯的就是割韭菜。
 
@@ -7079,13 +7079,13 @@ public interface PasswordEncoder {
 
 欢迎准备 Java 面试以及学习 Java 的同学加入我的[知识星球](https://www.yuque.com/docs/share/8a30ffb5-83f3-40f9-baf9-38de68b906dc)，干货非常多，学习氛围非常好！收费虽然是白菜价，但星球里的内容或许比你参加上万的培训班质量还要高。
 
-![](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/xingqiu/image-20220311203414600.png)
+![](https://oss.javaguide.cn/xingqiu/image-20220311203414600.png)
 
 下面是星球提供的部分服务（点击下方图片即可获取知识星球的详细介绍）：
 
 <div align="center">
   <a href="https://javaguide.cn/about-the-author/zhishixingqiu-two-years.html">
-    <img src="https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/xingqiu/xingqiufuwu.png" style="margin: 0 auto; " />
+    <img src="https://oss.javaguide.cn/xingqiu/xingqiufuwu.png" style="margin: 0 auto; " />
   </a>
 </div>
 
@@ -7094,7 +7094,7 @@ public interface PasswordEncoder {
 
 如果你感兴趣的话，不妨花 3 分钟左右看看星球的详细介绍： [JavaGuide 知识星球详细介绍](https://www.yuque.com/docs/share/8a30ffb5-83f3-40f9-baf9-38de68b906dc)（文末有优惠券）。
 
-![](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/xingqiu/xingqiuyouhuijuan-20-2023-08-01.png)
+![](https://oss.javaguide.cn/xingqiu/xingqiuyouhuijuan-20-2023-08-01.png)
 
 ------
 
@@ -7389,11 +7389,11 @@ MyBatis 提供了 9 种动态 sql 标签:
 
 [《Java 面试指北》](https://www.yuque.com/docs/share/f37fc804-bfe6-4b0d-b373-9c462188fec7) 的部分内容展示如下，你可以将其看作是 [JavaGuide](https://javaguide.cn/#/) 的补充完善，两者可以配合使用。
 
-![](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/xingqiu/image-20220304102536445.png)
+![](https://oss.javaguide.cn/xingqiu/image-20220304102536445.png)
 
 [《Java 面试指北》](https://www.yuque.com/docs/share/f37fc804-bfe6-4b0d-b373-9c462188fec7)只是星球内部众多资料中的一个，星球还有很多其他优质资料比如[专属专栏](https://javaguide.cn/zhuanlan/)、Java 编程视频、PDF 资料。
 
-![](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/xingqiu/image-20220211231206733.png)
+![](https://oss.javaguide.cn/xingqiu/image-20220211231206733.png)
 
 最近几年，市面上有越来越多的“技术大佬”开始办培训班/训练营，动辄成千上万的学费，却并没有什么干货，单纯的就是割韭菜。
 
@@ -7401,13 +7401,13 @@ MyBatis 提供了 9 种动态 sql 标签:
 
 欢迎准备 Java 面试以及学习 Java 的同学加入我的[知识星球](https://www.yuque.com/docs/share/8a30ffb5-83f3-40f9-baf9-38de68b906dc)，干货非常多，学习氛围非常好！收费虽然是白菜价，但星球里的内容或许比你参加上万的培训班质量还要高。
 
-![](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/xingqiu/image-20220311203414600.png)
+![](https://oss.javaguide.cn/xingqiu/image-20220311203414600.png)
 
 下面是星球提供的部分服务（点击下方图片即可获取知识星球的详细介绍）：
 
 <div align="center">
   <a href="https://javaguide.cn/about-the-author/zhishixingqiu-two-years.html">
-    <img src="https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/xingqiu/xingqiufuwu.png" style="margin: 0 auto; " />
+    <img src="https://oss.javaguide.cn/xingqiu/xingqiufuwu.png" style="margin: 0 auto; " />
   </a>
 </div>
 
@@ -7416,7 +7416,7 @@ MyBatis 提供了 9 种动态 sql 标签:
 
 如果你感兴趣的话，不妨花 3 分钟左右看看星球的详细介绍： [JavaGuide 知识星球详细介绍](https://www.yuque.com/docs/share/8a30ffb5-83f3-40f9-baf9-38de68b906dc)（文末有优惠券）。
 
-![](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/xingqiu/xingqiuyouhuijuan-20-2023-08-01.png)
+![](https://oss.javaguide.cn/xingqiu/xingqiuyouhuijuan-20-2023-08-01.png)
 
 ------
 
@@ -7427,7 +7427,7 @@ MyBatis 提供了 9 种动态 sql 标签:
 <div align="center">
     <p>
         <a href="https://www.yuque.com/docs/share/8a30ffb5-83f3-40f9-baf9-38de68b906dc">
-            <img src="https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/xingqiu/xingqiu.png" style="margin: 0 auto; width: 850px;" />
+            <img src="https://oss.javaguide.cn/xingqiu/xingqiu.png" style="margin: 0 auto; width: 850px;" />
         </a>
     </p>
     <p>
@@ -7440,11 +7440,11 @@ MyBatis 提供了 9 种动态 sql 标签:
 
 **设计模式** 相关的面试题已经整理到了 PDF 手册中，你可以在我的公众号“**JavaGuide**”后台回复“**PDF**” 获取。
 
-![JavaGuide 官方公众号](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/github/javaguide/gongzhonghaoxuanchuan.png)
+![JavaGuide 官方公众号](https://oss.javaguide.cn/github/javaguide/gongzhonghaoxuanchuan.png)
 
 **《设计模式》PDF 电子书内容概览** ：
 
-![《设计模式》PDF文档概览](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/github/javaguide/system-design/design-pattern-pdf.png)------
+![《设计模式》PDF文档概览](https://oss.javaguide.cn/github/javaguide/system-design/design-pattern-pdf.png)------
 
 ## 6.2 认证授权
 
@@ -7482,23 +7482,23 @@ RBAC 即基于角色的权限访问控制（Role-Based Access Control）。这�
 
 简单地说：一个用户可以拥有若干角色，每一个角色又可以被分配若干权限，这样就构造成“用户-角色-权限” 的授权模型。在这种模型中，用户与角色、角色与权限之间构成了多对多的关系，如下图
 
-![RBAC 权限模型示意图](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/github/javaguide/system-design/security/design-of-authority-system/rbac.png)
+![RBAC 权限模型示意图](https://oss.javaguide.cn/github/javaguide/system-design/security/design-of-authority-system/rbac.png)
 
 **在 RBAC 中，权限与角色相关联，用户通过成为适当角色的成员而得到这些角色的权限。这就极大地简化了权限的管理。**
 
 本系统的权限设计相关的表如下（一共 5 张表，2 张用户建立表之间的联系）：
 
-![](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/2020-11/%E6%95%B0%E6%8D%AE%E5%BA%93%E8%AE%BE%E8%AE%A1-%E6%9D%83%E9%99%90.png)
+![](https://oss.javaguide.cn/2020-11/%E6%95%B0%E6%8D%AE%E5%BA%93%E8%AE%BE%E8%AE%A1-%E6%9D%83%E9%99%90.png)
 
 通过这个权限模型，我们可以创建不同的角色并为不同的角色分配不同的权限范围（菜单）。
 
-![](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/github/javaguide/books%E6%9D%83%E9%99%90%E7%AE%A1%E7%90%86%E6%A8%A1%E5%9D%97.png)
+![](https://oss.javaguide.cn/github/javaguide/books%E6%9D%83%E9%99%90%E7%AE%A1%E7%90%86%E6%A8%A1%E5%9D%97.png)
 
 通常来说，如果系统对于权限控制要求比较严格的话，一般都会选择使用 RBAC 模型来做权限控制。
 
 ### 什么是 Cookie ? Cookie 的作用是什么?
 
-![](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/github/javaguide/system-design/security/cookie-sessionId.png)
+![](https://oss.javaguide.cn/github/javaguide/system-design/security/cookie-sessionId.png)
 
 `Cookie` 和 `Session` 都是用来跟踪浏览器用户身份的会话方式，但是两者的应用场景不太一样。
 
@@ -7579,7 +7579,7 @@ public String readAllCookies(HttpServletRequest request) {
 
 关于这种认证方式更详细的过程如下：
 
-![](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/github/javaguide/system-design/security/session-cookie-authentication-process.png)
+![](https://oss.javaguide.cn/github/javaguide/system-design/security/session-cookie-authentication-process.png)
 
 1. 用户向服务器发送用户名、密码、验证码用于登陆系统。
 2. 服务器验证通过后，服务器为用户创建一个 `Session`，并将 `Session` 信息存储起来。
@@ -7658,7 +7658,7 @@ XSS 中攻击者会用各种方式将恶意代码注入到其他用户的页面�
 
 SSO(Single Sign On)即单点登录说的是用户登陆多个子系统的其中一个就有权访问与其相关的其他系统。举个例子我们在登陆了京东金融之后，我们同时也成功登陆京东的京东超市、京东国际、京东生鲜等子系统。
 
-![SSO 示意图](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/github/javaguide/system-design/security/sso.png)
+![SSO 示意图](https://oss.javaguide.cn/github/javaguide/system-design/security/sso.png)
 
 
 
@@ -7771,7 +7771,7 @@ timer.schedule(task, delay);
 
 `ScheduledExecutorService` 是一个接口，有多个实现类，比较常用的是 `ScheduledThreadPoolExecutor` 。
 
-![](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/javaguide/20210607154324712.png)
+![](https://oss.javaguide.cn/javaguide/20210607154324712.png)
 
 `ScheduledThreadPoolExecutor` 本身就是一个线程池，支持任务并发执行。并且，其内部使用 `DelayQueue` 作为任务队列。
 
@@ -7844,7 +7844,7 @@ Kafka、Dubbo、ZooKeeper、Netty 、Caffeine 、Akka 中都有对时间轮的�
 
 下图是一个有 12 个时间格的时间轮，转完一圈需要 12 s。当我们需要新建一个 3s 后执行的定时任务，只需要将定时任务放在下标为 3 的时间格中即可。当我们需要新建一个 9s 后执行的定时任务，只需要将定时任务放在下标为 9 的时间格中即可。
 
-![](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/javaguide/20210607171334861.png)
+![](https://oss.javaguide.cn/javaguide/20210607171334861.png)
 
 那当我们需要创建一个 13s 后执行的定时任务怎么办呢？这个时候可以引入一叫做 **圈数/轮数** 的概念，也就是说这个任务还是放在下标为 3 的时间格中， 不过它的圈数为 2 。
 
@@ -7852,7 +7852,7 @@ Kafka、Dubbo、ZooKeeper、Netty 、Caffeine 、Akka 中都有对时间轮的�
 
 针对下图的时间轮，我来举一个例子便于大家理解。
 
-![](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/javaguide/20210607193042151.png)
+![](https://oss.javaguide.cn/javaguide/20210607193042151.png)
 
 上图的时间轮，第 1 层的时间精度为 1 ，第 2 层的时间精度为 20 ，第 3 层的时间精度为 400。假如我们需要添加一个 350s 后执行的任务 A 的话（当前时间是 0s），这个任务会被放在第 2 层（因为第二层的时间跨度为 20\*20=400>350）的第 350/20=17 个时间格子。
 
@@ -8027,7 +8027,7 @@ public ReturnT<String> myAnnotationJobHandler(String param) throws Exception {
 <div align="center">
     <p>
         <a href="https://www.yuque.com/docs/share/8a30ffb5-83f3-40f9-baf9-38de68b906dc">
-            <img src="https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/xingqiu/xingqiu.png" style="margin: 0 auto; width: 850px;" />
+            <img src="https://oss.javaguide.cn/xingqiu/xingqiu.png" style="margin: 0 auto; width: 850px;" />
         </a>
     </p>
     <p>
@@ -8046,7 +8046,7 @@ public ReturnT<String> myAnnotationJobHandler(String param) throws Exception {
 
 **CAP** 也就是 **Consistency（一致性）**、**Availability（可用性）**、**Partition Tolerance（分区容错性）** 这三个单词首字母组合。
 
-![img](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/2020-11/cap.png)
+![img](https://oss.javaguide.cn/2020-11/cap.png)
 
 CAP 理论的提出者布鲁尔在提出 CAP 猜想的时候，并没有详细定义 **Consistency**、**Availability**、**Partition Tolerance** 三个单词的明确定义。
 
@@ -8062,7 +8062,7 @@ CAP 理论的提出者布鲁尔在提出 CAP 猜想的时候，并没有详细�
 
 > 分布式系统中，多个节点之前的网络本来是连通的，但是因为某些故障（比如部分节点网络出了问题）某些节点之间不连通了，整个网络就分成了几块区域，这就叫网络分区。
 
-![partition-tolerance](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/2020-11/partition-tolerance.png)
+![partition-tolerance](https://oss.javaguide.cn/2020-11/partition-tolerance.png)
 
 大部分人解释这一定律时，常常简单的表述为：“一致性、可用性、分区容忍性三者你只能同时达到其中两个，不可能同时达到”。实际上这是一个非常具有误导性质的说法，而且在 CAP 理论诞生 12 年之后，CAP 之父也在 2012 年重写了之前的论文。
 
@@ -8122,7 +8122,7 @@ Paxos 算法是兰伯特在 **1990** 年提出了一种分布式系统共识算�
 
 微服务背景下，一个系统被拆分为多个服务，但是像安全认证，流量控制，日志，监控等功能是每个服务都需要的，没有网关的话，我们就需要在每个服务中单独实现，这使得我们做了很多重复的事情并且没有一个全局的视图来统一管理这些功能。
 
-![网关示意图](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/github/javaguide/system-design/distributed-system/api-gateway-overview.png)
+![网关示意图](https://oss.javaguide.cn/github/javaguide/system-design/distributed-system/api-gateway-overview.png)
 
 一般情况下，网关可以为我们提供请求转发、安全认证（身份/权限认证）、流量控制、负载均衡、降级熔断、日志、监控等功能。
 
@@ -8246,11 +8246,11 @@ Shenyu 通过插件扩展功能，插件是 ShenYu 的灵魂，并且插件也�
 
 这个时候就需要生成**分布式 ID**了。
 
-![](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/github/javaguide/system-design/distributed-system/id-after-the-sub-table-not-conflict.png)
+![](https://oss.javaguide.cn/github/javaguide/system-design/distributed-system/id-after-the-sub-table-not-conflict.png)
 
 #### 分布式 ID 需要满足哪些要求?
 
-![](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/github/javaguide/system-design/distributed-system/distributed-id-requirements.png)
+![](https://oss.javaguide.cn/github/javaguide/system-design/distributed-system/distributed-id-requirements.png)
 
 分布式 ID 作为分布式系统中必不可少的一环，很多地方都要用到分布式 ID。
 
@@ -8276,7 +8276,7 @@ Shenyu 通过插件扩展功能，插件是 ShenYu 的灵魂，并且插件也�
 
 这种方式就比较简单直白了，就是通过关系型数据库的自增主键产生来唯一的 ID。
 
-![数据库主键自增](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/github/javaguide/system-design/distributed-system/the-primary-key-of-the-database-increases-automatically.png)
+![数据库主键自增](https://oss.javaguide.cn/github/javaguide/system-design/distributed-system/the-primary-key-of-the-database-increases-automatically.png)
 
 以 MySQL 举例，我们通过下面的方式即可。
 
@@ -8338,7 +8338,7 @@ CREATE TABLE `sequence_id_generator` (
 
 `current_max_id` 字段和`step`字段主要用于获取批量 ID，获取的批量 id 为： `current_max_id ~ current_max_id+step`。
 
-![数据库号段模式](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/github/javaguide/system-design/distributed-system/database-number-segment-mode.png)
+![数据库号段模式](https://oss.javaguide.cn/github/javaguide/system-design/distributed-system/database-number-segment-mode.png)
 
 `version` 字段主要用于解决并发问题（乐观锁）,`biz_type` 主要用于表示业务类型。
 
@@ -8388,7 +8388,7 @@ id	current_max_id	step	version	biz_type
 
 ###### NoSQL
 
-![](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/github/javaguide/system-design/distributed-system/nosql-distributed-id.png)
+![](https://oss.javaguide.cn/github/javaguide/system-design/distributed-system/nosql-distributed-id.png)
 
 一般情况下，NoSQL 方案使用 Redis 多一些。我们通过 Redis 的 `incr` 命令即可实现对 id 原子顺序递增。
 
@@ -8416,7 +8416,7 @@ OK
 
 除了 Redis 之外，MongoDB ObjectId 经常也会被拿来当做分布式 ID 的解决方案。
 
-![](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/github/javaguide/system-design/distributed-system/mongodb9-objectId-distributed-id.png)
+![](https://oss.javaguide.cn/github/javaguide/system-design/distributed-system/mongodb9-objectId-distributed-id.png)
 
 MongoDB ObjectId 一共需要 12 个字节存储：
 
@@ -8445,7 +8445,7 @@ UUID.randomUUID()
 
 [RFC 4122](https://tools.ietf.org/html/rfc4122) 中关于 UUID 的示例是这样的：
 
-![](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/github/javaguide/system-design/distributed-system/rfc-4122-uuid.png)
+![](https://oss.javaguide.cn/github/javaguide/system-design/distributed-system/rfc-4122-uuid.png)
 
 我们这里重点关注一下这个 Version(版本)，不同的版本对应的 UUID 的生成规则是不同的。
 
@@ -8458,7 +8458,7 @@ UUID.randomUUID()
 
 下面是 Version 1 版本下生成的 UUID 的示例：
 
-![Version 1 版本下生成的 UUID 的示例](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/github/javaguide/system-design/distributed-system/version1-uuid.png)
+![Version 1 版本下生成的 UUID 的示例](https://oss.javaguide.cn/github/javaguide/system-design/distributed-system/version1-uuid.png)
 
 JDK 中通过 `UUID` 的 `randomUUID()` 方法生成的 UUID 的版本默认为 4。
 
@@ -8494,7 +8494,7 @@ Snowflake 是 Twitter 开源的分布式 ID 生成算法。Snowflake 由 64 bit 
 - **第 42~52 位** ：一共 10 位，一般来说，前 5 位表示机房 ID，后 5 位表示机器 ID（实际项目中可以根据实际情况调整）。这样就可以区分不同集群/机房的节点。
 - **第 53~64 位** ：一共 12 位，用来表示序列号。 序列号为自增值，代表单台机器每毫秒能够产生的最大 ID 数(2^12 = 4096),也就是说单台机器每毫秒最多可以生成 4096 个 唯一 ID。
 
-![Snowflake 示意图](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/github/javaguide/system-design/distributed-system/snowflake-distributed-id-schematic-diagram.png)
+![Snowflake 示意图](https://oss.javaguide.cn/github/javaguide/system-design/distributed-system/snowflake-distributed-id-schematic-diagram.png)
 
 如果你想要使用 Snowflake 算法的话，一般不需要你自己再造轮子。有很多基于 Snowflake 算法的开源实现比如美团 的 Leaf、百度的 UidGenerator，并且这些开源实现对原有的 Snowflake 算法进行了优化。
 
@@ -8513,13 +8513,13 @@ Snowflake 是 Twitter 开源的分布式 ID 生成算法。Snowflake 由 64 bit 
 
 不过，UidGenerator 对 Snowflake(雪花算法)进行了改进，生成的唯一 ID 组成如下。
 
-![](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/github/javaguide/system-design/distributed-system/uidgenerator-distributed-id-schematic-diagram.png)
+![](https://oss.javaguide.cn/github/javaguide/system-design/distributed-system/uidgenerator-distributed-id-schematic-diagram.png)
 
 可以看出，和原始 Snowflake(雪花算法)生成的唯一 ID 的组成不太一样。并且，上面这些参数我们都可以自定义。
 
 UidGenerator 官方文档中的介绍如下：
 
-![](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/github/javaguide/system-design/distributed-system/uidgenerator-introduction-official-documents.png)
+![](https://oss.javaguide.cn/github/javaguide/system-design/distributed-system/uidgenerator-introduction-official-documents.png)
 
 自 18 年后，UidGenerator 就基本没有再维护了，我这里也不过多介绍。想要进一步了解的朋友，可以看看 [UidGenerator 的官方介绍](https://github.com/baidu/uid-generator/blob/master/README.zh_cn.md)。
 
@@ -8652,7 +8652,7 @@ OK
 
 对于 Java 开发的小伙伴来说，已经有了现成的解决方案：**[Redisson](https://github.com/redisson/redisson)** 。其他语言的解决方案，可以在 Redis 官方文档中找到，地址：https://redis.io/topics/distlock 。
 
-![Distributed locks with Redis](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/github/javaguide/redis-distributed-lock.png)
+![Distributed locks with Redis](https://oss.javaguide.cn/github/javaguide/redis-distributed-lock.png)
 
 Redisson 是一个开源的 Java 语言 Redis 客户端，提供了很多开箱即用的功能，不仅仅包括多种分布式锁的实现。
 
@@ -8709,7 +8709,7 @@ RPC 这部分目前已经总结了 RPC 基础常见面试题和 Dubbo 常见面�
 - [Dubbo 常见面试题总结](https://javaguide.cn/distributed-system/rpc/dubbo.html)
 
 <div align="center">   
-    <img src="https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/github/javaguide/gongzhonghaoxuanchuan.png" style="margin: 0 auto;" />  
+    <img src="https://oss.javaguide.cn/github/javaguide/gongzhonghaoxuanchuan.png" style="margin: 0 auto;" />  
 </div>
 
 ------## 7.6 分布式事务(付费)
@@ -8720,11 +8720,11 @@ RPC 这部分目前已经总结了 RPC 基础常见面试题和 Dubbo 常见面�
 
 [《Java 面试指北》](https://www.yuque.com/docs/share/f37fc804-bfe6-4b0d-b373-9c462188fec7) 的部分内容展示如下，你可以将其看作是 [JavaGuide](https://javaguide.cn/#/) 的补充完善，两者可以配合使用。
 
-![](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/xingqiu/image-20220304102536445.png)
+![](https://oss.javaguide.cn/xingqiu/image-20220304102536445.png)
 
 [《Java 面试指北》](https://www.yuque.com/docs/share/f37fc804-bfe6-4b0d-b373-9c462188fec7)只是星球内部众多资料中的一个，星球还有很多其他优质资料比如[专属专栏](https://javaguide.cn/zhuanlan/)、Java 编程视频、PDF 资料。
 
-![](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/xingqiu/image-20220211231206733.png)
+![](https://oss.javaguide.cn/xingqiu/image-20220211231206733.png)
 
 最近几年，市面上有越来越多的“技术大佬”开始办培训班/训练营，动辄成千上万的学费，却并没有什么干货，单纯的就是割韭菜。
 
@@ -8732,13 +8732,13 @@ RPC 这部分目前已经总结了 RPC 基础常见面试题和 Dubbo 常见面�
 
 欢迎准备 Java 面试以及学习 Java 的同学加入我的[知识星球](https://www.yuque.com/docs/share/8a30ffb5-83f3-40f9-baf9-38de68b906dc)，干货非常多，学习氛围非常好！收费虽然是白菜价，但星球里的内容或许比你参加上万的培训班质量还要高。
 
-![](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/xingqiu/image-20220311203414600.png)
+![](https://oss.javaguide.cn/xingqiu/image-20220311203414600.png)
 
 下面是星球提供的部分服务（点击下方图片即可获取知识星球的详细介绍）：
 
 <div align="center">
   <a href="https://javaguide.cn/about-the-author/zhishixingqiu-two-years.html">
-    <img src="https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/xingqiu/xingqiufuwu.png" style="margin: 0 auto; " />
+    <img src="https://oss.javaguide.cn/xingqiu/xingqiufuwu.png" style="margin: 0 auto; " />
   </a>
 </div>
 
@@ -8747,7 +8747,7 @@ RPC 这部分目前已经总结了 RPC 基础常见面试题和 Dubbo 常见面�
 
 如果你感兴趣的话，不妨花 3 分钟左右看看星球的详细介绍： [JavaGuide 知识星球详细介绍](https://www.yuque.com/docs/share/8a30ffb5-83f3-40f9-baf9-38de68b906dc)（文末有优惠券）。
 
-![](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/xingqiu/xingqiuyouhuijuan-20-2023-08-01.png)
+![](https://oss.javaguide.cn/xingqiu/xingqiuyouhuijuan-20-2023-08-01.png)
 
 ------------
 
@@ -8762,7 +8762,7 @@ RPC 这部分目前已经总结了 RPC 基础常见面试题和 Dubbo 常见面�
 - [ZooKeeper 实战](https://javaguide.cn/distributed-system/distributed-process-coordination/zookeeper/zookeeper-in-action.html)
 
 <div align="center">   
-    <img src="https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/github/javaguide/gongzhonghaoxuanchuan.png" style="margin: 0 auto;" />  
+    <img src="https://oss.javaguide.cn/github/javaguide/gongzhonghaoxuanchuan.png" style="margin: 0 auto;" />  
 </div>------
 
 # 8. 高性能
@@ -8772,7 +8772,7 @@ RPC 这部分目前已经总结了 RPC 基础常见面试题和 Dubbo 常见面�
 <div align="center">
     <p>
         <a href="https://www.yuque.com/docs/share/8a30ffb5-83f3-40f9-baf9-38de68b906dc">
-            <img src="https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/xingqiu/xingqiu.png" style="margin: 0 auto; width: 850px;" />
+            <img src="https://oss.javaguide.cn/xingqiu/xingqiu.png" style="margin: 0 auto; width: 850px;" />
         </a>
     </p>
     <p>
@@ -8795,7 +8795,7 @@ RPC 这部分目前已经总结了 RPC 基础常见面试题和 Dubbo 常见面�
 
 我简单画了一张图来帮助不太清楚读写分离的小伙伴理解。
 
-![读写分离示意图](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/github/javaguide/high-performance/read-and-write-separation-and-library-subtable/read-and-write-separation.png)
+![读写分离示意图](https://oss.javaguide.cn/github/javaguide/high-performance/read-and-write-separation-and-library-subtable/read-and-write-separation.png)
 
 一般情况下，我们都会选择一主多从，也就是一台主数据库负责写，其他的从数据库负责读。主库和从库之间会进行数据同步，以保证从库中数据的准确性。这样的架构实现起来比较简单，并且也符合系统的写少读多的特点。
 
@@ -8839,7 +8839,7 @@ hintManager.setMasterRouteOnly();
 
 **1.代理方式**
 
-![代理方式实现读写分离](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/github/javaguide/high-performance/read-and-write-separation-and-library-subtable/read-and-write-separation-proxy.png)
+![代理方式实现读写分离](https://oss.javaguide.cn/github/javaguide/high-performance/read-and-write-separation-and-library-subtable/read-and-write-separation-proxy.png)
 
 我们可以在应用和数据中间加了一个代理层。应用程序所有的数据请求都交给代理层处理，代理层负责分离读写请求，将它们路由到对应的数据库中。
 
@@ -8859,7 +8859,7 @@ MySQL binlog(binary log 即二进制日志文件) 主要记录了 MySQL 数据�
 
 更具体和详细的过程是这个样子的（图片来自于：[《MySQL Master-Slave Replication on the Same Machine》](https://www.toptal.com/mysql/mysql-master-slave-replication-tutorial)）：
 
-![MySQL主从复制](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/java-guide-blog/78816271d3ab52424bfd5ad3086c1a0f.png)
+![MySQL主从复制](https://oss.javaguide.cn/java-guide-blog/78816271d3ab52424bfd5ad3086c1a0f.png)
 
 1. 主库将数据库中数据的变化写入到 binlog
 2. 从库连接主库
@@ -8917,7 +8917,7 @@ MySQL binlog(binary log 即二进制日志文件) 主要记录了 MySQL 数据�
 
 [《从零开始学架构》](https://time.geekbang.org/column/intro/100006601?code=i00Nq3pHUcUj04ZWy70NCRl%2FD2Lfj8GVzcGzZ3Wf5Ug%3D) 中的有一张图片对于垂直拆分和水平拆分的描述还挺直观的。
 
-![](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/java-guide-blog/662ea3bda90061d0b40177e3a46fefc3.jpg)
+![](https://oss.javaguide.cn/java-guide-blog/662ea3bda90061d0b40177e3a46fefc3.jpg)
 
 #### 什么情况下需要分库分表？
 
@@ -8991,15 +8991,15 @@ ShardingSphere 绝对可以说是当前分库分表的首选！ShardingSphere �
 
 类似于京东建立的庞大的仓储运输体系，京东物流在全国拥有非常多的仓库，仓储网络几乎覆盖全国所有区县。这样的话，用户下单的第一时间，商品就从距离用户最近的仓库，直接发往对应的配送站，再由京东小哥送到你家。
 
-![京东仓配系统](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/github/javaguide/high-performance/cdn/jingdong-wuliu-cangpei.png)
+![京东仓配系统](https://oss.javaguide.cn/github/javaguide/high-performance/cdn/jingdong-wuliu-cangpei.png)
 
 你可以将 CDN 看作是服务上一层的特殊缓存服务，分布在全国各地，主要用来处理静态资源的请求。
 
-![CDN 简易示意图](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/github/javaguide/high-performance/cdn/cdn-101.png)
+![CDN 简易示意图](https://oss.javaguide.cn/github/javaguide/high-performance/cdn/cdn-101.png)
 
 我们经常拿全站加速和内容分发网络做对比，不要把两者搞混了！全站加速（不同云服务商叫法不同，腾讯云叫 ECDN、阿里云叫 DCDN）既可以加速静态资源又可以加速动态资源，内容分发网络（CDN）主要针对的是 **静态资源** 。
 
-![阿里云文档：https://help.aliyun.com/document_detail/64836.html](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/github/javaguide/high-performance/cdn/cdn-aliyun-dcdn.png)
+![阿里云文档：https://help.aliyun.com/document_detail/64836.html](https://oss.javaguide.cn/github/javaguide/high-performance/cdn/cdn-aliyun-dcdn.png)
 
 绝大部分公司都会在项目开发中交使用 CDN 服务，但很少会有自建 CDN 服务的公司。基于成本、稳定性和易用性考虑，建议直接选择专业的云厂商（比如阿里云、腾讯云、华为云、青云）或者 CDN 厂商（比如网宿、蓝汛）提供的开箱即用的 CDN 服务。
 
@@ -9039,7 +9039,7 @@ CDN 会通过 GSLB 找到最合适的 CDN 节点，更具体点来说是下面�
 3. GSLB 返回性能最好（通常距离请求地址最近）的 CDN 节点（边缘服务器，真正缓存内容的地方）的地址给浏览器；
 4. 浏览器直接访问指定的 CDN 节点。
 
-![CDN 原理示意图](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/github/javaguide/high-performance/cdn/cdn-overview.png)
+![CDN 原理示意图](https://oss.javaguide.cn/github/javaguide/high-performance/cdn/cdn-overview.png)
 
 为了方便理解，上图其实做了一点简化。GSLB 内部可以看作是 CDN 专用 DNS 服务器和负载均衡系统组合。CDN 专用 DNS 服务器会返回负载均衡系统 IP 地址给浏览器，浏览器使用 IP 地址请求负载均衡系统进而找到对应的 CDN 节点。
 
@@ -9053,7 +9053,7 @@ CDN 会通过 GSLB 找到最合适的 CDN 节点，更具体点来说是下面�
 
 CDN 服务提供商几乎都提供了这种比较基础的防盗链机制。
 
-![腾讯云 CDN Referer 防盗链配置](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/github/javaguide/high-performance/cdn/cnd-tencent-cloud-anti-theft.png)
+![腾讯云 CDN Referer 防盗链配置](https://oss.javaguide.cn/github/javaguide/high-performance/cdn/cnd-tencent-cloud-anti-theft.png)
 
 不过，如果站点的防盗链配置允许 Referer 为空的话，通过隐藏 Referer，可以直接绕开防盗链。
 
@@ -9070,11 +9070,11 @@ http://cdn.wangsu.com/4/123.mp3? wsSecret=79aead3bd7b5db4adeffb93a010298b5&wsTim
 - `wsSecret` ：签名字符串。
 - `wsTime`: 过期时间。
 
-![](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/github/javaguide/high-performance/cdn/timestamp-anti-theft.png)
+![](https://oss.javaguide.cn/github/javaguide/high-performance/cdn/timestamp-anti-theft.png)
 
 时间戳防盗链的实现也比较简单，并且可靠性较高，推荐使用。并且，绝大部分 CDN 服务提供商都提供了开箱即用的时间戳防盗链机制。
 
-![七牛云时间戳防盗链配置](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/github/javaguide/high-performance/cdn/qiniuyun-timestamp-anti-theft.png)
+![七牛云时间戳防盗链配置](https://oss.javaguide.cn/github/javaguide/high-performance/cdn/qiniuyun-timestamp-anti-theft.png)
 
 除了 Referer 防盗链和时间戳防盗链之外，你还可以 IP 黑白名单配置、IP 访问限频配置等机制来防盗刷。
 
@@ -9103,7 +9103,7 @@ http://cdn.wangsu.com/4/123.mp3? wsSecret=79aead3bd7b5db4adeffb93a010298b5&wsTim
 - **Kafka** ：[Kafka 常见问题总结](https://javaguide.cn/high-performance/message-queue/kafka-questions-01.html)
 
 <div align="center">   
-    <img src="https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/github/javaguide/gongzhonghaoxuanchuan.png" style="margin: 0 auto;" />  
+    <img src="https://oss.javaguide.cn/github/javaguide/gongzhonghaoxuanchuan.png" style="margin: 0 auto;" />  
 </div>------
 
 # 9. 高可用
@@ -9113,7 +9113,7 @@ http://cdn.wangsu.com/4/123.mp3? wsSecret=79aead3bd7b5db4adeffb93a010298b5&wsTim
 <div align="center">
     <p>
         <a href="https://www.yuque.com/docs/share/8a30ffb5-83f3-40f9-baf9-38de68b906dc">
-            <img src="https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/xingqiu/xingqiu.png" style="margin: 0 auto; width: 850px;" />
+            <img src="https://oss.javaguide.cn/xingqiu/xingqiu.png" style="margin: 0 auto; width: 850px;" />
         </a>
     </p>
     <p>
