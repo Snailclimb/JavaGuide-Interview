@@ -1,8 +1,8 @@
-------
+---
 
 ![面试突击-JVM](../../../../Downloads/JavaaGuide面试突击版/封面/JavaGuide面试突击封面/JavaGuide面试突击封面.001.png)
 
-------
+---
 
 ## 前言
 
@@ -582,16 +582,16 @@ JDK 自带的命令行工具：
 
 ### 如何查看服务器上运行的 Java 进程？
 
-JDK 自带的 jps (JVM Process Status) 命令专门用于列出当前用户下所有正在运行的 JVM 实例。
+JDK 自带的 `jps` (JVM Process Status) 命令专门用于列出当前用户下所有正在运行的 JVM 实例。
 
 `jps` 的基础用法和几个核心参数如下：
 
 - **`jps`**：这是最基础的用法，它会列出 Java 进程的 **LVMID**（本地虚拟机唯一 ID，通常就是操作系统的进程号 PID）和**主类名**（或 Jar 包名）。
-- **jps -l**：这是我最常用的参数之一。它会输出主类的**完整包名**，或者如果应用是通过 Jar 包运行的，会输出 Jar 包的**完整路径**。这在同一台机器上部署了多个来自不同项目的 Java 应用时，能非常清晰地区分它们。
-- **jps -v**：这个参数也非常实用，尤其是在排查配置问题时。它会显示传递给 JVM 的参数，例如 -Xmx、-Xms、-XX:+UseG1GC 等。通过它，我可以快速确认应用的内存配置、GC 策略等是否符合预期。
-- **jps -m**：这个参数用于查看传递给主函数 main() 的参数。当我们需要确认程序启动时传入的业务参数是否正确时，它非常有用。
+- **`jps -l`**：这是我最常用的参数之一。它会输出主类的**完整包名**，或者如果应用是通过 Jar 包运行的，会输出 Jar 包的**完整路径**。这在同一台机器上部署了多个来自不同项目的 Java 应用时，能非常清晰地区分它们。
+- **`jps -v`**：这个参数也非常实用，尤其是在排查配置问题时。它会显示传递给 JVM 的参数，例如 `-Xmx`、`-Xms`、`-XX:+UseG1GC` 等。通过它，我可以快速确认应用的内存配置、GC 策略等是否符合预期。
+- **`jps -m`**：这个参数用于查看传递给主函数 `main()` 的参数。当我们需要确认程序启动时传入的业务参数是否正确时，它非常有用。
 
-在某些情况下，jps 可能无法满足需求，这时我会采用标准的操作系统命令：
+在某些情况下，`jps` 命令可能无法满足需求，这时我会采用标准的操作系统命令：
 
 1. **权限问题**：jps 默认只能看到由**当前用户**启动的 Java 进程。如果需要查看服务器上所有用户（如 root 或其他业务用户）的 Java 进程，jps 就会受限。
 2. **环境问题**：在一些极简的生产环境或 Docker 容器中，可能只安装了 JRE 而没有完整的 JDK，此时 jps 命令可能不存在。
@@ -603,9 +603,52 @@ JDK 自带的 jps (JVM Process Status) 命令专门用于列出当前用户下�
 ps -ef | grep java
 ```
 
+### 堆内存相关的 JVM 参数有哪些？
 
+**堆内存大小控制**：
 
+1. **`-Xms`** ：设置 JVM 初始堆内存大小（如`-Xms512m`表示初始堆为 512MB）。
+2. **`-Xmx`** ：设置 JVM 最大堆内存大小（如`-Xmx1g`表示最大堆为 1GB）。
 
+在生产环境中，强烈建议将 `-Xms` 和 `-Xmx` 设置为相同的值。这样做可以避免 JVM 在运行时根据负载情况动态地收缩和扩展堆内存，这个过程会引发不必要的 Full GC 和性能抖动，从而提高服务的稳定性和响应速度。
+
+**新生代与老年代**：
+
+1. **`-Xmn`**：这是最直接控制新生代大小的方式，优先级高于 -`XX:NewRatio`。设置后，老年代的大小就是 `-Xmx` 减去 `-Xmn`。当我们对应用的对象生命周期有明确的判断时（例如，有大量的短生命周期对象），可以直接给新生代一个合适的大小，以达到更好的 GC 性能。
+2. **`-XX:NewRatio`**：这是另一种调节新生代大小的方式，默认值为 2，表示老年代:新生代 = 2:1。因此，新生代默认占整个堆的 1/3。如果设置为 3，则新生代占堆的 1/4。通常在 `-Xmn` 和 `-XX:NewRatio`中选择一个使用即可。
+3. **`-XX:SurvivorRatio`**：设置新生代中 Eden 区与单个 Survivor 区的比例。默认值为 8，表示 Eden : From Survivor : To Survivor = 8:1:1。所以 Eden 区占整个新生代的 8/10。这个比例会影响对象能否在新生代中“存活”足够长的时间。如果 Survivor 区太小（即 `-XX:SurvivorRatio` 值过大），Minor GC 后存活的对象可能因为放不下而被迫提前进入老年代，增加 Full GC 的压力。
+
+**堆内存溢出相关参数**：
+
+1. **`-XX:+HeapDumpOnOutOfMemoryError`** ：当发生`OutOfMemoryError`（OOM）时，自动生成堆转储文件（`.hprof`），记录堆内存对象状态。
+2. **`-XX:HeapDumpPath`** ：指定 OOM 时堆转储文件的保存路径（如`-XX:HeapDumpPath=/logs/heapdump.hprof`），默认生成在程序运行目录。
+
+最重要的 JVM 参数可以参考这篇文章：[最重要的 JVM 参数总结](https://javaguide.cn/java/jvm/jvm-parameters-intro.html)。
+
+### 如何检测死锁？
+
+- 使用`jmap`、`jstack`等命令查看 JVM 线程栈和堆内存的情况。如果有死锁，`jstack` 的输出中通常会有 `Found one Java-level deadlock:`的字样，后面会跟着死锁相关的线程信息。另外，实际项目中还可以搭配使用`top`、`df`、`free`等命令查看操作系统的基本情况，出现死锁可能会导致 CPU、内存等资源消耗过高。
+- 采用 VisualVM、JConsole 等工具进行排查。
+
+这里以 JConsole 工具为例进行演示。
+
+首先，我们要找到 JDK 的 bin 目录，找到 jconsole 并双击打开。
+
+![jconsole](https://oss.javaguide.cn/github/javaguide/java/concurrent/jdk-home-bin-jconsole.png)
+
+对于 MAC 用户来说，可以通过 `/usr/libexec/java_home -V`查看 JDK 安装目录，找到后通过 `open . + 文件夹地址`打开即可。例如，我本地的某个 JDK 的路径是：
+
+```bash
+ open . /Users/guide/Library/Java/JavaVirtualMachines/corretto-1.8.0_252/Contents/Home
+```
+
+打开 jconsole 后，连接对应的程序，然后进入线程界面选择检测死锁即可！
+
+![jconsole 检测死锁](https://oss.javaguide.cn/github/javaguide/java/concurrent/jconsole-check-deadlock.png)
+
+![jconsole 检测到死锁](https://oss.javaguide.cn/github/javaguide/java/concurrent/jconsole-check-deadlock-done.png)
+
+详细介绍可以查看这篇文章的死锁部分内容：[Java 并发常见面试题总结（上）](https://javaguide.cn/java/concurrent/java-concurrent-questions-01.html)。
 
 ### 什么是 Heap Dump 文件？如何生成 Heap Dump 文件？
 
@@ -725,3 +768,7 @@ Problem Suspect 1 的可以看到有一个 **Details**，点进去即可看到�
 ![](https://oss.javaguide.cn/github/javaguide/java/jvm/mat-problem-suspect-1-details.png)
 
 可以看到：`SimpleLeak` 中的**静态集合 `staticList`** 是内存泄漏的 “根源”，因为静态变量生命周期与类一致，若持续向其中添加对象且不清理，会导致对象无法被 GC 回收。
+
+### 遇到过 GC 问题吗？怎么分析和解决的？
+
+美团技术团队的 [Java 中 9 种常见的 CMS GC 问题分析与解决](https://tech.meituan.com/2020/11/12/java-9-cms-gc.html)这篇文章共 2w+ 字，详细介绍了 GC 基础，总结了 CMS GC 的一些常见问题分析与解决办法。
