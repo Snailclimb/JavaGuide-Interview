@@ -1,6 +1,6 @@
 ------
 
-![面试突击-Java基础](../../../../Downloads/JavaaGuide面试突击版/封面/面试突击-Java基础.png)
+![面试突击-Java基础](https://oss.javaguide.cn/github/javaguide-interview/cover/java-basis.png)
 
 ------
 

@@ -1,8 +1,8 @@
----
+------
 
-![面试突击-JVM](../../../../Downloads/JavaaGuide面试突击版/封面/JavaGuide面试突击封面/JavaGuide面试突击封面.001.png)
+![面试突击-JVM](https://oss.javaguide.cn/github/javaguide-interview/cover/java-jvm.png)
 
----
+------
 
 ## 前言
 
@@ -30,7 +30,7 @@ JavaGuide 已经持续维护 6 年多了，累计提交了接近 **6000** commit
 
 ## Java 内存区域
 
-### Java 内存区域（运行时数据区）的组成
+### ⭐️Java 内存区域（运行时数据区）的组成
 
 Java 虚拟机在执行 Java 程序的过程中会把它管理的内存划分成若干个不同的数据区域。
 
@@ -58,7 +58,7 @@ JDK 1.8 和之前的版本略有不同，我们这里以 JDK 1.7 和 JDK 1.8 这
 
 Java 虚拟机规范对于运行时数据区域的规定是相当宽松的。以堆为例：堆可以是连续空间，也可以不连续。堆的大小可以固定，也可以在运行时按需扩展 。虚拟机实现者可以使用任何垃圾回收算法管理堆，甚至完全不进行垃圾收集也是可以的。
 
-### 哪个区域不会出现 OutOfMemoryError？
+### ⭐️哪个区域不会出现 OutOfMemoryError？
 
 程序计数器是唯一一个不会出现 `OutOfMemoryError` 的内存区域，它的生命周期随着线程的创建而创建，随着线程的结束而死亡。
 
@@ -104,7 +104,7 @@ Java 堆是垃圾收集器管理的主要区域，因此也被称作 **GC 堆（
 MaxTenuringThreshold of 20 is invalid; must be between 0 and 15
 ```
 
-### 程序运行中堆可能会出现什么错误？
+### ⭐️程序运行中堆可能会出现什么错误？
 
 堆这里最容易出现的就是 `OutOfMemoryError` 错误，并且出现这种错误之后的表现形式还会有几种，比如：
 
@@ -112,7 +112,7 @@ MaxTenuringThreshold of 20 is invalid; must be between 0 and 15
 2. **`java.lang.OutOfMemoryError: Java heap space`** :假如在创建新的对象时, 堆内存中的空间不足以存放新创建的对象, 就会引发此错误。(和配置的最大堆内存有关，且受制于物理内存大小。最大堆内存可通过`-Xmx`参数配置，若没有特别配置，将会使用默认值，详见：[Default Java 8 max heap size](https://stackoverflow.com/questions/28272923/default-xmxsize-in-java-8-max-heap-size))
 3. ……
 
-### 为什么要将永久代 (PermGen) 替换为元空间 (MetaSpace) 呢?
+### ⭐️为什么要将永久代 (PermGen) 替换为元空间 (MetaSpace) 呢?
 
 下图来自《深入理解 Java 虚拟机》第 3 版 2.2.5
 
@@ -150,7 +150,7 @@ JDK 1.8 的时候，方法区（HotSpot 的永久代）被彻底移除了（JDK1
 
 与永久代很大的不同就是，如果不指定大小的话，随着更多类的创建，虚拟机会耗尽所有可用的系统内存。
 
-### 字符串常量池的作用是？
+### ⭐️字符串常量池的作用是？
 
 **字符串常量池** 是 JVM 为了提升性能和减少内存消耗针对字符串（String 类）专门开辟的一块区域，主要目的是为了避免字符串的重复创建。
 
@@ -199,7 +199,7 @@ JVM（HotSpot 虚拟机）中对象的创建过程主要分为以下五步：
 4. **设置对象头**：在对象头中记录类元数据信息、哈希码、GC 分代年龄、锁状态等必要信息，具体设置依虚拟机运行状态（如是否启用偏向锁）而定。
 5. **执行 init 方法**：虚拟机视角下对象已创建，但需执行`<init>`方法按程序员定义完成初始化，最终生成可用对象。
 
-### 对象访问定位的方式有哪些？
+### ⭐️对象访问定位的方式有哪些？
 
 建立对象就是为了使用对象，我们的 Java 程序通过栈上的 reference 数据来操作堆上的具体对象。对象的访问方式由虚拟机实现而定，目前主流的访问方式有：**使用句柄**、**直接指针**。
 
@@ -221,7 +221,7 @@ HotSpot 虚拟机主要使用的就是这种方式来进行对象访问。
 
 ## JVM 垃圾回收
 
-### 如何判断对象是否死亡
+### ⭐️如何判断对象是否死亡
 
 堆中几乎放着所有的对象实例，对堆垃圾回收前的第一步就是要判断哪些对象已经死亡（即不能再被任何途径使用的对象）。
 
@@ -360,7 +360,7 @@ PhantomReference pr = new PhantomReference(str, queue);
 
 虚拟机可以对满足上述 3 个条件的无用类进行回收，这里说的仅仅是“可以”，而并不是和对象一样不使用了就会必然被回收。
 
-### 垃圾回收算法有哪些？
+### ⭐️垃圾回收算法有哪些？
 
 #### 标记-清除算法
 
@@ -410,12 +410,12 @@ PhantomReference pr = new PhantomReference(str, queue);
 
 根据上面的对分代收集算法的介绍回答。
 
-### JDK 1.8 的默认垃圾回收器是？JDK1.9 之后呢？
+### ⭐️JDK 1.8 的默认垃圾回收器是？JDK1.9 之后呢？
 
 - **JDK 1.8 默认垃圾回收器**：Parallel Scanvenge（新生代）+ Parallel Old（老年代）。 这个组合也被称为 Parallel GC 或 Throughput GC，侧重于吞吐量。
 - **JDK 1.9 及以后默认垃圾回收器**：G1 GC (Garbage-First Garbage Collector)。 G1 GC 是一个更现代化的垃圾回收器，旨在平衡吞吐量和停顿时间，尤其适用于堆内存较大的应用。
 
-### G1 垃圾回收的过程
+### ⭐️G1 垃圾回收的过程
 
 G1（Garbage-First）垃圾收集器在 JDK 7 中首次引入，作为一种试验性的垃圾收集器。到了 JDK 8，G1 得到了进一步的完善和改进，功能基本已经完全实现，成为一个稳定、可用于生产环境的垃圾收集器。
 
@@ -430,7 +430,7 @@ G1 收集器的运作大致分为以下几个步骤：
 
 **G1 收集器在后台维护了一个优先列表，每次根据允许的收集时间，优先选择回收价值最大的 Region(这也就是它的名字 Garbage-First 的由来)** 。这种使用 Region 划分内存空间以及有优先级的区域回收方式，保证了 G1 收集器在有限时间内可以尽可能高的收集效率（把内存化整为零）。
 
-### ZGC 有哪些改进？
+### ⭐️ZGC 有哪些改进？
 
 与 CMS、ParNew 和 G1 类似，ZGC 也采用标记-复制算法，不过 ZGC 对该算法做了重大改进。
 
@@ -458,7 +458,7 @@ java -XX:+UseZGC -XX:+ZGenerational className
 - [新一代垃圾回收器 ZGC 的探索与实践 - 美团技术团队](https://tech.meituan.com/2020/08/06/new-zgc-practice-in-meituan.html)
 - [极致八股文之 JVM 垃圾回收器 G1&ZGC 详解 - 阿里云开发者](https://mp.weixin.qq.com/s/Ywj3XMws0IIK-kiUllN87Q)
 
-## 双亲委派模型
+## ⭐️双亲委派模型
 
 ### 双亲委派模型指的是？
 
@@ -554,7 +554,7 @@ cl = Thread.currentThread().getContextClassLoader();
 
 感兴趣的小伙伴可以自行深入研究一下 Tomcat 打破双亲委派模型的原理，推荐资料：[《深入拆解 Tomcat & Jetty》](http://gk.link/a/10Egr)。
 
-## 问题排查
+## ⭐️问题排查
 
 ### 你知道哪些 Java 性能优化和问题排查工具？
 
