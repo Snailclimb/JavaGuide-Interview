@@ -9,7 +9,7 @@ head:
       content: Java特点,Java SE,Java EE,Java ME,Java虚拟机,JVM,JDK,JRE,字节码,Java编译与解释,AOT编译,云原生,AOT与JIT对比,GraalVM,Oracle JDK与OpenJDK区别,OpenJDK,LTS支持,多线程支持,静态变量,成员变量与局部变量区别,包装类型缓存机制,自动装箱与拆箱,浮点数精度丢失,BigDecimal,Java基本数据类型,Java标识符与关键字,移位运算符,Java注释,静态方法与实例方法,方法重载与重写,可变长参数,Java性能优化
   - - meta
     - name: description
-      content: 全网质量最高的Java基础常见知识点和面试题总结，希望对你有帮助！
+      content: 系统梳理 Java 面试中最常考的基础知识与高频问题：涵盖 JVM、JDK、JRE 区别，字节码与编译/解释执行机制，AOT 与 JIT 对比及 GraalVM，Oracle JDK 与 OpenJDK 区别，8 种基本数据类型与自动装箱、包装类型缓存机制，浮点数精度与 BigDecimal，成员变量和局部变量、静态变量与方法，重载和重写，自增自减与移位运算符，String 不可变性与常量池，异常体系与 try-with-resources，泛型、反射、SPI、序列化及 I/O 等核心考点，适合作为 Java 基础面试突击与复习笔记。
 ---
 
 ------
@@ -22,13 +22,13 @@ head:
 
 由于很多读者都有突击面试的需求，所以我在几年前就弄了 **JavaGuide 面试突击版本**（JavaGuide 内容精简版，只保留重点），并持续完善跟进。对于喜欢纸质阅读的朋友来说，也可以打印出来，整体阅读体验非常高！
 
-除了只保留最常问的面试题之外，我还进一步对重点中的重点进行了**⭐️**标注。并且，有亮色（白天）和暗色（夜间）两个主题选择，需要打印出来的朋友记得选择亮色版本。
+除了只保留最常问的面试题之外，我还进一步对重点中的重点进行了⭐️标注。并且，有亮色（白天）和暗色（夜间）两个主题选择，需要打印出来的朋友记得选择亮色版本。
 
 对于时间比较充裕的朋友，我个人还是更推荐 [JavaGuide](https://javaguide.cn/) 网站系统学习，内容更全面，更深入。
 
 JavaGuide 已经持续维护 6 年多了，累计提交了接近 **6000** commit ，共有 **570+** 多位贡献者共同参与维护和完善。用心做原创优质内容，如果觉得有帮助的话，欢迎点赞分享！传送门：[GitHub](https://github.com/Snailclimb/JavaGuide) | [Gitee](https://gitee.com/SnailClimb/JavaGuide)。
 
-对于需要更进一步面试辅导服务的读者，欢迎加入**[JavaGuide 官方知识星球](https://javaguide.cn/about-the-author/zhishixingqiu-two-years.html)**(技术专栏/一对一提问/简历修改/求职指南/面试打卡)，绝对物超所值！
+对于需要更进一步面试辅导服务的读者，欢迎加入 **[JavaGuide 官方知识星球](https://javaguide.cn/about-the-author/zhishixingqiu-two-years.html)**(技术专栏/一对一提问/简历修改/求职指南/面试打卡)，绝对物超所值！
 
 面试突击最新版本可以在我的公众号回复“**PDF**”获取（[JavaGuide 官方知识星球](https://javaguide.cn/about-the-author/zhishixingqiu-two-years.html)会提前同步最新版，针对球友的一个小福利）。
 
@@ -1644,6 +1644,14 @@ public static String getStr() {
 
 ![](https://oss.javaguide.cn/github/javaguide/java/basis/unchecked-exception.png)
 
+### 你更倾向于使用 Checked Exception 还是 Unchecked Exception？
+
+默认使用 Unchecked Exception，只在必要时才用 Checked Exception。
+
+我们可以把 Unchecked Exception（比如 `NullPointerException`）看作是代码 Bug。对待 Bug，最好的方式是让它暴露出来然后去修复代码，而不是用 `try-catch` 去掩盖它。
+
+一般来说，只在一种情况下使用 Checked Exception：当这个异常是业务逻辑的一部分，并且调用方必须处理它时。比如说，一个余额不足异常。这不是 bug，而是一个正常的业务分支，我需要用 Checked Exception 来强制调用者去处理这种情况，比如提示用户去充值。这样就能在保证关键业务逻辑完整性的同时，让代码尽可能保持简洁。
+
 ### try-catch-finally 如何使用？
 
 - `try`块：用于捕获异常。其后可接零个或多个 `catch` 块，如果没有 `catch` 块，则必须跟一个 `finally` 块。
@@ -1911,6 +1919,56 @@ public class DebugInvocationHandler implements InvocationHandler {
 
 像 MyBatis、Hibernate 这种框架，能帮你把数据库查出来的一行行数据，自动变成一个个 Java 对象。它是怎么知道数据库字段对应哪个 Java 属性的？还是靠反射。它通过反射获取 Java 类的属性列表，然后把查询结果按名字或配置对应起来，再用反射调用 setter 或直接修改字段值。反过来，保存对象到数据库时，也是用反射读取属性值来拼 SQL。
 
+## 代理
+
+关于 Java 代理的详细介绍，可以看看笔者写的 [Java 代理模式详解](https://javaguide.cn/java/basis/proxy.html "Java 代理模式详解")这篇文章。
+
+### 如何实现动态代理？
+
+动态代理是一种非常强大的设计模式，它允许我们在**不修改源代码**的情况下，对一个类或对象的方法进行**功能增强（Enhancement）**。
+
+在 Java 中，实现动态代理最主流的方式有两种：**JDK 动态代理** 和 **CGLIB 动态代理**。
+
+**第一种：JDK 动态代理**
+
+Java 官方提供的，其核心要求是目标类必须实现一个或多个接口。JDK 动态代理在运行时，会利用 `Proxy.newProxyInstance()` 方法，动态地创建一个实现了这些接口的代理类的实例。这个代理类在内存中生成，你看不到它的 `.java` 或 `.class` 文件。
+
+当你调用代理对象的任何一个方法时，这个调用都会被转发到我们提供的一个 `InvocationHandler` 接口的 `invoke` 方法中。在 `invoke` 方法里，我们就可以在调用原始方法（目标方法）之前或之后，加入我们自己的增强逻辑。
+
+**第二种：CGLIB 动态代理**
+
+CGLIB 是一个第三方的代码生成库。它的原理与 JDK 完全不同，它不要求被代理的类实现接口。它在运行时，动态生成目标类的子类作为代理类（通过 ASM 字节码操作技术）。然后，它会重写父类（也就是被代理类）中所有非 `final`、`private` 和 `static` 的方法。
+
+当你调用代理对象的任何一个方法时，这个调用会被 CGLIB 的 `MethodInterceptor` 接口的 `intercept` 方法拦截。和 `InvocationHandler` 的 `invoke` 方法一样，我们可以在 `intercept` 方法里，在调用原始的父类方法之前或之后，加入我们的增强逻辑。
+
+### 静态代理和动态代理有什么区别？
+
+静态代理和动态代理的核心差异在于 **代理关系的确定时机、实现灵活性及维护成本** 。
+
+| 对比维度         | 静态代理 (Static Proxy)                                      | 动态代理 (Dynamic Proxy)                                     |
+| ---------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| 代理关系确定时机 | 编译期（编译后生成固定的 `.class` 字节码文件）               | 运行时（动态生成代理类字节码并加载到 JVM）                   |
+| 实现方式         | 手动编写代理类，需与目标类实现同一接口，一对一绑定           | 无需手动编写代理类，通过 `Handler`/`Interceptor` 封装增强逻辑，一对多复用 |
+| 接口依赖         | 必须实现接口（代理类与目标类遵循同一接口规范）               | 支持代理接口或直接代理实现类                                 |
+| 代码量与维护性   | 代码量大（目标类越多，代理类越多），维护成本高；接口新增方法时，目标类与代理类需同步修改 | 代码量极少（通用增强逻辑可复用），维护性好；与接口解耦，接口变更不影响代理逻辑 |
+| 核心优势         | 实现简单、逻辑直观，无额外框架依赖                           | 灵活性强、复用性高，降低重复编码，适配复杂场景               |
+| 典型应用场景     | 简单的装饰器模式、少量固定类的增强需求                       | Spring AOP、RPC 框架（如 Dubbo）、ORM 框架                   |
+
+### ⭐️JDK 动态代理和 CGLIB 动态代理有什么区别？
+
+1. JDK 动态代理是官方的，它要求被代理的类必须实现接口。它的原理是动态生成一个接口的实现类来作为代理。CGLIB 是第三方的，它不需要接口。它的原理是动态生成一个被代理类的子类来作为代理。但也正因为是继承，所以它不能代理 `final` 的类，被代理的方法也不能是 `final` 或 `private` 。
+2. 就二者的效率来说，大部分情况都是 JDK 动态代理更优秀，随着 JDK 版本的升级，这个优势更加明显。
+
+### ⭐️介绍一下动态代理在框架中的实际应用场景
+
+动态代理最典型的应用场景就是**Spring AOP**。
+
+AOP(Aspect-Oriented Programming:面向切面编程)能够将那些与业务无关，却为业务模块所共同调用的逻辑或责任（例如事务处理、日志管理、权限控制等）封装起来，便于减少系统的重复代码，降低模块间的耦合度，并有利于未来的可拓展性和可维护性。
+
+Spring AOP 就是基于动态代理的，如果要代理的对象，实现了某个接口，那么 Spring AOP 会使用 **JDK Proxy**，去创建代理对象，而对于没有实现接口的对象，就无法使用 JDK Proxy 去进行代理了，这时候 Spring AOP 会使用 **Cglib** 生成一个被代理对象的子类来作为代理，如下图所示：
+
+![SpringAOPProcess](https://oss.javaguide.cn/github/javaguide/system-design/framework/spring/230ae587a322d6e4d09510161987d346.jpeg)
+
 ## 注解
 
 ### 何谓注解？
@@ -2073,7 +2131,7 @@ Java IO 流的 40 多个类都是从如下 4 个抽象类基类中派生出来�
 
 参考答案：[Java IO 设计模式总结](https://javaguide.cn/java/io/io-design-patterns.html)
 
-### BIO、NIO 和 AIO 的区别？
+### ⭐️BIO、NIO 和 AIO 的区别？
 
 参考答案：[Java IO 模型详解](https://javaguide.cn/java/io/io-model.html)
 

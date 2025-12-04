@@ -6,7 +6,7 @@ export default sidebar({
       text: "项目介绍",
       icon: "star",
       collapsible: true,
-      prefix: "javaguide/",
+      prefix: "intro/",
       children: ["faq"],
     },
     {
@@ -38,7 +38,7 @@ export default sidebar({
     },
         {
       text: "计算机基础",
-      icon: "interview",
+      icon: "computer",
       collapsible: false,
       prefix: "cs-basics/",
       children: [
@@ -50,17 +50,17 @@ export default sidebar({
     },
     {
       text: "数据库和缓存",
-      icon: "interview",
+      icon: "database",
       collapsible: false,
       prefix: "database/",
       children: ["mysql", "redis"],
     },
     {
       text: "系统设计",
-      icon: "interview",
+      icon: "design",
       collapsible: false,
       prefix: "system-design/",
-      children: ["design-pattern"],
+      children: ["spring", "design-pattern"],
     },
   ],
 });

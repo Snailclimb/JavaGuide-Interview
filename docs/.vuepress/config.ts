@@ -7,7 +7,7 @@ export default defineUserConfig({
 
   title: "JavaGuide(面试突击版)",
   description:
-    "Java 学习&面试指南（Go、Python 后端面试通用,计算机基础面试总结）  ",
+    "Java 学习&面试指南（Go、Python 后端面试通用,计算机基础面试总结）",
   lang: "zh-CN",
 
   head: [

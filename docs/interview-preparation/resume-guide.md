@@ -288,7 +288,7 @@ FAB 法则由下面 3 个单词组成（FAB 法则的名字就是由它们的首
 
 下面是星球提供的部分服务（点击下方图片即可获取知识星球的详细介绍）：
 
-[![星球服务](https://oss.javaguide.cn/xingqiu/xingqiufuwu.png)](../about-the-author/zhishixingqiu-two-years.md)
+[![星球服务](https://oss.javaguide.cn/xingqiu/xingqiufuwu.png)](https://javaguide.cn/about-the-author/zhishixingqiu-two-years.html)
 
 这里再提供一份限时专属优惠卷：
 

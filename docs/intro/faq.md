@@ -13,11 +13,10 @@ JavaGuide 已经有了在线阅读版本（地址：https://javaguide.cn/），�
 
 ## 如何获取最新版本？
 
-你可以通过我的公众号获取到 **《JavaGuide 面试突击版》** 的最新版本。
+你可以通过我的公众号获取到 **《JavaGuide 面试突击版》** 的最新版本，后台回复“**PDF**”即可！
 
-<div align="center">   
-    <img src="https://oss.javaguide.cn/github/javaguide/gongzhonghaoxuanchuan.png" style="margin: 0 auto;" />  
-</div>
+<img src="https://oss.javaguide.cn/github/javaguide/gongzhonghao-javaguide.png" alt="JavaGuide 公众号"  style="zoom: 43%; display: block; margin: 0 auto;" />
+
 ## 如何学习本项目？
 
 不论是在线版本还是 PDF 版本都提供了非常详细的目录，建议可以从头到尾看一遍，如果基础不错的话也可以挑自己需要的章节查看。看的过程中自己要多思考，碰到不懂的地方，自己记得要勤搜索，需要记忆的地方也不要吝啬自己的脑子。

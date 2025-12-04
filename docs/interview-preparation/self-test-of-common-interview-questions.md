@@ -15,5 +15,3 @@ icon: security-fill
 在面试中如果你实在没有头绪的话，一个好的面试官也是会给你提示的。
 
 ![](https://oss.javaguide.cn/xingqiu/image-20220628102848236.png)
-
-<!-- @include: @planet.snippet.md -->

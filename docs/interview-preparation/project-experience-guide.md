@@ -26,7 +26,7 @@ icon: project
 
 我面试过很多求职者，简历上看着有微服务的项目经验，结果随便问两个问题就知道根本不是自己做的或者说做的时候压根没认真思考。这种情况会给我留下非常不好的印象。
 
-我在 **[《Java 面试指北》](../zhuanlan/java-mian-shi-zhi-bei.md)** 的「面试准备篇」中也说过：
+我在 **[《Java 面试指北》](https://javaguide.cn/zhuanlan/java-mian-shi-zhi-bei.html)** 的「面试准备篇」中也说过：
 
 > 个人认为也没必要非要去做微服务或者分布式项目，不一定对你面试有利。微服务或者分布式项目涉及的知识点太多，一般人很难吃透。并且，这类项目其实对于校招生来说稍微有一点超标了。即使你做出来，很多面试官也会认为不是你独立完成的。
 >
@@ -72,7 +72,7 @@ GitHub 或者码云上面有很多实战类别项目，你可以选择一个来�
 
 ## 有没有还不错的项目推荐？
 
-**[《Java 面试指北》](../zhuanlan/java-mian-shi-zhi-bei.md)** 的「面试准备篇」中有一篇文章专门整理了一些比较高质量的实战项目，包含业务项目、轮子项目、国外公开课 Lab 和视频类实战项目教程推荐，非常适合用来学习或者作为项目经验。
+**[《Java 面试指北》](https://javaguide.cn/zhuanlan/java-mian-shi-zhi-bei.html)** 的「面试准备篇」中有一篇文章专门整理了一些比较高质量的实战项目，包含业务项目、轮子项目、国外公开课 Lab 和视频类实战项目教程推荐，非常适合用来学习或者作为项目经验。
 
 ![优质 Java 实战项目推荐](https://oss.javaguide.cn/javamianshizhibei/project-experience-guide.png)
 

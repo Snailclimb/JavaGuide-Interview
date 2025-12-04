@@ -33,18 +33,6 @@ export default hopeTheme({
     align: true,
     codeTabs: true,
     gfm: true,
-    include: {
-      resolvePath: (file, cwd) => {
-        if (file.startsWith("@"))
-          return path.resolve(
-            __dirname,
-            "../snippets",
-            file.replace("@", "./"),
-          );
-
-        return path.resolve(cwd, file);
-      },
-    },
     tasklist: true,
   },
 

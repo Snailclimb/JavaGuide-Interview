@@ -323,7 +323,7 @@ MyISAM 不提供事务支持。
 
 InnoDB 提供事务支持，实现了 SQL 标准定义了四个隔离级别，具有提交(commit)和回滚(rollback)事务的能力。并且，InnoDB 默认使用的 REPEATABLE-READ（可重读）隔离级别是可以解决幻读问题发生的（基于 MVCC 和 Next-Key Lock）。
 
-关于 MySQL 事务的详细介绍，可以看看我写的这篇文章：[MySQL 事务隔离级别详解](./transaction-isolation-level.md)。
+关于 MySQL 事务的详细介绍，可以看看我写的这篇文章：[MySQL 事务隔离级别详解](https://javaguide.cn/database/mysql/transaction-isolation-level.html)。
 
 **3、是否支持外键**
 
@@ -357,7 +357,7 @@ MyISAM 不支持，而 InnoDB 支持。
 
 InnoDB 引擎中，其数据文件本身就是索引文件。相比 MyISAM，索引文件和数据文件是分离的，其表数据文件本身就是按 B+Tree 组织的一个索引结构，树的叶节点 data 域保存了完整的数据记录。
 
-详细区别，推荐你看看我写的这篇文章：[MySQL 索引详解](./mysql-index.md)。
+详细区别，推荐你看看我写的这篇文章：[MySQL 索引详解](https://javaguide.cn/database/mysql/mysql-index.html)。
 
 **7、性能有差别。**
 

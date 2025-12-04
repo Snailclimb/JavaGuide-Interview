@@ -927,8 +927,6 @@ maxmemory-policy noeviction
 
 关于淘汰策略的详细说明可以参考 Redis 官方文档：<https://redis.io/docs/reference/eviction/>。
 
-<!-- @include: @article-header.snippet.md -->
-
 ## Redis 事务
 
 ### 什么是 Redis 事务？
@@ -1214,7 +1212,7 @@ bigkey 通常是由于下面这些原因产生的：
 
 bigkey 除了会消耗更多的内存空间和带宽，还会对性能造成比较大的影响。
 
-在 [Redis 常见阻塞原因总结](./redis-common-blocking-problems-summary.md) 这篇文章中我们提到：大 key 还会造成阻塞问题。具体来说，主要体现在下面三个方面：
+在 [Redis 常见阻塞原因总结](https://javaguide.cn/database/redis/redis-common-blocking-problems-summary.html) 这篇文章中我们提到：大 key 还会造成阻塞问题。具体来说，主要体现在下面三个方面：
 
 1. 客户端超时阻塞：由于 Redis 执行命令是单线程处理，然后在操作大 key 时会比较耗时，那么就会阻塞 Redis，从客户端这一视角看，就是很久很久都没有响应。
 2. 网络阻塞：每次获取大 key 产生的网络流量较大，如果一个 key 的大小是 1 MB，每秒访问量为 1000，那么每秒会产生 1000MB 的流量，这对于普通千兆网卡的服务器来说是灾难性的。
