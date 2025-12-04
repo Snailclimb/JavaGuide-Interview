@@ -1725,5 +1725,5 @@ Bloom Filter 会使用一个较大的 bit 数组来保存所有的数据，数�
 6. 控制 key 的生命周期：避免 Redis 中存放了太多不经常被访问的数据。
 7. ……
 
-
+<!-- @include: @article-footer.snippet.md -->
 

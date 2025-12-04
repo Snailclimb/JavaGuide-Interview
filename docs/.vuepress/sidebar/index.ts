@@ -36,17 +36,12 @@ export default sidebar({
         "java-jvm",
       ],
     },
-        {
+    {
       text: "计算机基础",
       icon: "computer",
       collapsible: false,
       prefix: "cs-basics/",
-      children: [
-        "network",
-        "operating-system",
-        "data-structure",
-        "algorithms",
-      ],
+      children: ["network", "operating-system", "data-structure", "algorithms"],
     },
     {
       text: "数据库和缓存",
@@ -61,6 +56,13 @@ export default sidebar({
       collapsible: false,
       prefix: "system-design/",
       children: ["spring", "design-pattern"],
+    },
+    {
+      text: "测开",
+      icon: "framework",
+      collapsible: false,
+      prefix: "other/",
+      children: ["test-development"],
     },
   ],
 });

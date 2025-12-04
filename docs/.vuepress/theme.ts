@@ -7,7 +7,7 @@ import sidebar from "./sidebar/index.js";
 const __dirname = getDirname(import.meta.url);
 
 export default hopeTheme({
-  hostname: "https://javaguide.cn/",
+  hostname: "https://interview.javaguide.cn/",
   logo: "/logo.png",
   favicon: "/favicon.ico",
 
@@ -16,7 +16,7 @@ export default hopeTheme({
     url: "https://javaguide.cn/article/",
   },
 
-  repo: "https://github.com/Snailclimb/JavaGuide",
+  repo: "https://github.com/Snailclimb/JavaGuide-Interview",
   docsDir: "docs",
   pure: true,
   focus: false,
@@ -33,6 +33,18 @@ export default hopeTheme({
     align: true,
     codeTabs: true,
     gfm: true,
+    include: {
+      resolvePath: (file, cwd) => {
+        if (file.startsWith("@"))
+          return path.resolve(
+            __dirname,
+            "../snippets",
+            file.replace("@", "./"),
+          );
+
+        return path.resolve(cwd, file);
+      },
+    },
     tasklist: true,
   },
 

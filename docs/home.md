@@ -33,10 +33,14 @@ title: Java 学习&面试指南（Go、Python 后端面试通用,计算机基础
 - [Spring和Spring Boot常见面试题总结](./system-design/spring.md)                
 - [设计模式常见面试题总结](./system-design/design-pattern.md)
 
+## 测试开发
+
+- [测试开发常见面试题总结](./other/test-development.md)
+
 ## 公众号
 
 如果大家想要实时关注我更新的文章以及分享的干货的话，可以关注我的公众号。
 
-![JavaGuide 官方公众号](https://oss.javaguide.cn/github/javaguide/gongzhonghaoxuanchuan.png)
+<img src="https://oss.javaguide.cn/github/javaguide/gongzhonghao-javaguide.png" alt="JavaGuide 公众号"  style="zoom: 43%; display: block; margin: 0 auto;" />
 
 <!-- #endregion home -->
