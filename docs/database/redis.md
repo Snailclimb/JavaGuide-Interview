@@ -1,22 +1,16 @@
 ---
 title: Redis常见面试题总结
+description: 最新Redis面试题全解析：涵盖Redis事务原理、性能优化pipeline与Lua脚本、bigkey与hotkey处理、缓存穿透击穿雪崩应对方案、慢查询与内存碎片、Redis Sentinel哨兵与Cluster集群详解，助你高分通过后端面试。
 category: 数据库
 tag:
   - Redis
 head:
   - - meta
     - name: keywords
-      content: Redis面试题, Redis事务, Redis性能优化, Redis缓存穿透, Redis缓存击穿, Redis缓存雪崩, Redis bigkey, Redis hotkey, Redis慢查询, Redis内存碎片, Redis集群, Redis Sentinel
-  - - meta
-    - name: description
-      content: 最新Redis面试题全解析：事务原理、性能优化（pipeline/Lua/bigkey/hotkey）、缓存穿透/击穿/雪崩应对、慢查询&内存碎片、Sentinel/Cluster集群详解，助你高分通过后端面试！
+      content: Redis面试题,Redis数据类型,Redis持久化,RDB,AOF,Redis事务,Redis性能优化,缓存穿透,缓存击穿,缓存雪崩,Redis bigkey,Redis hotkey,Redis Sentinel,Redis Cluster,分布式锁
 ---
 
-------
-
-![面试突击-Redis](https://oss.javaguide.cn/github/javaguide-interview/cover/redis.png)
-
-------
+<!-- @include: @small-advertisement.snippet.md -->
 
 ## 前言
 

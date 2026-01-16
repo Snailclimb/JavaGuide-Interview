@@ -1,22 +1,16 @@
 ---
 title: Java集合常见面试题总结
+description: 系统梳理Java集合框架常见知识点与高频面试题，覆盖List、Set、Queue、Map及其典型实现如ArrayList、LinkedList、HashSet、HashMap、ConcurrentHashMap、BlockingQueue等，并结合源码讲解扩容机制、时间复杂度、线程安全与fail-fast/fail-safe等关键细节。
 category: Java
 tag:
   - Java集合
 head:
   - - meta
     - name: keywords
-      content: Java集合,Collection,List,ArrayList,LinkedList,Set,HashSet,TreeSet,Queue,Deque,ArrayDeque,PriorityQueue,BlockingQueue,ArrayBlockingQueue,LinkedBlockingQueue,HashMap,TreeMap,ConcurrentHashMap,Hashtable,fail-fast,fail-safe
-  - - meta
-    - name: description
-      content: 系统梳理 Java 集合框架常见知识点与高频面试题，覆盖 List、Set、Queue、Map 及其典型实现（如 ArrayList、LinkedList、HashSet、HashMap、ConcurrentHashMap、BlockingQueue 等），并结合源码讲解扩容机制、时间复杂度、线程安全与 fail-fast/fail-safe 等关键细节。
+      content: Java集合面试题,Collection,List,ArrayList,LinkedList,Set,HashSet,TreeSet,Queue,Deque,ArrayDeque,PriorityQueue,BlockingQueue,HashMap,TreeMap,ConcurrentHashMap,Hashtable,fail-fast,fail-safe,扩容机制
 ---
 
-------
-
-![面试突击-Java集合](https://oss.javaguide.cn/github/javaguide-interview/cover/java-collection.png)
-
-------
+<!-- @include: @small-advertisement.snippet.md -->
 
 ## 前言
 

@@ -1,22 +1,16 @@
 ---
 title: JVM常见面试题总结
+description: JVM核心知识点与高频面试题精炼总结：涵盖内存区域划分、垃圾回收算法与收集器、类加载机制、双亲委派模型、G1/ZGC垃圾收集器、OutOfMemoryError排查、Heap Dump分析、JVM性能调优参数等，含图解与实战案例。
 category: Java
 tag:
   - JVM
 head:
   - - meta
     - name: keywords
-      content: JVM内存区域,JVM垃圾回收,类加载机制,双亲委派模型,GC算法,G1,ZGC,OutOfMemoryError,Heap Dump,性能优化,JVM参数
-  - - meta
-    - name: description
-      content: JVM核心知识点与高频面试题精炼总结：内存区域、垃圾回收、类加载、双亲委派、G1/ZGC、OOM排查、Heap Dump、性能参数等，含图解与实战案例。
+      content: JVM面试题,JVM内存区域,JVM垃圾回收,类加载机制,双亲委派模型,GC算法,G1,ZGC,OutOfMemoryError,OOM排查,Heap Dump,JVM调优,JVM参数
 ---
 
-------
-
-![面试突击-JVM](https://oss.javaguide.cn/github/javaguide-interview/cover/java-jvm.png)
-
-------
+<!-- @include: @small-advertisement.snippet.md -->
 
 ## 前言
 

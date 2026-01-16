@@ -1,22 +1,16 @@
 ---
 title: 设计模式常见面试题总结
+description: 23种设计模式高频面试题精讲：涵盖创建型、结构型、行为型三大类设计模式详解，包含单例模式、工厂模式、观察者模式、策略模式等经典案例与UML类图，系统设计必备知识点速记。
 category: 系统设计
 tag:
   - 设计模式
 head:
   - - meta
     - name: keywords
-      content: 设计模式面试题,创建型模式,结构型模式,行为型模式,单例模式,工厂模式,观察者模式,策略模式,23种设计模式,UML类图,系统设计
-  - - meta
-    - name: description
-      content: 23种设计模式高频面试题精讲：创建/结构/行为型模式详解，含单例、工厂、观察者、策略等经典案例+UML类图，系统设计必备速记！
+      content: 设计模式面试题,23种设计模式,创建型模式,结构型模式,行为型模式,单例模式,工厂模式,抽象工厂,建造者模式,观察者模式,策略模式,代理模式,装饰器模式,UML类图
 ---
 
-------
-
-![design-pattern](https://oss.javaguide.cn/github/javaguide-interview/cover/design-pattern.png)
-
-------
+<!-- @include: @small-advertisement.snippet.md -->
 
 ## 前言
 

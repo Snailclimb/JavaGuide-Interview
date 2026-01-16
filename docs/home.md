@@ -1,6 +1,11 @@
 ---
-icon: creative
 title: Java 学习&面试指南（Go、Python 后端面试通用,计算机基础面试总结）
+description: JavaGuide面试突击版：专为Java后端面试打造的学习指南，涵盖Java基础、集合、并发、JVM、MySQL、Redis、Spring、计算机网络、操作系统等核心面试知识点，适合快速复习备战面试。
+icon: creative
+head:
+  - - meta
+    - name: keywords
+      content: Java面试,JavaGuide,Java学习,后端面试,Java基础,Java集合,Java并发,JVM,MySQL面试,Redis面试,Spring面试,计算机网络,操作系统,数据结构,算法
 ---
 
 ## 项目介绍

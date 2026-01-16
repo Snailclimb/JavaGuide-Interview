@@ -1,7 +1,12 @@
 ---
 title: Java 学习路线(最新版，4w+字)
+description: 2025最新Java学习路线图：4万字详细讲解Java后端开发完整学习路径，从Java基础到进阶，涵盖Spring全家桶、MySQL、Redis、分布式微服务等技术栈，附配套学习资源推荐。
 category: 面试准备
 icon: path
+head:
+  - - meta
+    - name: keywords
+      content: Java学习路线,Java后端学习,Java学习计划,Java入门,Java进阶,Java技术栈,Spring学习,MySQL学习,Redis学习,分布式学习
 ---
 
 ::: tip 重要说明

@@ -1,15 +1,13 @@
 ---
 title: 算法常见面试题总结
+description: 算法高频面试题总结：十大经典排序算法、字符串与链表高频LeetCode题、剑指Offer编程题、常见算法思想如动态规划、贪心、回溯等速览，附资源链接与推荐合集，快速通关算法面试。
 category: 计算机基础
 tag:
   - 算法
 head:
   - - meta
     - name: keywords
-      content: 算法面试突击,LeetCode高频题,十大排序算法,字符串算法题,链表算法题,剑指Offer编程题,数据结构经典题,算法思想总结
-  - - meta
-    - name: description
-      content: 算法面试突击：十大经典排序+字符串/链表高频LeetCode、剑指Offer编程题、算法思想速览，一文附资源链接，3步刷题法+⭐️推荐合集，快速通关算法面试！
+      content: 算法面试题,LeetCode,十大排序算法,字符串算法,链表算法,剑指Offer,动态规划,贪心算法,回溯算法,二分查找,算法思想
 ---
 
 ## 算法

@@ -1,22 +1,16 @@
 ---
 title: Java基础常见面试题总结
+description: 系统梳理Java面试中最常考的基础知识与高频问题：涵盖JVM、JDK、JRE区别，字节码与编译解释执行机制，AOT与JIT对比及GraalVM，Oracle JDK与OpenJDK区别，8种基本数据类型与自动装箱、包装类型缓存机制，浮点数精度与BigDecimal，成员变量和局部变量、静态变量与方法，重载和重写，String不可变性与常量池，异常体系与try-with-resources，泛型、反射、SPI、序列化及I/O等核心考点。
 category: Java
 tag:
   - Java基础
 head:
   - - meta
     - name: keywords
-      content: Java特点,Java SE,Java EE,Java ME,Java虚拟机,JVM,JDK,JRE,字节码,Java编译与解释,AOT编译,云原生,AOT与JIT对比,GraalVM,Oracle JDK与OpenJDK区别,OpenJDK,LTS支持,多线程支持,静态变量,成员变量与局部变量区别,包装类型缓存机制,自动装箱与拆箱,浮点数精度丢失,BigDecimal,Java基本数据类型,Java标识符与关键字,移位运算符,Java注释,静态方法与实例方法,方法重载与重写,可变长参数,Java性能优化
-  - - meta
-    - name: description
-      content: 系统梳理 Java 面试中最常考的基础知识与高频问题：涵盖 JVM、JDK、JRE 区别，字节码与编译/解释执行机制，AOT 与 JIT 对比及 GraalVM，Oracle JDK 与 OpenJDK 区别，8 种基本数据类型与自动装箱、包装类型缓存机制，浮点数精度与 BigDecimal，成员变量和局部变量、静态变量与方法，重载和重写，自增自减与移位运算符，String 不可变性与常量池，异常体系与 try-with-resources，泛型、反射、SPI、序列化及 I/O 等核心考点，适合作为 Java 基础面试突击与复习笔记。
+      content: Java基础面试题,Java特点,JVM,JDK,JRE,字节码,AOT编译,JIT编译,GraalVM,Oracle JDK,OpenJDK,基本数据类型,自动装箱,包装类型缓存,BigDecimal,静态变量,方法重载,方法重写,String不可变,常量池,异常处理,泛型,反射,SPI,序列化
 ---
 
-------
-
-![面试突击-Java基础](https://oss.javaguide.cn/github/javaguide-interview/cover/java-basis.png)
-
-------
+<!-- @include: @small-advertisement.snippet.md -->
 
 ## 前言
 

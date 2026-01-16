@@ -26,7 +26,7 @@ JavaGuide 已经持续维护 6 年多了，累计提交了接近 **6000** commit
 
 如果你准备面试的时间比较充足的话，建议阅读完整版，针对重要的知识点有更详细的讲解。地址：**[javaguide.cn](https://javaguide.cn/)**。
 
-专属面试小册/一对一交流/简历修改/专属求职指南，欢迎加入 **[JavaGuide 知识星球](./docs/about-the-author/zhishixingqiu-two-years.md)**（点击链接即可查看星球的详细介绍，一定确定自己真的需要再加入）。
+专属面试小册/一对一交流/简历修改/专属求职指南，欢迎加入 **[JavaGuide 知识星球](https://javaguide.cn/about-the-author/zhishixingqiu-two-years.html)**（点击链接即可查看星球的详细介绍，一定确定自己真的需要再加入）。
 
 ## 关于作者
 

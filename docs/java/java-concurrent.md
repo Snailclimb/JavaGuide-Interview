@@ -1,22 +1,16 @@
 ---
 title: Java并发常见面试题总结
+description: Java并发编程核心知识点与高频面试题总结：涵盖线程与进程、并发与并行、线程生命周期、死锁、synchronized、ReentrantLock、volatile、ThreadLocal、线程池、CAS、AQS等重要概念与实战应用。
 category: Java
 tag:
   - Java并发
 head:
   - - meta
     - name: keywords
-      content: 线程和进程,并发和并行,多线程,死锁,线程的生命周期,synchronized,ReentrantLock,volatile,ThreadLocal,线程池,CAS,AQS
-  - - meta
-    - name: description
-      content: Java并发常见知识点和面试题总结（含详细解答），希望对你有帮助！
+      content: Java并发面试题,线程和进程,并发和并行,多线程,死锁,线程生命周期,synchronized,ReentrantLock,volatile,ThreadLocal,线程池,CAS,AQS,并发编程,锁机制
 ---
 
-------
-
-![面试突击-Java并发](https://oss.javaguide.cn/github/javaguide-interview/cover/java-concurrent.png)
-
-------
+<!-- @include: @small-advertisement.snippet.md -->
 
 ## 前言
 

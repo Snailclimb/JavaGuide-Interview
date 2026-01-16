@@ -1,5 +1,6 @@
 ---
 title: MySQL常见面试题总结
+description: MySQL高频面试题精讲：涵盖MySQL基础架构、InnoDB存储引擎、索引原理与B+树、事务ACID特性、隔离级别、MVCC多版本并发控制、redo log/undo log/binlog日志、行锁与表锁、慢查询优化等核心考点，一文速通大厂必考点。
 category: 数据库
 tag:
   - MySQL
@@ -7,17 +8,10 @@ tag:
 head:
   - - meta
     - name: keywords
-      content: MySQL面试题,MySQL基础架构,InnoDB存储引擎,MySQL索引,B+树索引,事务隔离级别,redo log,undo log,binlog,MVCC,行级锁,慢查询优化
-  - - meta
-    - name: description
-      content: MySQL高频面试题精讲：基础架构、InnoDB引擎、索引原理、B+树、事务ACID、MVCC、redo/undo/binlog日志、行锁/表锁、慢查询优化，一文速通大厂必考点！
+      content: MySQL面试题,MySQL基础架构,InnoDB存储引擎,MySQL索引,B+树索引,事务隔离级别,redo log,undo log,binlog,MVCC,行级锁,表锁,慢查询优化,SQL优化
 ---
 
-------
-
-![面试突击-MySQL](https://oss.javaguide.cn/github/javaguide-interview/cover/mysql.png)
-
-------
+<!-- @include: @small-advertisement.snippet.md -->
 
 ## 前言
 

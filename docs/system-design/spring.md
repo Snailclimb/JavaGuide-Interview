@@ -1,22 +1,16 @@
 ---
 title: Spring和Spring Boot常见面试题总结
+description: 系统梳理Spring和Spring Boot常见面试题与高频知识点，包括IoC与依赖注入原理、Bean的作用域与生命周期、AOP核心概念及通知类型、Spring MVC核心组件和请求处理流程、事务传播行为与隔离级别、循环依赖及三级缓存、@Transactional回滚规则、Spring Security权限控制与密码加密、Spring Boot自动配置和配置文件加载优先级等。
 category: 系统设计
 tag:
   - 常见框架
 head:
   - - meta
     - name: keywords
-      content: Spring面试题,Spring Boot面试题,Spring IoC,依赖注入,Spring AOP,Spring MVC 工作原理,Spring 事务传播行为,Spring 循环依赖,Spring Bean 生命周期,Spring Security 权限控制,Java 面试指南,JavaGuide
-  - - meta
-    - name: description
-      content: 本文系统梳理 Spring 和 Spring Boot 常见面试题与高频知识点，包括 IoC 与依赖注入原理、Bean 的作用域与生命周期、AOP 核心概念及通知类型、Spring MVC 核心组件和请求处理流程、事务传播行为与隔离级别、循环依赖及三级缓存、@Transactional 回滚规则、Spring Security 权限控制与密码加密、Spring Boot 自动配置和配置文件加载优先级等，适合作为 Java 后端面试突击与复习笔记。
+      content: Spring面试题,Spring Boot面试题,Spring IoC,依赖注入,Spring AOP,Spring MVC,Spring事务,事务传播行为,Spring循环依赖,三级缓存,Bean生命周期,Spring Security,自动配置
 ---
 
-------
-
-![面试突击-Spring](https://oss.javaguide.cn/github/javaguide-interview/cover/spring.png)
-
-------
+<!-- @include: @small-advertisement.snippet.md -->
 
 ## 前言
 

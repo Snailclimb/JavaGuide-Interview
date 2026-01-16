@@ -1,22 +1,16 @@
 ---
 title: 计算机网络常见面试题总结
+description: 最新计算机网络高频面试题总结：OSI七层模型与TCP/IP四层模型详解、HTTP全版本对比、GET/POST区别、WebSocket实时通信、DNS解析流程，附图表与重点标注，一文搞定网络基础与应用层核心考点，快速备战后端面试。
 category: 计算机基础
 tag:
   - 计算机网络
 head:
   - - meta
     - name: keywords
-      content: 计算机网络面试题,OSI七层模型,TCP/IP四层模型,HTTP vs HTTPS,HTTP/1.1 vs HTTP/2,HTTP/3 QUIC,GET vs POST,WebSocket vs HTTP,DNS解析过程,应用层面试,网络基础高频题,URL到页面展示,队头阻塞,Session vs Cookie
-  - - meta
-    - name: description
-      content: 最新计算机网络高频面试题总结：OSI/TCP/IP模型详解、HTTP全版本对比、GET/POST区别、WebSocket实时通信、DNS解析流程，附图表+⭐️重点标注，一文搞定网络基础&应用层核心考点，快速备战后端面试！
+      content: 计算机网络面试题,OSI七层模型,TCP/IP四层模型,HTTP,HTTPS,HTTP/2,HTTP/3,QUIC,GET POST区别,WebSocket,DNS解析,三次握手,四次挥手,TCP UDP区别,Session Cookie
 ---
 
-------
-
-![面试突击-计算机基础](https://oss.javaguide.cn/github/javaguide-interview/cover/network.png)
-
-------
+<!-- @include: @small-advertisement.snippet.md -->
 
 ## 前言
 
