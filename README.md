@@ -25,8 +25,12 @@
 
 ## 系统设计
 
-- [Spring和Spring Boot常见面试题总结](./docs/system-design/spring.md)                
+- [Spring和Spring Boot常见面试题总结](./docs/system-design/spring.md)
 - [设计模式常见面试题总结](./docs/system-design/design-pattern.md)
+
+## 分布式系统
+
+- [分布式系统常见面试题总结](./docs/distributed-system/distributed-system.md)
 
 ## 测试开发
 

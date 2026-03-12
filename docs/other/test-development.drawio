@@ -1,0 +1,203 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.3.0 Chrome/140.0.7339.249 Electron/38.7.2 Safari/537.36" version="29.3.0" pages="2">
+  <diagram name="testing-process" id="testing-process-flow">
+    <mxGraphModel dx="1106" dy="676" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=22;fontStyle=1;fontFamily=JetBrains Mono;" value="软件测试标准流程图" vertex="1">
+          <mxGeometry height="40" width="300" x="263.5" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="group1" parent="1" style="swimlane;whiteSpace=wrap;fillColor=none;strokeColor=#005D7B;dashed=1;strokeWidth=2;fontColor=#005D7B;fontFamily=JetBrains Mono;fontSize=14;fontStyle=1;startSize=30;arcSize=10;" value="核心测试阶段" vertex="1">
+          <mxGeometry height="510" width="220" x="303.5" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="group2" parent="1" style="swimlane;whiteSpace=wrap;fillColor=none;strokeColor=#C44545;dashed=1;strokeWidth=2;fontColor=#C44545;fontFamily=JetBrains Mono;fontSize=14;fontStyle=1;startSize=30;arcSize=10;" value="缺陷管理闭环" vertex="1">
+          <mxGeometry height="275" width="280" x="680" y="395" as="geometry" />
+        </mxCell>
+        <mxCell id="start" parent="1" style="ellipse;whiteSpace=wrap;fillColor=#4CA497;strokeColor=none;fontColor=#FFFFFF;fontFamily=JetBrains Mono;fontSize=15;" value="开始" vertex="1">
+          <mxGeometry height="50" width="80" x="374" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="step1" parent="1" style="rounded=1;whiteSpace=wrap;fillColor=#E99151;strokeColor=none;fontColor=#FFFFFF;fontFamily=JetBrains Mono;fontSize=15;" value="需求分析" vertex="1">
+          <mxGeometry height="50" width="120" x="353.5" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="step2" parent="1" style="rounded=1;whiteSpace=wrap;fillColor=#E99151;strokeColor=none;fontColor=#FFFFFF;fontFamily=JetBrains Mono;fontSize=15;" value="测试计划" vertex="1">
+          <mxGeometry height="50" width="120" x="353.5" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="step3" parent="1" style="rounded=1;whiteSpace=wrap;fillColor=#E99151;strokeColor=none;fontColor=#FFFFFF;fontFamily=JetBrains Mono;fontSize=15;" value="测试设计&#xa;(用例编写)" vertex="1">
+          <mxGeometry height="50" width="120" x="353.5" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="step4" parent="1" style="rounded=1;whiteSpace=wrap;fillColor=#E99151;strokeColor=none;fontColor=#FFFFFF;fontFamily=JetBrains Mono;fontSize=15;" value="测试执行" vertex="1">
+          <mxGeometry height="50" width="120" x="353.5" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="decision1" parent="1" style="rhombus;whiteSpace=wrap;fillColor=#F39C12;strokeColor=none;fontColor=#FFFFFF;fontFamily=JetBrains Mono;fontSize=15;" value="存在&#xa;Bug?" vertex="1">
+          <mxGeometry height="80" width="80" x="373.5" y="510" as="geometry" />
+        </mxCell>
+        <mxCell id="step5" parent="1" style="rounded=1;whiteSpace=wrap;fillColor=#C44545;strokeColor=none;fontColor=#FFFFFF;fontFamily=JetBrains Mono;fontSize=15;" value="缺陷提交&#xa;与修复" vertex="1">
+          <mxGeometry height="50" width="120" x="760" y="435" as="geometry" />
+        </mxCell>
+        <mxCell id="decision2" parent="1" style="rhombus;whiteSpace=wrap;fillColor=#F39C12;strokeColor=none;fontColor=#FFFFFF;fontFamily=JetBrains Mono;fontSize=15;" value="修复&#xa;完成?" vertex="1">
+          <mxGeometry height="80" width="80" x="780" y="525" as="geometry" />
+        </mxCell>
+        <mxCell id="step7" parent="1" style="rounded=1;whiteSpace=wrap;fillColor=#9B59B6;strokeColor=none;fontColor=#FFFFFF;fontFamily=JetBrains Mono;fontSize=15;" value="回归测试" vertex="1">
+          <mxGeometry height="50" width="120" x="530" y="630" as="geometry" />
+        </mxCell>
+        <mxCell id="step6" parent="1" style="rounded=1;whiteSpace=wrap;fillColor=#E99151;strokeColor=none;fontColor=#FFFFFF;fontFamily=JetBrains Mono;fontSize=15;" value="测试报告&#xa;与评估" vertex="1">
+          <mxGeometry height="50" width="120" x="353.5" y="660" as="geometry" />
+        </mxCell>
+        <mxCell id="decision3" parent="1" style="rhombus;whiteSpace=wrap;fillColor=#F39C12;strokeColor=none;fontColor=#FFFFFF;fontFamily=JetBrains Mono;fontSize=15;" value="准许&#xa;上线?" vertex="1">
+          <mxGeometry height="80" width="80" x="373.5" y="760" as="geometry" />
+        </mxCell>
+        <mxCell id="end" parent="1" style="ellipse;whiteSpace=wrap;fillColor=#4CA497;strokeColor=none;fontColor=#FFFFFF;fontFamily=JetBrains Mono;fontSize=15;" value="发布" vertex="1">
+          <mxGeometry height="50" width="80" x="373.5" y="880" as="geometry" />
+        </mxCell>
+        <mxCell id="e1" edge="1" parent="1" source="start" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeWidth=2;strokeColor=#333333;" target="step1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e2" edge="1" parent="1" source="step1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeWidth=2;strokeColor=#333333;" target="step2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e3" edge="1" parent="1" source="step2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeWidth=2;strokeColor=#333333;" target="step3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e4" edge="1" parent="1" source="step3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeWidth=2;strokeColor=#333333;" target="step4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e5" edge="1" parent="1" source="step4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeWidth=2;strokeColor=#333333;" target="decision1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e6" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeWidth=2;strokeColor=#333333;labelBackgroundColor=#FFFFFF;fontFamily=JetBrains Mono;fontSize=13;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-10" as="offset" />
+            <Array as="points">
+              <mxPoint x="454" y="550" />
+              <mxPoint x="580" y="550" />
+              <mxPoint x="580" y="460" />
+            </Array>
+            <mxPoint x="454" y="550" as="sourcePoint" />
+            <mxPoint value="是" as="target" />
+            <mxPoint x="760" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v_yes" connectable="0" parent="e6" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=JetBrains Mono;fontSize=14;" value="是" vertex="1">
+          <mxGeometry relative="1" x="-0.85" as="geometry">
+            <mxPoint x="25" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e7" edge="1" parent="1" source="decision1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeWidth=2;strokeColor=#333333;" target="step6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="v_no" connectable="0" parent="e7" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=JetBrains Mono;fontSize=14;" value="否" vertex="1">
+          <mxGeometry relative="1" x="-0.3" as="geometry">
+            <mxPoint x="15" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e8" edge="1" parent="1" source="step5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeWidth=2;strokeColor=#333333;" target="decision2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e9" edge="1" parent="1" source="decision2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeWidth=2;strokeColor=#333333;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="step5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="900" y="565" />
+              <mxPoint x="900" y="460" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v_fix_no" connectable="0" parent="e9" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=JetBrains Mono;fontSize=14;" value="否" vertex="1">
+          <mxGeometry relative="1" x="-0.1" as="geometry">
+            <mxPoint x="10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e10" edge="1" parent="1" source="decision2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeWidth=2;strokeColor=#333333;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="step7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="820" y="655" />
+            </Array>
+            <mxPoint x="760" y="660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v_fix_yes" connectable="0" parent="e10" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=JetBrains Mono;fontSize=14;" value="是" vertex="1">
+          <mxGeometry relative="1" x="-0.2" as="geometry">
+            <mxPoint x="-15" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e11" edge="1" parent="1" source="step7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeWidth=2;strokeColor=#333333;dashed=1;" target="step4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="610" y="445" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e12" edge="1" parent="1" source="step6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeWidth=2;strokeColor=#333333;" target="decision3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e13" edge="1" parent="1" source="decision3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeWidth=2;strokeColor=#333333;" target="end">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="v_live_yes" connectable="0" parent="e13" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=JetBrains Mono;fontSize=14;" value="是" vertex="1">
+          <mxGeometry relative="1" x="-0.3" as="geometry">
+            <mxPoint x="15" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e14" edge="1" parent="1" source="decision3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeWidth=2;strokeColor=#333333;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="step3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="280" y="800" />
+              <mxPoint x="280" y="365" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v_live_no" connectable="0" parent="e14" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=JetBrains Mono;fontSize=14;" value="否" vertex="1">
+          <mxGeometry relative="1" x="-0.8" as="geometry">
+            <mxPoint x="-15" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5vAm2TGqqI3SyBfC23jh-1" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontSize=13;fontColor=#999999;rotation=-15;sketch=0;shadow=0;fontFamily=JetBrains Mono;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DJetBrains%2BMono;fontStyle=1;textShadow=0;" value="公众号：&lt;font style=&quot;color: rgb(0, 139, 222);&quot;&gt;JavaGuide&lt;/font&gt;&lt;br&gt;网站：&lt;font style=&quot;color: rgb(0, 139, 222);&quot;&gt;javaguide.cn&lt;/font&gt;" vertex="1">
+          <mxGeometry height="40" width="180" x="529.9997052680666" y="730.0022305850082" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="giPKmKA0G8T-uZeWdebQ" name="testing-pyramid">
+    <mxGraphModel dx="1106" dy="676" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=22;fontStyle=1;fontFamily=JetBrains Mono;" value="测试金字塔 (Testing Pyramid)" vertex="1">
+          <mxGeometry height="40" width="450" x="575" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="layer_ui" parent="1" style="rounded=1;whiteSpace=wrap;fillColor=#C44545;strokeColor=none;fontColor=#FFFFFF;fontFamily=JetBrains Mono;fontSize=13;align=left;verticalAlign=top;spacingLeft=15;spacingTop=10;" value="UI / E2E 测试&#xa;&#xa;• 端到端业务流程验证&#xa;• 覆盖关键路径&#xa;• 自动化率: 20-40%&#xa;&#xa;成本: 高 | 速度: 慢 | 反馈: 晚" vertex="1">
+          <mxGeometry height="110" width="280" x="660" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="layer_int" parent="1" style="rounded=1;whiteSpace=wrap;fillColor=#F39C12;strokeColor=none;fontColor=#FFFFFF;fontFamily=JetBrains Mono;fontSize=13;align=left;verticalAlign=top;spacingLeft=15;spacingTop=10;" value="集成测试 (Service/API)&#xa;&#xa;• API/接口交互验证&#xa;• 模块间集成测试&#xa;• 自动化率: 60-80%&#xa;&#xa;成本: 中 | 速度: 中 | 反馈: 中" vertex="1">
+          <mxGeometry height="110" width="380" x="610" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="layer_unit" parent="1" style="rounded=1;whiteSpace=wrap;fillColor=#4CA497;strokeColor=none;fontColor=#FFFFFF;fontFamily=JetBrains Mono;fontSize=13;align=left;verticalAlign=top;spacingLeft=15;spacingTop=10;" value="单元测试 (Unit)&#xa;&#xa;• 函数/类级别验证&#xa;• 核心逻辑/算法覆盖&#xa;• 自动化率: &gt;90%&#xa;&#xa;成本: 低 | 速度: 快 | 反馈: 早" vertex="1">
+          <mxGeometry height="110" width="480" x="560" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="ind_vol_text" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;fontStyle=1;fontFamily=JetBrains Mono;fontColor=#005D7B;rotation=-90;" value="测试数量" vertex="1">
+          <mxGeometry height="30" width="100" x="460" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="ind_vol_arrow" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeWidth=3;strokeColor=#005D7B;endArrow=classic;endFill=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="530" y="210" as="sourcePoint" />
+            <mxPoint x="530" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ind_cost_text" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;fontStyle=1;fontFamily=JetBrains Mono;fontColor=#666666;rotation=90;" value="成本 &amp; 反馈周期" vertex="1">
+          <mxGeometry height="30" width="120" x="1040" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="ind_cost_arrow" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeWidth=3;strokeColor=#666666;endArrow=classic;endFill=1;dashed=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1070" y="560" as="sourcePoint" />
+            <mxPoint x="1070" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="suggestion" parent="1" style="text;html=1;strokeColor=none;fillColor=#FFF3CD;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=13;fontFamily=JetBrains Mono;fontColor=#856404;spacing=5;" value="⚠️ 实践建议: 大量单元测试 + 适量集成测试 + 少量关键UI自动化" vertex="1">
+          <mxGeometry height="40" width="550" x="525" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="bg_label" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontFamily=JetBrains Mono;fontColor=#999999;" value="基于自动化测试分层理论" vertex="1">
+          <mxGeometry height="30" width="200" x="700" y="650" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -58,6 +58,13 @@ export default sidebar({
       children: ["spring", "design-pattern"],
     },
     {
+      text: "分布式系统",
+      icon: "network",
+      collapsible: false,
+      prefix: "distributed-system/",
+      children: ["distributed-system"],
+    },
+    {
       text: "测开",
       icon: "framework",
       collapsible: false,

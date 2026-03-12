@@ -38,6 +38,10 @@ head:
 - [Spring和Spring Boot常见面试题总结](./system-design/spring.md)                
 - [设计模式常见面试题总结](./system-design/design-pattern.md)
 
+## 分布式
+
+- [分布式系统常见面试题总结](./distributed-system/distributed-system.md)
+
 ## 测试开发
 
 - [测试开发常见面试题总结](./other/test-development.md)

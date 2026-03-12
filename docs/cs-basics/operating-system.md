@@ -10,22 +10,6 @@ head:
       content: 操作系统面试题,用户态内核态,系统调用,进程线程区别,多线程同步,死锁预防,虚拟内存,分页分段,TLB快表,页面置换算法,LRU,硬链接软链接,磁盘调度算法
 ---
 
-## 前言
-
-由于很多读者都有突击面试的需求，所以我在几年前就弄了 **JavaGuide 面试突击版本**（JavaGuide 内容精简版，只保留重点），并持续完善跟进。对于喜欢纸质阅读的朋友来说，也可以打印出来，整体阅读体验非常高！
-
-除了只保留最常问的面试题之外，我还进一步对重点中的重点进行了⭐️标注。并且，有亮色（白天）和暗色（夜间）两个主题选择，需要打印出来的朋友记得选择亮色版本。
-
-对于时间比较充裕的朋友，我个人还是更推荐 [JavaGuide](https://javaguide.cn/) 网站系统学习，内容更全面，更深入。
-
-JavaGuide 已经持续维护 6 年多了，累计提交了接近 **6000** commit ，共有 **570+** 多位贡献者共同参与维护和完善。用心做原创优质内容，如果觉得有帮助的话，欢迎点赞分享！传送门：[GitHub](https://github.com/Snailclimb/JavaGuide) | [Gitee](https://gitee.com/SnailClimb/JavaGuide)。
-
-对于需要更进一步面试辅导服务的读者，欢迎加入 **[JavaGuide 官方知识星球](https://javaguide.cn/about-the-author/zhishixingqiu-two-years.html)**(技术专栏/一对一提问/简历修改/求职指南/面试打卡)，绝对物超所值！
-
-面试突击最新版本可以在我的公众号回复“**PDF**”获取（[JavaGuide 官方知识星球](https://javaguide.cn/about-the-author/zhishixingqiu-two-years.html)会提前同步最新版，针对球友的一个小福利）。
-
-![JavaGuide 官方公众号](https://oss.javaguide.cn/github/javaguide/gongzhonghaoxuanchuan.png)
-
 这部分内容摘自 [JavaGuide](https://javaguide.cn/) 下面几篇文章中的重点：
 
 - [操作系统常见面试题总结(上)](https://javaguide.cn/cs-basics/operating-system/operating-system-basic-questions-01.html)（操作系统基础、进程和线程、死锁）

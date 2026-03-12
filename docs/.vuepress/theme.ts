@@ -32,6 +32,7 @@ export default hopeTheme({
   markdown: {
     align: true,
     codeTabs: true,
+    mermaid: true,
     gfm: true,
     include: {
       resolvePath: (file, cwd) => {

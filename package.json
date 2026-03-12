@@ -20,6 +20,7 @@
     ".md": "markdownlint-cli2"
   },
   "dependencies": {
+    "mermaid": "^11.12.2",
     "@vuepress/bundler-vite": "2.0.0-rc.24",
     "@vuepress/plugin-feed": "2.0.0-rc.112",
     "@vuepress/plugin-search": "2.0.0-rc.112",
