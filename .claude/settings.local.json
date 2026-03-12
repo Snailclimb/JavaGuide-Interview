@@ -2,7 +2,8 @@
   "permissions": {
     "allow": [
       "Bash(pnpm install:*)",
-      "WebSearch"
+      "WebSearch",
+      "Bash(pnpm dlx:*)"
     ]
   }
 }

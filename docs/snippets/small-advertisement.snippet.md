@@ -11,3 +11,9 @@
 面试突击最新版可在公众号回复「**PDF**」获取（知识星球会提前同步最新版）。
 
 ![JavaGuide 公众号](https://oss.javaguide.cn/github/javaguide/gongzhonghao-javaguide.png)
+
+::: tip 重要说明
+
+本站所有面试题保持**年度系统性优化完善**，严格同步 Java 技术生态与招聘市场的最新动态，**确保内容时效性与前瞻性**。
+
+:::
